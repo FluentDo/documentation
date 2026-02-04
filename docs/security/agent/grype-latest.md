@@ -1,7 +1,8 @@
 ## Known agent vulnerabilities
 
-High and critical vulnerabilities not triaged for the latest version (ghcr.io/telemetryforge/agent:26.1.2) of the agent are shown below, as reported by Grype.
+High and critical vulnerabilities not triaged for the latest version (ghcr.io/telemetryforge/agent:26.2.1) of the agent are shown below, as reported by Grype.
 
 | Package | Version Installed | Vulnerability ID | Severity |
 | --- | --- | --- | --- |
-| gnupg2 | 2.3.3-4.el9 | [CVE-2025-68973](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68973) | High |
+| gnupg2 | 2.3.3-5.el9_7 | [CVE-2026-24881](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-24881) | High |
+| gnupg2 | 2.3.3-5.el9_7 | [CVE-2026-24882](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-24882) | High |
