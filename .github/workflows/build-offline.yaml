@@ -20,7 +20,7 @@ jobs:
         run: ls -lR
         shell: bash
 
-      - uses: actions/upload-artifact@v6
+      - uses: actions/upload-artifact@v7
         with:
           name: agent-documentation
           path: "*.tgz"
