@@ -17,6 +17,12 @@ CVE_DIR=${CVE_DIR:-$REPO_ROOT/docs/security}
 TEMPLATE_DIR=${TEMPLATE_DIR:-$SCRIPT_DIR/templates}
 SCAN_FILE=${SCAN_FILE:-$SCRIPT_DIR/scan-config.json}
 
+# Check if all tools are installed
+if ! command -v syft &> /dev/null || ! command -v grype &> /dev/null || ! command -v jq &> /dev/null || ! command -v gh &> /dev/null; then
+    echo "ERROR: gh, jq, syft and grype must be installed to run this script."
+    exit 1
+fi
+
 # Check if the scan file exists
 if [[ ! -f "$SCAN_FILE" ]]; then
     echo "ERROR: Scan file $SCAN_FILE does not exist."
@@ -50,12 +56,6 @@ echo "All versions are valid semver format."
 
 # Create directories for CVE scans
 mkdir -p "$CVE_DIR"/oss "$CVE_DIR"/agent
-
-# Check if syft and grype are installed
-if ! command -v syft &> /dev/null || ! command -v grype &> /dev/null || ! command -v jq &> /dev/null || ! command -v gh &> /dev/null; then
-    echo "ERROR: gh, jq, syft and grype must be installed to run this script."
-    exit 1
-fi
 
 if ! gh auth status &> /dev/null; then
 	echo "ERROR: gh CLI is not authenticated. Please run 'gh auth login' to authenticate."
