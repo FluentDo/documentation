@@ -21,7 +21,7 @@ The plugin also exposes Prometheus-compatible metrics for monitoring repository 
 | `repo` | String | Yes | - | Git repository URL (HTTPS, SSH, or file://) |
 | `ref` | String | No | `main` | Git reference: branch name, tag, or commit SHA |
 | `path` | String | Yes | - | Path to configuration file within the repository |
-| `clone_path` | String | No | `/tmp/fluentbit-git-repo` | Local directory for git clone and state storage |
+| `config_dir` | String | No | `/tmp/fluentbit-git-repo` | Local directory for git clone and state storage |
 | `poll_interval` | Integer | No | `60` | Polling interval in seconds to check for updates |
 
 The Git repository URL. Supports multiple protocols:
@@ -55,7 +55,7 @@ Examples:
 - `config/production.yaml`
 - `environments/prod/fluent-bit.conf`
 
-#### `clone_path`
+#### `config_dir`
 
 Local directory where:
 
@@ -94,7 +94,7 @@ customs:
     repo: https://github.com/myorg/fluent-bit-configs.git
     ref: main
     path: fluent-bit.yaml
-    clone_path: /tmp/fluentbit-git
+    config_dir: /tmp/fluentbit-git
     poll_interval: 60
 ```
 
@@ -118,7 +118,7 @@ customs:
     repo: https://github.com/myorg/configs.git
     ref: a3f5c89d124b3e567890abcdef123456789abcde
     path: config/development.yaml
-    clone_path: /var/lib/fluent-bit/git-clone
+    config_dir: /var/lib/fluent-bit/git-clone
     poll_interval: 10
 ```
 
@@ -142,7 +142,7 @@ customs:
     repo: https://github.com/myorg/configs.git
     ref: production
     path: fluent-bit.yaml
-    clone_path: /var/lib/fluent-bit/git-config
+    config_dir: /var/lib/fluent-bit/git-config
     poll_interval: 300  # Check every 5 minutes
 
 pipeline:
@@ -160,7 +160,7 @@ pipeline:
 The plugin stores the last processed commit SHA in a state file:
 
 ```shell
-{clone_path}/.last_sha
+{config_dir}/.last_sha
 ```
 
 This state file:
@@ -175,7 +175,7 @@ When a configuration change is detected:
 
 1. **Sync**: Clone or pull the latest changes from the repository
 2. **Extract**: Read the specified configuration file from the repository
-3. **Write**: Write the configuration to `{clone_path}/{sha}.yaml`
+3. **Write**: Write the configuration to `{config_dir}/{sha}.yaml`
 4. **Save State**: Update `.last_sha` with the new commit SHA
 5. **Reload**: Send `SIGHUP` signal (Unix) or `CTRL_BREAK` event (Windows) to trigger Fluent Bit reload
 6. **Pause**: Collector is paused during reload to prevent conflicts
@@ -353,6 +353,15 @@ Large repositories with extensive history may slow initial cloning. Consider:
 
 ## Troubleshooting
 
+Always enable debug logging.
+
+Enable debug logging to see polling activity:
+
+```yaml
+service:
+  log_level: debug
+```
+
 ### Authentication Failures
 
 For SSH:
@@ -375,19 +384,12 @@ git ls-remote https://token@github.com/user/repo.git
 
 ### Changes Not Detected
 
-Enable debug logging to see polling activity:
-
-```yaml
-service:
-  log_level: debug
-```
-
 Check:
 
 - Remote repository actually has new commits
 - `ref` points to the branch/tag you expect
 - Polling interval hasn't elapsed yet
-- State file permissions: `ls -la {clone_path}/.last_sha`
+- State file permissions: `ls -la {config_dir}/.last_sha`
 - Metrics: `curl http://localhost:2020/api/v1/metrics/prometheus | grep git_config`
 
 ### Reload Failures
@@ -412,7 +414,7 @@ Common causes:
 - Network connectivity issues
 - Authentication failures
 - Repository access problems
-- Disk space issues in clone_path
+- Disk space issues in config_dir
 
 ## Security Considerations
 
@@ -423,7 +425,7 @@ Common causes:
 
 2. **State File**:
    - Contains only the commit SHA (no sensitive data)
-   - Ensure `clone_path` permissions prevent unauthorized access
+   - Ensure `config_dir` permissions prevent unauthorized access
 
 3. **Configuration Files**:
    - Validate configuration before pushing to Git
