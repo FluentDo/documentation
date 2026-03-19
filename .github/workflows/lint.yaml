@@ -14,8 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     name: PR - Shellcheck
     steps:
-      - uses: actions/checkout@v6
-      - uses: reviewdog/action-shellcheck@v1.32.0
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: reviewdog/action-shellcheck@4c07458293ac342d477251099501a718ae5ef86e # v1.32.0
         with:
           reporter: github-pr-review
           fail_level: error
@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     name: PR - Actionlint
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       - run: |
           echo "::add-matcher::.github/actionlint-matcher.json"
           bash <(curl https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash)
@@ -41,7 +41,21 @@ jobs:
     runs-on: ubuntu-latest
     name: PR - Check Orphaned Documentation
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       - name: Check for orphaned markdown files
         run: bash ./scripts/check-orphaned-docs.sh
         shell: bash
+
+  actions-pin-sha:
+    runs-on: ubuntu-latest
+    name: PR - Actions Pin SHA
+    permissions:
+      contents: read
+      # For ReviewDog to post comments to the PR
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: suzuki-shunsuke/pinact-action@1081f5ad49ac904b7d977784f338145150a32112  # v1.4.0
+        with:
+          skip_push: "true"
+          review: "true"
