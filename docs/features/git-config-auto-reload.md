@@ -353,9 +353,7 @@ Large repositories with extensive history may slow initial cloning. Consider:
 
 ## Troubleshooting
 
-Always enable debug logging.
-
-Enable debug logging to see polling activity:
+Always enable debug logging as a first step:
 
 ```yaml
 service:
@@ -414,7 +412,7 @@ Common causes:
 - Network connectivity issues
 - Authentication failures
 - Repository access problems
-- Disk space issues in config_dir
+- Disk space issues in `config_dir`
 
 ## Security Considerations
 
