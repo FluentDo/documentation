@@ -22,6 +22,7 @@ Refer to the [triaged vulnerabilities](https://docs.fluent.do/security/triaged.h
 | libc6 | 2.36-9+deb12u13 | [CVE-2026-0915](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0915) | High |
 | libnghttp2-14 | 1.52.0-1+deb12u2 | [CVE-2026-27135](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27135) | High |
 | libc6 | 2.36-9+deb12u13 | [CVE-2026-0861](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0861) | High |
+| libc6 | 2.36-9+deb12u13 | [CVE-2026-4046](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046) | High |
 | fluent-bit | 4.1.0 | [CVE-2025-12978](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-12978) | Medium |
 | libssl3 | 3.0.17-1~deb12u2 | [CVE-2026-22796](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796) | Medium |
 | fluent-bit | 4.1.0 | [CVE-2025-12972](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-12972) | Medium |
