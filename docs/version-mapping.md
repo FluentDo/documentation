@@ -6,7 +6,7 @@ The following shows the underlying [OSS version of Fluent Bit](https://github.co
 
 | Agent Version | OSS Version Base |
 | ---------------------- | ---------------- |
-| 25.10.21 | 4.0.13 |
+| 26.3.5 | 4.1.0 |
 | 26.3.4 | 4.1.0 |
 | 26.2.4 | 4.1.0 |
 | 26.1.1 | 4.1.0 |
@@ -16,6 +16,9 @@ The following shows the underlying [OSS version of Fluent Bit](https://github.co
 | 25.12.1 | 4.1.0 |
 | 25.11.2 | 4.0.13 |
 | 25.11.1 | 4.0.13 |
+| 25.10.21 | 4.0.13 |
+| 25.10.19 | 4.0.13 |
+| 25.10.13 | 4.0.13 |
 | 25.10.12 | 4.0.13 |
 | 25.10.11 | 4.0.13 |
 | 25.10.10 | 4.0.13 |
