@@ -1,22 +1,18 @@
-# Grype Vulnerabilities for ghcr.io/telemetryforge/agent:25.10.19
+# Grype Vulnerabilities for ghcr.io/telemetryforge/agent:25.10.24
 
-Unfiltered vulnerability scan results for ghcr.io/telemetryforge/agent:25.10.19 using Grype.
+Unfiltered vulnerability scan results for ghcr.io/telemetryforge/agent:25.10.24 using Grype.
 Refer to the [triaged vulnerabilities](https://docs.fluent.do/security/triaged.html) or [VEX endpoint](https://docs.fluent.do/security/vex.json) for more information on vulnerabilities that have been reviewed.
 
 | Package | Version Installed | Vulnerability ID | Severity |
 | --- | --- | --- | --- |
-| libarchive | 3.5.3-6.el9_6 | [CVE-2026-4424](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4424) | High |
-| libarchive | 3.5.3-6.el9_6 | [CVE-2026-4111](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4111) | High |
-| libnghttp2 | 1.43.0-6.el9 | [CVE-2026-27135](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27135) | High |
 | libcap | 2.48-10.el9 | [CVE-2026-4878](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4878) | High |
 | glib2 | 2.68.4-18.el9_7.1 | [CVE-2025-14087](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-14087) | Medium |
-| libarchive | 3.5.3-6.el9_6 | [CVE-2026-4426](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4426) | Medium |
+| libarchive | 3.5.3-9.el9_7 | [CVE-2026-4426](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4426) | Medium |
 | p11-kit | 0.25.3-3.el9_5 | [CVE-2026-2100](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2100) | Medium |
 | p11-kit-trust | 0.25.3-3.el9_5 | [CVE-2026-2100](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2100) | Medium |
 | coreutils-single | 8.32-39.el9 | [CVE-2025-5278](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5278) | Medium |
-| libarchive | 3.5.3-6.el9_6 | [CVE-2026-5121](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5121) | Medium |
 | glib2 | 2.68.4-18.el9_7.1 | [CVE-2025-14512](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-14512) | Medium |
-| fluent-bit | 25.10.19 | [CVE-2025-29478](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-29478) | Medium |
+| fluent-bit | 25.10.22 | [CVE-2025-29478](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-29478) | Medium |
 | curl-minimal | 7.76.1-35.el9_7.3 | [CVE-2026-1965](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1965) | Medium |
 | libcurl-minimal | 7.76.1-35.el9_7.3 | [CVE-2026-1965](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1965) | Medium |
 | openssl | 1:3.5.1-7.el9_7 | [CVE-2026-28390](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-28390) | Medium |
@@ -24,7 +20,7 @@ Refer to the [triaged vulnerabilities](https://docs.fluent.do/security/triaged.h
 | glib2 | 2.68.4-18.el9_7.1 | [CVE-2026-1489](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1489) | Medium |
 | libxml2 | 2.9.13-14.el9_7 | [CVE-2026-0990](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0990) | Medium |
 | xz-libs | 5.2.5-8.el9_0 | [CVE-2026-34743](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34743) | Medium |
-| fluent-bit | 25.10.19 | [CVE-2025-29477](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-29477) | Medium |
+| fluent-bit | 25.10.22 | [CVE-2025-29477](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-29477) | Medium |
 | glibc | 2.34-231.el9_7.10 | [CVE-2026-4437](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437) | Medium |
 | glibc-common | 2.34-231.el9_7.10 | [CVE-2026-4437](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437) | Medium |
 | glibc-langpack-en | 2.34-231.el9_7.10 | [CVE-2026-4437](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437) | Medium |
@@ -37,17 +33,17 @@ Refer to the [triaged vulnerabilities](https://docs.fluent.do/security/triaged.h
 | glibc-minimal-langpack | 2.34-231.el9_7.10 | [CVE-2026-4046](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046) | Medium |
 | openssl | 1:3.5.1-7.el9_7 | [CVE-2026-31790](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-31790) | Medium |
 | openssl-libs | 1:3.5.1-7.el9_7 | [CVE-2026-31790](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-31790) | Medium |
-| systemd-libs | 252-55.el9_7.7 | [CVE-2026-4105](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4105) | Medium |
-| libarchive | 3.5.3-6.el9_6 | [CVE-2025-60753](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-60753) | Medium |
+| systemd-libs | 252-55.el9_7.8 | [CVE-2026-4105](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4105) | Medium |
+| libarchive | 3.5.3-9.el9_7 | [CVE-2025-60753](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-60753) | Medium |
 | openldap | 2.6.8-4.el9 | [CVE-2026-22185](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22185) | Medium |
-| libarchive | 3.5.3-6.el9_6 | [CVE-2026-5745](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5745) | Medium |
+| libarchive | 3.5.3-9.el9_7 | [CVE-2026-5745](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5745) | Medium |
 | curl-minimal | 7.76.1-35.el9_7.3 | [CVE-2026-3784](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3784) | Medium |
 | libcurl-minimal | 7.76.1-35.el9_7.3 | [CVE-2026-3784](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3784) | Medium |
 | curl-minimal | 7.76.1-35.el9_7.3 | [CVE-2026-3783](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3783) | Medium |
 | libcurl-minimal | 7.76.1-35.el9_7.3 | [CVE-2026-3783](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3783) | Medium |
 | glib2 | 2.68.4-18.el9_7.1 | [CVE-2026-1484](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1484) | Medium |
-| libarchive | 3.5.3-6.el9_6 | [CVE-2023-30571](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-30571) | Medium |
-| systemd-libs | 252-55.el9_7.7 | [CVE-2026-29111](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-29111) | Medium |
+| libarchive | 3.5.3-9.el9_7 | [CVE-2023-30571](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-30571) | Medium |
+| systemd-libs | 252-55.el9_7.8 | [CVE-2026-29111](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-29111) | Medium |
 | curl-minimal | 7.76.1-35.el9_7.3 | [CVE-2025-13034](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13034) | Medium |
 | libcurl-minimal | 7.76.1-35.el9_7.3 | [CVE-2025-13034](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13034) | Medium |
 | libblkid | 2.37.4-21.el9_7 | [CVE-2026-27456](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27456) | Medium |
@@ -70,10 +66,10 @@ Refer to the [triaged vulnerabilities](https://docs.fluent.do/security/triaged.h
 | openssl-libs | 1:3.5.1-7.el9_7 | [CVE-2024-41996](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-41996) | Low |
 | glib2 | 2.68.4-18.el9_7.1 | [CVE-2025-3360](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-3360) | Low |
 | glib2 | 2.68.4-18.el9_7.1 | [CVE-2023-32636](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32636) | Low |
-| libarchive | 3.5.3-6.el9_6 | [CVE-2025-5915](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5915) | Low |
-| libarchive | 3.5.3-6.el9_6 | [CVE-2025-5918](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5918) | Low |
-| libarchive | 3.5.3-6.el9_6 | [CVE-2025-5916](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5916) | Low |
-| libarchive | 3.5.3-6.el9_6 | [CVE-2025-5917](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5917) | Low |
+| libarchive | 3.5.3-9.el9_7 | [CVE-2025-5915](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5915) | Low |
+| libarchive | 3.5.3-9.el9_7 | [CVE-2025-5918](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5918) | Low |
+| libarchive | 3.5.3-9.el9_7 | [CVE-2025-5916](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5916) | Low |
+| libarchive | 3.5.3-9.el9_7 | [CVE-2025-5917](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5917) | Low |
 | libxml2 | 2.9.13-14.el9_7 | [CVE-2025-6170](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6170) | Low |
 | curl-minimal | 7.76.1-35.el9_7.3 | [CVE-2025-15224](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15224) | Low |
 | libcurl-minimal | 7.76.1-35.el9_7.3 | [CVE-2025-15224](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15224) | Low |
@@ -114,7 +110,7 @@ Refer to the [triaged vulnerabilities](https://docs.fluent.do/security/triaged.h
 | glibc-common | 2.34-231.el9_7.10 | [CVE-2026-4438](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438) | Low |
 | glibc-langpack-en | 2.34-231.el9_7.10 | [CVE-2026-4438](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438) | Low |
 | glibc-minimal-langpack | 2.34-231.el9_7.10 | [CVE-2026-4438](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438) | Low |
-| libarchive | 3.5.3-6.el9_6 | [CVE-2025-1632](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-1632) | Low |
+| libarchive | 3.5.3-9.el9_7 | [CVE-2025-1632](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-1632) | Low |
 | gnupg2 | 2.3.3-5.el9_7 | [CVE-2025-30258](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30258) | Low |
 | sqlite-libs | 3.34.1-9.el9_7 | [CVE-2024-0232](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0232) | Low |
 | gnupg2 | 2.3.3-5.el9_7 | [CVE-2022-3219](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3219) | Low |
