@@ -6,6 +6,7 @@ High and critical vulnerabilities not triaged for the latest version (ghcr.io/te
 | --- | --- | --- | --- |
 | libarchive | 3.5.3-7.el9_7 | [CVE-2026-4424](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4424) | High |
 | libnghttp2 | 1.43.0-6.el9 | [CVE-2026-27135](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27135) | High |
-| glibc | 2.34-231.el9_7.10 | [CVE-2026-4046](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046) | High |
-| glibc-common | 2.34-231.el9_7.10 | [CVE-2026-4046](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046) | High |
-| glibc-minimal-langpack | 2.34-231.el9_7.10 | [CVE-2026-4046](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046) | High |
+| libcap | 2.48-10.el9 | [CVE-2026-4878](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4878) | High |
+| glibc | 2.34-231.el9_7.10 | [CVE-2026-5358](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5358) | High |
+| glibc-common | 2.34-231.el9_7.10 | [CVE-2026-5358](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5358) | High |
+| glibc-minimal-langpack | 2.34-231.el9_7.10 | [CVE-2026-5358](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5358) | High |
