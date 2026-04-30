@@ -12,6 +12,9 @@ on:
 permissions:
   contents: read
 
+env:
+  # Set once from repo variable or override here for testing
+  STEP_SECURITY_EGRESS_POLICY: ${{ vars.STEP_SECURITY_EGRESS_POLICY || 'audit' }}
 jobs:
   shellcheck-pr:
     permissions:
@@ -20,10 +23,10 @@ jobs:
     runs-on: ubuntu-latest
     name: PR - Shellcheck
     steps:
-      - name: Harden the runner (Audit all outbound calls)
+      - name: Harden the runner
         uses: step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40 # v2.19.0
         with:
-          egress-policy: audit
+          egress-policy: ${{ env.STEP_SECURITY_EGRESS_POLICY }}
 
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       - uses: reviewdog/action-shellcheck@4c07458293ac342d477251099501a718ae5ef86e # v1.32.0
@@ -41,10 +44,10 @@ jobs:
     runs-on: ubuntu-latest
     name: PR - Actionlint
     steps:
-      - name: Harden the runner (Audit all outbound calls)
+      - name: Harden the runner
         uses: step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40 # v2.19.0
         with:
-          egress-policy: audit
+          egress-policy: ${{ env.STEP_SECURITY_EGRESS_POLICY }}
 
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       - run: |
@@ -57,10 +60,10 @@ jobs:
     runs-on: ubuntu-latest
     name: PR - Check Orphaned Documentation
     steps:
-      - name: Harden the runner (Audit all outbound calls)
+      - name: Harden the runner
         uses: step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40 # v2.19.0
         with:
-          egress-policy: audit
+          egress-policy: ${{ env.STEP_SECURITY_EGRESS_POLICY }}
 
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       - name: Check for orphaned markdown files
@@ -75,10 +78,10 @@ jobs:
       # For ReviewDog to post comments to the PR
       pull-requests: write
     steps:
-      - name: Harden the runner (Audit all outbound calls)
+      - name: Harden the runner
         uses: step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40 # v2.19.0
         with:
-          egress-policy: audit
+          egress-policy: ${{ env.STEP_SECURITY_EGRESS_POLICY }}
 
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       - uses: suzuki-shunsuke/pinact-action@cf51507d80d4d6522a07348e3d58790290eaf0b6  # v2.0.0
