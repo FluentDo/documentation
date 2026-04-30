@@ -31,7 +31,7 @@ done
 SCRIPT_DIR=$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )
 
 REPO_ROOT=${REPO_ROOT:-$SCRIPT_DIR/../..}
-CVE_DIR=${CVE_DIR:-$REPO_ROOT/docs/security}
+CVE_DIR=${CVE_DIR:-$REPO_ROOT/docs/agent/security}
 OUTPUT_MD=${OUTPUT_MD:-"$CVE_DIR/triaged.md"}
 TRIAGED_DIR=${TRIAGED_DIR:-"$CVE_DIR/triaged"}
 AUTHOR=${AUTHOR:-"info@telemetryforge.io"}

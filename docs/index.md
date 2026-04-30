@@ -1,100 +1,44 @@
-# Telemetry Forge Agent Documentation
+# Telemetry Forge Product Documentation
 
-## What is our Agent?
+Telemetry Forge is a boutique observability consultancy who provides professional services and complete products for various customers or use cases.
 
-The Telemetry Forge Agent is an **enterprise-hardened distribution of Fluent Bit**, maintained by core OSS maintainers. It delivers production-ready log processing with enhanced security, reduced footprint, and enterprise support.
+We have deep expertise in Fluent Bit, telemetry pipelines and large-scale cloud native log infrastructure plus observability in general.
 
-### Key Differentiators
+[Contact us](mailto:info@telemetryforge.io) for any of your observability needs.
 
-- ✅ **70% smaller than OSS Fluent Bit** - Optimised for production deployments
-- ✅ **Security-hardened by default** - FORTIFY_SOURCE, stack protection, and reduced attack surface
-- ✅ **24-month LTS support** - Weekly security patches and critical bug fixes
-- ✅ **Enterprise features** - Advanced deduplication, AI filtering, and compliance tools
-- ✅ **Fully supported** - Direct access to core Fluent Bit maintainers
+Choose a product below to get started.
 
-### Main features
+<div class="grid cards" markdown>
+- [Agent](./agent/index.md): Our commercially supported LTS version of Fluent Bit with Enterprise features and security hardening.
+- [Fully Managed Logs](./fully-managed-logs/index.md): Our hosted or on-premise fully managed stack to handle your logs.
+- [Fleet Manager](./fleet-manager/index.md): Our hosted or on-premise solution that supports a full telemetry pipeline configuration and deployment with a built-in UI.
+- [Professional Services](mailto:info@telemetryforge.io): Custom engineering or observability consultancy.
+</div>
 
-- [Performant log deduplication at source](./features/record-deduplication.md)
-- [Log sampling processor](./features/log-sampling.md)
-- [Git configuration auto-reload](./features/git-config-auto-reload.md)
-- AI-based filtering and routing
-- Tail sampling and OTTL-style logic
-- Efficient filesystem storage buffer
-- Dedicated integration and regression testing
-- Native flattening filtering to prevent field explosion and type mismatches (e.g. in Opensearch or Elasticsearch)
+## What we do
 
-## Documentation
+### Fully Managed Logs
 
-- [Supported Platforms](./supported-platforms.md) - Verified OS and architecture support
-- [Version Mapping](./version-mapping.md) - Agent to OSS Fluent Bit version alignment
-- [Security](./security.md) - Hardening features and CVE management
-- [OSS Fluent Bit Docs](https://docs.fluentbit.io) - Core documentation reference
+Fully Managed services are designed for organisations that want Telemetry Forge to take full production responsibility for logging, including day-to-day operations, incident handling, upgrades, and continuous optimisation.
 
-## Enterprise Features
+We can host and manage this for you or provide you everything required to deploy on your own infrastructure for full control.
 
-Available directly via [Red Hat catalog](https://catalog.redhat.com/software/container-stacks/detail/68cfeb03e65464ef8fd4d608).
+Telemetry Forge provides direct assistance for all Fluent Bit agents, including open-source Fluent Bit and Telemetry Forge distributions.
 
-### Performance & Reliability
+* Logs infrastructure monitored 24 x 7.
+* Backed by SLA on uptime, performance and compliance monitoring as required.
+* Fully deployed, hardened and monitored by us.
+* Tailored to your infrastructure: cloud-native, hybrid, edge, and fully on-prem.
+* Full support for Kubernetes, bare metal, and all major cloud providers.
 
-- **[Log Deduplication](./features/record-deduplication.md)** - Eliminate duplicate logs at source, reducing costs by up to 40%
-- **Efficient Storage Buffer** - Advanced filesystem buffering for reliability
-- **Tail Sampling** - Smart sampling with OTTL-style logic for high-volume environments
+### Telemetry Forge Agent
 
-### Configuration Management
+Enterprise-hardened, long-term supported variants of Fluent Bit: built and maintained by Telemetry Forge core engineering team.
 
-- **[Git Configuration Auto-Reload](./features/git-config-auto-reload.md)** - Automatically reload configuration from Git repositories when changes are detected
+Open source but commercially supported with SLAs, compliance and all the other requirements of Enterprise organisations.
 
-### Data Processing
+### Professional Services & Support
 
-- **[Log sampling processor](./features/log-sampling.md)**
-- **AI-Powered Filtering** - Intelligent log routing and filtering
-- **Native Field Flattening** - Prevent field explosion in Elasticsearch/OpenSearch
-- **Type Safety** - Automatic type conflict resolution
-
-### Enterprise Hardening
-
-- **Reduced Attack Surface** - 17 vendor-specific plugins disabled by default
-- **Security by Default** - All remote interfaces disabled, authentication required
-- **Compliance Ready** - FIPS-compliant builds with OpenSSL in FIPS mode
-
-## Build Optimisations
-
-Our Agent is **70% smaller than OSS Fluent Bit** through:
-
-- **Reduced scope** - Only production-essential plugins included
-- **Secure defaults** - Vendor-specific and risky plugins disabled
-- **Optimised compilation** - Size-focused builds with dead code elimination
-
-[Learn more about build optimisations →](./build-optimisations.md)
-
-## Support & Lifecycle
-
-### Long-Term Support (LTS)
-
-| Component | Timeline | Details |
-|-----------|----------|---------|
-| **Major Release** | Every 12 months | New features and improvements |
-| **Security Updates** | Weekly | CVE patches and critical fixes |
-| **Support Window** | 24 months | No breaking changes, full backports |
-| **VEX Feed** | Continuous | Automated vulnerability reporting |
-
-## Testing & Quality
-
-### Continuous Validation
-
-- **Daily Security Scans** - Core and dependency vulnerability scanning
-- **Integration Testing** - Full regression suite for enterprise scenarios
-- **Memory Safety** - Valgrind and AddressSanitizer validation
-- **Performance Benchmarks** - Continuous performance regression testing
-
-## Resources
-
-### Technical Documentation
-
-- [Build Optimisations](./build-optimisations.md) - Size and performance improvements
-- [Security Hardening](./security.md) - Comprehensive security features
-- [Feature Documentation](./features/) - Enterprise feature guides
-
-### Contact
-
-For custom builds, white-label solutions, or enterprise support: **<info@telemetryforge.io>**
+* Observability configuration and deployment.
+* Custom Engineering & Upstream Fluent Bit Development.
+* Fluentd migration support.
