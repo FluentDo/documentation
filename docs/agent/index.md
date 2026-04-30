@@ -93,7 +93,7 @@ Our Agent is **70% smaller than OSS Fluent Bit** through:
 
 - [Build Optimisations](./build-optimisations.md) - Size and performance improvements
 - [Security Hardening](./security.md) - Comprehensive security features
-- [Feature Documentation](./features/) - Enterprise feature guides
+- [Feature Documentation](./features/index.md) - Enterprise feature guides
 
 ### Contact
 

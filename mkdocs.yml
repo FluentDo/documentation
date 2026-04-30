@@ -55,16 +55,16 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Dark mode
-      primary: yellow
-      accent: deep purple
+      primary: teal
+      accent: teal
 
     # Light Mode
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Light mode
-      primary: yellow
-      accent: deep orange
+      primary: teal
+      accent: teal
   features:
     - header.autohide
     - announce.dismiss
