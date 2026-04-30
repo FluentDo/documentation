@@ -5,17 +5,17 @@ nav:
   - Telemetry Forge Agent:
     - Overview: agent/index.md
     - Features:
-      - Overview: features/index.md
-      - Record Deduplication: features/record-deduplication.md
-      - Log Sampling: features/log-sampling.md
-      - Git Configuration Auto-Reload: features/git-config-auto-reload.md
-      - Hardening and Optimisation: build-optimisations.md
+      - Overview: agent/features/index.md
+      - Record Deduplication: agent/features/record-deduplication.md
+      - Log Sampling: agent/features/log-sampling.md
+      - Git Configuration Auto-Reload: agent/features/git-config-auto-reload.md
+      - Hardening and Optimisation: agent/build-optimisations.md
     - Security:
-      - Overview: security.md
-      - CVE Information: security/cves.md
-      - Current Triaged Vulnerabilities: security/triaged.md
-    - Supported Platforms: supported-platforms.md
-    - Version Mapping: version-mapping.md
+      - Overview: agent/security.md
+      - CVE Information: agent/security/cves.md
+      - Current Triaged Vulnerabilities: agent/security/triaged.md
+    - Supported Platforms: agent/supported-platforms.md
+    - Version Mapping: agent/version-mapping.md
   - Fully Managed Logs:
     - Overview: fully-managed-logs/index.md
   - Fleet Manager:
@@ -36,6 +36,8 @@ plugins:
         version-mapping.md: agent/version-mapping.md
 markdown_extensions:
   - pymdownx.snippets
+  - attr_list
+  - md_in_html
 
 theme:
   name: material
