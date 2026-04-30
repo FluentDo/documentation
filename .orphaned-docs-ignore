@@ -10,5 +10,5 @@ README.md
 **/templates/*.md
 
 # Grype generated files as linked from CVEs page
-security/agent/grype-*.md
-security/oss/grype-*.md
+agent/security/agent/grype-*.md
+agent/security/oss/grype-*.md
