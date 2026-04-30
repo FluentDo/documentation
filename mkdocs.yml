@@ -28,12 +28,15 @@ plugins:
   - meta
   - redirects:
       redirect_maps:
-        features: agent/features
-        security.md: agent/security.md
-        security: agent/security
-        build-optimisations.md: agent/build-optimisations.md
-        supported-platforms.md: agent/supported-platforms.md
-        version-mapping.md: agent/version-mapping.md
+        "security.md": "agent/security.md"
+        "build-optimisations.md": "agent/build-optimisations.md"
+        "supported-platforms.md": "agent/supported-platforms.md"
+        "version-mapping.md": "agent/version-mapping.md"
+        "features/git-config-auto-reload.md": "agent/features/git-config-auto-reload.md"
+        "features/log-sampling.md": "agent/features/log-sampling.md"
+        "features/record-deduplication.md": "agent/features/record-deduplication.md"
+        "security/cves.md": "agent/security/cves.md"
+        "security/triaged.md": "agent/security/triaged.md"
 markdown_extensions:
   - pymdownx.snippets
   - attr_list
