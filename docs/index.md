@@ -6,11 +6,13 @@ We have deep expertise in Fluent Bit, telemetry pipelines and large-scale cloud 
 
 [Contact us](mailto:info@telemetryforge.io) for any of your observability needs.
 
-Our products are:
+Choose a product below to get started.
 
-* [Agent](./agent/index.md): Our commercially supported LTS version of Fluent Bit with Enterprise features and security hardening.
-* [Fully Managed Logs](./fully-managed-logs/index.md): Our hosted or on-premise fully managed stack to handle your logs.
-* [Fleet Manager](./fleet-manager/index.md): Our hosted or on-premise solution that supports a full telemetry pipeline configuration and deployment with a built-in UI.
+<div class="grid cards" markdown>
+- [Agent](./agent/index.md): Our commercially supported LTS version of Fluent Bit with Enterprise features and security hardening.
+- [Fully Managed Logs](./fully-managed-logs/index.md): Our hosted or on-premise fully managed stack to handle your logs.
+- [Fleet Manager](./fleet-manager/index.md): Our hosted or on-premise solution that supports a full telemetry pipeline configuration and deployment with a built-in UI.
+</div>
 
 ## What we do
 
