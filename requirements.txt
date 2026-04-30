@@ -3,3 +3,4 @@ mkdocs-bootswatch
 mkdocs-minify-plugin
 mkdocs-material
 mkdocs-material[imaging]
+mkdocs-redirects

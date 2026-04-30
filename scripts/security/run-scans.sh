@@ -13,7 +13,7 @@ done
 SCRIPT_DIR=$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )
 
 REPO_ROOT=${REPO_ROOT:-$SCRIPT_DIR/../..}
-CVE_DIR=${CVE_DIR:-$REPO_ROOT/docs/security}
+CVE_DIR=${CVE_DIR:-$REPO_ROOT/docs/agent/security}
 TEMPLATE_DIR=${TEMPLATE_DIR:-$SCRIPT_DIR/templates}
 SCAN_FILE=${SCAN_FILE:-$SCRIPT_DIR/scan-config.json}
 
@@ -70,9 +70,9 @@ This page hosts all known information about any security issues, mitigations and
 
 Please reach out to us at <info@telemetryforge.io> directly for any specific concerns or queries.
 
---8<-- "docs/security/triaged.md"
+--8<-- "docs/agent/security/triaged.md"
 
---8<-- "docs/security/agent/grype-latest.md"
+--8<-- "docs/agent/security/grype-latest.md"
 
 ## All agent and OSS versions
 

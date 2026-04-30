@@ -12,7 +12,7 @@ while [ -L "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symli
 done
 SCRIPT_DIR=$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )
 REPO_ROOT=${REPO_ROOT:-$SCRIPT_DIR/..}
-DOCS_DIR=${DOCS_DIR:-$REPO_ROOT/docs}
+DOCS_DIR=${DOCS_DIR:-$REPO_ROOT/docs/agent}
 MAPPING_FILE=${MAPPING_FILE:-$DOCS_DIR/version-mapping.md}
 
 SCAN_FILE=${SCAN_FILE:-$SCRIPT_DIR/security/scan-config.json}
