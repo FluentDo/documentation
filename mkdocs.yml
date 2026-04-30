@@ -3,7 +3,7 @@ site_url: https://telemetryforge.io
 nav:
   - Home: index.md
   - Telemetry Forge Agent:
-    - Overview: agent/index.md
+    - agent/index.md
     - Features:
       - Overview: agent/features/index.md
       - Record Deduplication: agent/features/record-deduplication.md
@@ -17,9 +17,9 @@ nav:
     - Supported Platforms: agent/supported-platforms.md
     - Version Mapping: agent/version-mapping.md
   - Fully Managed Logs:
-    - Overview: fully-managed-logs/index.md
+    - fully-managed-logs/index.md
   - Fleet Manager:
-    - Overview: fleet-manager/index.md
+    - fleet-manager/index.md
 plugins:
   - privacy
   - offline
@@ -41,6 +41,7 @@ markdown_extensions:
   - pymdownx.snippets
   - attr_list
   - md_in_html
+  - toc
 
 theme:
   name: material
@@ -67,7 +68,12 @@ theme:
   features:
     - header.autohide
     - announce.dismiss
+    - navigation.top
     - navigation.footer
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.indexes
 extra:
   homepage: https://telemetryforge.io
   # Disable made by mkdocs
