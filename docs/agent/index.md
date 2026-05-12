@@ -17,7 +17,7 @@ The Telemetry Forge Agent is an **enterprise-hardened distribution of Fluent Bit
 - [Performant log deduplication at source](./features/record-deduplication.md)
 - [Log sampling processor](./features/log-sampling.md)
 - [Git configuration auto-reload](./features/git-config-auto-reload.md)
-- AI-based filtering and routing
+- [AI-based filtering and routing](./features/llm-tagging.md)
 - Tail sampling and OTTL-style logic
 - Efficient filesystem storage buffer
 - Dedicated integration and regression testing
