@@ -2,7 +2,7 @@
 
 The `llm_tag` filter plugin uses a Large Language Model (LLM) to **classify log records** and **route them by rewriting their tag** based on natural-language conditions. Instead of writing complex regex rules or static matchers, you describe what you're looking for in plain English, and the LLM decides which records match.
 
-It extracts the log payload (looking for `log` or `message` keys) and securely queries an OpenAI-compatible API using natural language prompts. If the LLM determines that a record matches a specific prompt classification, the plugin emits a copy of the record with a newly assigned tag.
+It extracts the log payload (looking for `log` or `message` keys) and queries the configured OpenAI-compatible API using natural language prompts. For remote endpoints, HTTPS is recommended; if `model_api_key` is configured, it is used for authenticated requests. If the LLM determines that a record matches a specific prompt classification, the plugin emits a copy of the record with a newly assigned tag.
 
 This is highly useful for semantic log routing, such as identifying security anomalies, analyzing sentiment, or catching obscure errors without writing complex regular expressions.
 

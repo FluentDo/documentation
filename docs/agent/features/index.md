@@ -13,4 +13,4 @@ This section documents advanced features and capabilities of Fluent Bit.
 
 ## AI
 
-- **[LLM auto-tagging](llm-tagging.md)** - Automatically tag records using an LLM prompt to easily route data
+- **[AI filtering and routing](llm-tagging.md)** - Automatically tag records using an LLM prompt to easily route data
