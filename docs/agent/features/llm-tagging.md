@@ -105,7 +105,7 @@ filters:
 
 In this example `keep_record true` means the original record under `sys.raw` is also preserved, so you'll see each matched record twice: once with its new tag and once with the original.
 
-### Match modes compared
+## Match modes compared
 
 Given two rules and a log that matches both:
 
