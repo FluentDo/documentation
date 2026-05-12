@@ -16,17 +16,7 @@ This plugin is OpenAI API-compatible and works with OpenAI, Azure OpenAI, vLLM, 
 4. For each rule that matched, the record is re-emitted with the rule's target tag through a shared internal emitter input.
 5. Depending on `keep_record` and `tags_match_mode`, the original record is either dropped, kept, or evaluation stops at the first match.
 
-> **Note:** Because the plugin re-emits records through an internal `emitter` input, downstream `[OUTPUT]` sections can match the new tags directly with the `Match` directive.
-
-<details>
-<summary><strong>Architecture details (click to expand)</strong></summary>
-
-- A **single shared emitter** is created at init time (named `emitter_for_<filter_name>` by default), used for all re-emissions. This avoids creating one emitter per rule.
-- Records are batched into **one LLM call per log record** (not one per rule), which dramatically reduces latency and cost when you have many rules.
-- The plugin protects against **infinite loops** by skipping records that come from its own emitter, and it pauses cleanly when the emitter buffer is full or during shutdown (records are passed through untouched).
-- On any LLM failure (timeout, network error, parse failure), the original record is **always preserved** to prevent data loss.
-
-</details>
+> **Note:** Because the plugin re-emits records through an internal `emitter` input, downstream outputs can match the new tags directly with the `match` directive.
 
 ## Configuration Parameters
 
@@ -115,7 +105,7 @@ filters:
 
 In this example `keep_record true` means the original record under `sys.raw` is also preserved, so you'll see each matched record twice: once with its new tag and once with the original.
 
-### Example 3: Match modes compared
+### Match modes compared
 
 Given two rules and a log that matches both:
 
