@@ -10,6 +10,7 @@ nav:
       - Log Sampling: agent/features/log-sampling.md
       - Git Configuration Auto-Reload: agent/features/git-config-auto-reload.md
       - Hardening and Optimisation: agent/build-optimisations.md
+      - AI filtering and routing: agent/features/llm-tagging.md
     - Security:
       - Overview: agent/security.md
       - CVE Information: agent/security/cves.md
