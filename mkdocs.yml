@@ -22,6 +22,12 @@ nav:
     - fully-managed-logs/index.md
   - Fleet Manager:
     - fleet-manager/index.md
+
+# These files are generated and used elsewhere so just ignore them in the navigation to prevent warnings
+not_in_nav: |
+  /agent/security/**/grype-*.md
+  /agent/security/triaged/README.md
+
 plugins:
   - privacy
   - offline
