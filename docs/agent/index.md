@@ -25,6 +25,7 @@ The Telemetry Forge Agent is an **enterprise-hardened distribution of Fluent Bit
 
 ## Documentation
 
+- [Getting Started](./getting-started.md) - Install and run a minimal tail-to-stdout pipeline
 - [Supported Platforms](./supported-platforms.md) - Verified OS and architecture support
 - [Version Mapping](./version-mapping.md) - Agent to OSS Fluent Bit version alignment
 - [Security](./security.md) - Hardening features and CVE management
