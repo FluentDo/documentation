@@ -2,7 +2,7 @@
 
 Our Agent supports all major architectures including `x86_64` and `arm64` as well as optionally `riscv64`, `s390x` and others.
 
-Releases can be found or watched here: <https://github.com/telemetryforge/agent>
+Releases including binaries can be found or watched here: <https://github.com/telemetryforge/agent>
 
 Packages are available via [https://packages.telemetryforge.io](https://packages.telemetryforge.io/index.html).
 

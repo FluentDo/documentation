@@ -4,7 +4,7 @@ This quick guide helps you install Telemetry Forge Agent and run a minimal Fluen
 
 The Telemetry Forge Agent is based on upstream Fluent Bit, so the configuration model and most plugins follow standard Fluent Bit behavior.
 
-All binaries and installers are available at [https://packages.telemetryforge.io](https://packages.telemetryforge.io/index.html).
+All binaries and installers are available at [https://packages.telemetryforge.io](https://packages.telemetryforge.io/index.html) and via our [Github repository releases](https://github.com/telemetryforge/agent/releases).
 
 === "Linux"
 
