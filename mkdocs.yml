@@ -4,6 +4,7 @@ nav:
   - Home: index.md
   - Telemetry Forge Agent:
     - agent/index.md
+    - Getting Started: agent/getting-started.md
     - Features:
       - Overview: agent/features/index.md
       - Record Deduplication: agent/features/record-deduplication.md
@@ -21,6 +22,12 @@ nav:
     - fully-managed-logs/index.md
   - Fleet Manager:
     - fleet-manager/index.md
+
+# These files are generated and used elsewhere so just ignore them in the navigation to prevent warnings
+not_in_nav: |
+  /agent/security/**/grype-*.md
+  /agent/security/triaged/README.md
+
 plugins:
   - privacy
   - offline
@@ -40,6 +47,9 @@ plugins:
         "security/triaged.md": "agent/security/triaged.md"
 markdown_extensions:
   - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - attr_list
   - md_in_html
   - toc
