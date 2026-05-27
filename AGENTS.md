@@ -20,6 +20,10 @@ If content could fit two products, place it in the product that owns the operato
 ## Key Files
 
 - `mkdocs.yml`: nav, plugins, markdown extensions, validation rules.
+- `overrides/main.html`: shared head overrides (favicon/manifest links) and top-of-site announcement banner.
+- `docs/assets/stylesheets/brand.css`: shared documentation presentation styles (for example, product hero card sizing).
+- `docs/assets/cards/`: canonical product card SVG artwork used across the site.
+- `docs/assets/favicon/`: generated favicon and web app icon assets.
 - `docs/agent/getting-started.md`: OS/container onboarding guide.
 - `docs/agent/index.md`: Agent landing page and cross-links.
 - `scripts/generate-offline.sh`: canonical containerized docs build flow.
@@ -76,6 +80,14 @@ The `docs/agent/security/` tree is generated automatically by tooling. Do not ma
 - If a page includes an acronym glossary, place it near the top of the page as a collapsed MkDocs admonition using `??? info "Acronyms used on this page"`.
 - Ensure every Markdown file ends with a trailing newline.
 - Do not edit generated `site/` content directly.
+
+## Branding and Visual Consistency
+
+- Reuse existing card artwork from `docs/assets/cards/` for product visuals instead of creating page-specific variants unless explicitly requested.
+- Keep visual treatment consistent for product landing pages by using the shared hero image class: `![...](../assets/cards/<card>.svg){ .product-hero-image }`.
+- Keep shared visual styles in `docs/assets/stylesheets/brand.css`; avoid introducing page-local inline CSS for reusable patterns.
+- Keep favicon assets under `docs/assets/favicon/` and treat them as generated design assets.
+- When favicon assets change, update both `theme.favicon` in `mkdocs.yml` and favicon/manifest links in `overrides/main.html` so desktop and mobile browsers stay aligned.
 
 ## Change Safety
 
