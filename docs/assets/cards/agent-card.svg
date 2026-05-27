@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Telemetry Forge Agent Card Image</title>
+  <desc id="desc">Abstract security chip icon in Telemetry Forge brand colours.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f223d"/>
+      <stop offset="100%" stop-color="#0a1628"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2ed3c3"/>
+      <stop offset="100%" stop-color="#1798a9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="360" rx="24" fill="url(#bg)"/>
+  <circle cx="72" cy="64" r="22" fill="#2ed3c3" opacity="0.15"/>
+  <circle cx="580" cy="300" r="30" fill="#2ed3c3" opacity="0.08"/>
+
+  <rect x="228" y="96" width="184" height="168" rx="20" fill="#112b4d" stroke="#2ed3c3" stroke-opacity="0.4"/>
+  <rect x="268" y="136" width="104" height="88" rx="12" fill="url(#accent)" opacity="0.95"/>
+
+  <g fill="#2ed3c3" opacity="0.85">
+    <rect x="212" y="122" width="10" height="16" rx="3"/>
+    <rect x="212" y="154" width="10" height="16" rx="3"/>
+    <rect x="212" y="186" width="10" height="16" rx="3"/>
+    <rect x="212" y="218" width="10" height="16" rx="3"/>
+
+    <rect x="418" y="122" width="10" height="16" rx="3"/>
+    <rect x="418" y="154" width="10" height="16" rx="3"/>
+    <rect x="418" y="186" width="10" height="16" rx="3"/>
+    <rect x="418" y="218" width="10" height="16" rx="3"/>
+  </g>
+
+  <path d="M294 184l20 20 32-44" fill="none" stroke="#f4fcff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="46" y="318" fill="#d8ebf4" font-size="30" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="700">Agent</text>
+</svg>
