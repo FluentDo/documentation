@@ -9,21 +9,21 @@ Packages are available via [https://packages.telemetryforge.io](https://packages
 Please [contact us](mailto:info@telemetryforge.io) for full details.
 
 ??? info "Acronyms used on this page"
-	- `AKS`: Azure Kubernetes Service
-	- `AMI`: Amazon Machine Image
-	- `AMD64`: 64-bit x86 architecture from AMD/Intel
-	- `ARM64`: 64-bit ARM architecture
-	- `AWS`: Amazon Web Services
-	- `ECS`: Amazon Elastic Container Service
-	- `EKS`: Amazon Elastic Kubernetes Service
-	- `GKE`: Google Kubernetes Engine
-	- `LTS`: Long-Term Support
-	- `OS`: Operating System
-	- `OSS`: Open Source Software
-	- `RHEL`: Red Hat Enterprise Linux
-	- `SLES`: SUSE Linux Enterprise Server
-	- `UBI`: Universal Base Image
-	- `VM`: Virtual Machine
+    - `AKS`: Azure Kubernetes Service
+    - `AMI`: Amazon Machine Image
+    - `AMD64`: 64-bit x86 architecture from AMD/Intel
+    - `ARM64`: 64-bit ARM architecture
+    - `AWS`: Amazon Web Services
+    - `ECS`: Amazon Elastic Container Service
+    - `EKS`: Amazon Elastic Kubernetes Service
+    - `GKE`: Google Kubernetes Engine
+    - `LTS`: Long-Term Support
+    - `OS`: Operating System
+    - `OSS`: Open Source Software
+    - `RHEL`: Red Hat Enterprise Linux
+    - `SLES`: SUSE Linux Enterprise Server
+    - `UBI`: Universal Base Image
+    - `VM`: Virtual Machine
 
 ## Kubernetes versions
 

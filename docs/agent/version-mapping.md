@@ -1,4 +1,4 @@
-# Opensource mapping to Agent versions
+# Open source mapping to Agent versions
 
 The following shows the underlying open source software (OSS) version of [Fluent Bit](https://github.com/fluent/fluent-bit/releases) that the Agent is based on.
 
