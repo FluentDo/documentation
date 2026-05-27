@@ -3,12 +3,12 @@
 Our Agent is **~70% smaller than OSS Fluent Bit** through strategic optimisations while maintaining security and performance.
 
 ??? info "Acronyms used on this page"
-  - `IPO/LTO`: Interprocedural Optimisation / Link Time Optimisation
-  - `FLB`: Fluent Bit build option prefix
-  - `MB`: Megabyte
-  - `RSS`: Resident Set Size
-  - `OSS`: Open Source Software
-  - `WASM`: WebAssembly
+    - `IPO/LTO`: Interprocedural Optimisation / Link Time Optimisation
+    - `FLB`: Fluent Bit build option prefix
+    - `MB`: Megabyte
+    - `RSS`: Resident Set Size
+    - `OSS`: Open Source Software
+    - `WASM`: WebAssembly
 
 ## Optimisation Techniques
 
