@@ -10,13 +10,13 @@ Choose a product below to get started.
 
 <div class="grid cards" markdown>
 - [![Agent card](./assets/cards/agent-card.svg)](./agent/index.md)
-	Our commercially supported LTS version of Fluent Bit with Enterprise features and security hardening.
+    Our commercially supported long-term support (LTS) version of Fluent Bit with Enterprise features and security hardening.
 - [![Fully Managed Logs card](./assets/cards/fully-managed-logs-card.svg)](./fully-managed-logs/index.md)
-	Our hosted or on-premise fully managed stack to handle your logs.
+    Our hosted or on-premise fully managed stack to handle your logs.
 - [![Fleet Manager card](./assets/cards/fleet-manager-card.svg)](./fleet-manager/index.md)
-	Our hosted or on-premise solution that supports a full telemetry pipeline configuration and deployment with a built-in UI.
+    Our hosted or on-premise solution that supports a full telemetry pipeline configuration and deployment with a built-in user interface (UI).
 - [![Professional Services card](./assets/cards/professional-services-card.svg)](mailto:info@telemetryforge.io)
-	Custom engineering and observability consultancy for enterprise delivery.
+    Custom engineering and observability consultancy for enterprise delivery.
 </div>
 
 ## What we do
