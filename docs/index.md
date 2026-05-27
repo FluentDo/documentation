@@ -31,6 +31,21 @@ Telemetry Forge provides direct assistance for all Fluent Bit agents, including 
 * Tailored to your infrastructure: cloud-native, hybrid, edge, and fully on-prem.
 * Full support for Kubernetes, bare metal, and all major cloud providers.
 
+### Fleet Manager
+
+Fleet Manager helps you manage large fleets of Fluent Bit agents from one place.
+
+Use it to:
+
+- Roll out configuration changes safely.
+- Track agent health and connection status.
+- Verify versions across environments.
+- Standardise telemetry collection at scale.
+
+Fleet Manager is available as a hosted service at <https://manager.telemetryforge.io> and can also be deployed on-premise.
+
+Fleet Manager provides a central control plane so operators can define and roll out telemetry configuration consistently across environments.
+
 ### Telemetry Forge Agent
 
 Enterprise-hardened, long-term supported variants of Fluent Bit: built and maintained by Telemetry Forge core engineering team.
