@@ -64,6 +64,7 @@ markdown_extensions:
 
 theme:
   name: material
+  logo: assets/favicon/logo-mark-512.png
   favicon: assets/favicon/favicon-32x32.png
   highlightjs: true
   copyright: Telemetry Forge 2026
