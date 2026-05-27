@@ -63,6 +63,7 @@ markdown_extensions:
 
 theme:
   name: material
+  favicon: assets/favicon/favicon-32x32.png
   highlightjs: true
   copyright: Telemetry Forge 2026
   custom_dir: overrides
@@ -92,6 +93,10 @@ theme:
     - navigation.tabs.sticky
     - navigation.path
     - navigation.indexes
+
+extra_css:
+  - assets/stylesheets/brand.css
+
 extra:
   homepage: https://telemetryforge.io
   # Disable made by mkdocs

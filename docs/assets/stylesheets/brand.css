@@ -1,0 +1,7 @@
+.product-hero-image {
+  display: block;
+  width: min(100%, 640px);
+  height: auto;
+  margin: 0 auto 1.25rem;
+  border-radius: 12px;
+}

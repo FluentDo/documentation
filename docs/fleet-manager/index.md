@@ -1,5 +1,7 @@
 # Fleet Manager
 
+![Fleet Manager card](../assets/cards/fleet-manager-card.svg){ .product-hero-image }
+
 Fleet Manager helps you manage large fleets of Fluent Bit agents from one place.
 
 Use it to:

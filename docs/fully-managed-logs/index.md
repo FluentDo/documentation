@@ -1,5 +1,7 @@
 # Fully Managed Logs
 
+![Fully Managed Logs card](../assets/cards/fully-managed-logs-card.svg){ .product-hero-image }
+
 A complete, end-to-end observability platform built from best-of-breed open source components, customised specifically to your environment and needs with full security and customer isolation.
 
 Two options of enterprise-grade setup, maintenance, monitoring and support for your entire log forwarding and aggregation stack:

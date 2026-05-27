@@ -58,6 +58,10 @@ Open source but commercially supported with SLAs, compliance and all the other r
 
 ### Professional Services & Support
 
+![Professional Services card](./assets/cards/professional-services-card.svg){ .product-hero-image }
+
+Telemetry Forge Professional Services helps teams design, migrate and optimise telemetry platforms with direct support from Fluent Bit maintainers and observability specialists.
+
 * Observability configuration and deployment.
 * Custom Engineering & Upstream Fluent Bit Development.
 * Fluentd migration support.

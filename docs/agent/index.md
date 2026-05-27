@@ -1,5 +1,7 @@
 # Telemetry Forge Agent Documentation
 
+![Telemetry Forge Agent card](../assets/cards/agent-card.svg){ .product-hero-image }
+
 ## What is our Agent?
 
 The Telemetry Forge Agent is an **enterprise-hardened distribution of Fluent Bit**, maintained by core open source software (OSS) maintainers. It delivers production-ready log processing with enhanced security, reduced footprint, and enterprise support.
