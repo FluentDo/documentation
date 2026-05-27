@@ -23,7 +23,7 @@ Fleet Manager works with upstream Fluent Bit (open source software (OSS)) and wi
 
 - [Core Concepts](./core-concepts.md) - Understand key Fleet Manager entities and the typical operating flow.
 - [Common Use Cases](./use-cases.md) - Learn when teams use Fleet Manager and what outcomes to expect.
-- [Operations Guide](./operations-guide.md) - Follow practical, step-by-step guidance for rollout, monitoring, and rollback.
+- [Operations Guide](./operations-guide.md) - Follow practical, screenshot-backed guidance for local setup, adding agents, and day-to-day agent control.
 - [Comparisons](./comparisons/index.md) - Compare Fleet Manager approaches with similar tooling patterns in observability.
 
 ## GitOps-Style Option
