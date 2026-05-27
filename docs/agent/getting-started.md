@@ -2,7 +2,7 @@
 
 This quick guide helps you install Telemetry Forge Agent and run a minimal Fluent Bit pipeline that tails logs and prints them to stdout.
 
-The Telemetry Forge Agent is based on upstream Fluent Bit, so the configuration model and most plugins follow standard Fluent Bit behavior.
+The Telemetry Forge Agent is based on upstream Fluent Bit, so the configuration model and most plugins follow standard Fluent Bit behaviour.
 
 All binaries and installers are available at [https://packages.telemetryforge.io](https://packages.telemetryforge.io/index.html) and via our [GitHub repository releases](https://github.com/telemetryforge/agent/releases).
 
@@ -132,9 +132,9 @@ All binaries and installers are available at [https://packages.telemetryforge.io
 
     Download the Windows package for your architecture and install it.
 
-    If you use the MSI or EXE installer, a Windows service is created for automatic startup.
+    If you use the Microsoft Installer (MSI) or executable (EXE) installer, a Windows service is created for automatic startup.
 
-    Alternative option: WSL2 if you prefer a Linux runtime:
+    Alternative option: Windows Subsystem for Linux 2 (WSL2) if you prefer a Linux runtime:
 
     1. Install WSL2:
 
@@ -176,7 +176,7 @@ All binaries and installers are available at [https://packages.telemetryforge.io
 
     Container images are available at [https://ghcr.io/telemetryforge/agent](https://ghcr.io/telemetryforge/agent):
 
-    - `ghcr.io/telemetryforge/agent:<VERSION>`: UBI-based image
+    - `ghcr.io/telemetryforge/agent:<VERSION>`: Universal Base Image (UBI)-based image
     - `ghcr.io/telemetryforge/agent:<VERSION>-slim`: Debian-based image (closer to upstream Fluent Bit)
 
     Substitute `VERSION` with your required release, for example `26.6.1`.
@@ -224,3 +224,4 @@ All binaries and installers are available at [https://packages.telemetryforge.io
 - Review [Supported Platforms](./supported-platforms.md).
 - Review [Version Mapping](./version-mapping.md) to align with your upstream Fluent Bit baseline.
 - See upstream plugin/config docs at [docs.fluentbit.io](https://docs.fluentbit.io).
+

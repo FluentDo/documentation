@@ -1,8 +1,10 @@
 # Telemetry Forge Agent Documentation
 
+![Telemetry Forge Agent card](../assets/cards/agent-card.svg){ .product-hero-image }
+
 ## What is our Agent?
 
-The Telemetry Forge Agent is an **enterprise-hardened distribution of Fluent Bit**, maintained by core OSS maintainers. It delivers production-ready log processing with enhanced security, reduced footprint, and enterprise support.
+The Telemetry Forge Agent is an **enterprise-hardened distribution of Fluent Bit**, maintained by core open source software (OSS) maintainers. It delivers production-ready log processing with enhanced security, reduced footprint, and enterprise support.
 
 - [Getting Started](./getting-started.md) - Install and run a minimal pipeline with our agent
 
@@ -10,8 +12,8 @@ The Telemetry Forge Agent is an **enterprise-hardened distribution of Fluent Bit
 
 - ✅ **70% smaller than OSS Fluent Bit** - Optimised for production deployments
 - ✅ **Security-hardened by default** - FORTIFY_SOURCE, stack protection, and reduced attack surface
-- ✅ **24-month LTS support** - Weekly security patches and critical bug fixes
-- ✅ **Enterprise features** - Advanced deduplication, AI filtering, and compliance tools
+- ✅ **24-month long-term support (LTS)** - Weekly security patches and critical bug fixes
+- ✅ **Enterprise features** - Advanced deduplication, artificial intelligence (AI) filtering, and compliance tools
 - ✅ **Fully supported** - Direct access to core Fluent Bit maintainers
 
 ### Main features
@@ -20,7 +22,7 @@ The Telemetry Forge Agent is an **enterprise-hardened distribution of Fluent Bit
 - [Log sampling processor](./features/log-sampling.md)
 - [Git configuration auto-reload](./features/git-config-auto-reload.md)
 - [AI-based filtering and routing](./features/llm-tagging.md)
-- Tail sampling and OTTL-style logic
+- Tail sampling and OpenTelemetry Transformation Language (OTTL)-style logic
 - Efficient filesystem storage buffer
 - Dedicated integration and regression testing
 - Native flattening filtering to prevent field explosion and type mismatches (e.g. in Opensearch or Elasticsearch)
@@ -28,14 +30,14 @@ The Telemetry Forge Agent is an **enterprise-hardened distribution of Fluent Bit
 ## Documentation
 
 - [Getting Started](./getting-started.md) - Install and run a minimal pipeline with our agent
-- [Supported Platforms](./supported-platforms.md) - Verified OS and architecture support
+- [Supported Platforms](./supported-platforms.md) - Verified operating system (OS) and architecture support
 - [Version Mapping](./version-mapping.md) - Agent to OSS Fluent Bit version alignment
-- [Security](./security.md) - Hardening features and CVE management
+- [Security](./security.md) - Hardening features and Common Vulnerabilities and Exposures (CVE) management
 - [OSS Fluent Bit Docs](https://docs.fluentbit.io) - Core documentation reference
 
 ## Enterprise Features
 
-Available directly via [Red Hat catalog](https://catalog.redhat.com/software/container-stacks/detail/68cfeb03e65464ef8fd4d608).
+Available directly via [Red Hat catalogue](https://catalog.redhat.com/software/container-stacks/detail/68cfeb03e65464ef8fd4d608).
 
 ### Performance & Reliability
 
@@ -58,7 +60,7 @@ Available directly via [Red Hat catalog](https://catalog.redhat.com/software/con
 
 - **Reduced Attack Surface** - 17 vendor-specific plugins disabled by default
 - **Security by Default** - All remote interfaces disabled, authentication required
-- **Compliance Ready** - FIPS-compliant builds with OpenSSL in FIPS mode
+- **Compliance Ready** - Federal Information Processing Standards (FIPS)-compliant builds with OpenSSL in FIPS mode
 
 ## Build Optimisations
 
@@ -79,7 +81,7 @@ Our Agent is **70% smaller than OSS Fluent Bit** through:
 | **Major Release** | Every 12 months | New features and improvements |
 | **Security Updates** | Weekly | CVE patches and critical fixes |
 | **Support Window** | 24 months | No breaking changes, full backports |
-| **VEX Feed** | Continuous | Automated vulnerability reporting |
+| **Vulnerability Exploitability eXchange (VEX) Feed** | Continuous | Automated vulnerability reporting |
 
 ## Testing & Quality
 
@@ -101,3 +103,4 @@ Our Agent is **70% smaller than OSS Fluent Bit** through:
 ### Contact
 
 For custom builds, white-label solutions, or enterprise support: **<info@telemetryforge.io>**
+

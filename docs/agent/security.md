@@ -12,6 +12,25 @@ We provide an agent with the following security and compliance considerations:
 - Full integration and regression testing in place
 - Hardened container images and best practice helm charts
 
+??? info "Acronyms used on this page"
+    - `ASLR`: Address Space Layout Randomization
+    - `CI`: Continuous Integration
+    - `CVE`: Common Vulnerabilities and Exposures
+    - `DLP`: Data Loss Prevention
+    - `FIPS`: Federal Information Processing Standards
+    - `GOT/PLT`: Global Offset Table / Procedure Linkage Table
+    - `GPG`: GNU Privacy Guard
+    - `gRPC`: Google Remote Procedure Call
+    - `HTTP`: Hypertext Transfer Protocol
+    - `LTS`: Long-Term Support
+    - `NX`: No-eXecute
+    - `PIE`: Position Independent Executable
+    - `RELRO`: Relocation Read-Only
+    - `SBOM`: Software Bill of Materials
+    - `SQL`: Structured Query Language
+    - `VEX`: Vulnerability Exploitability eXchange
+    - `WASM`: WebAssembly
+
 ## Cosign
 
 All images are signed with Cosign using both the keyless approach with Fulcio and a dedicated Cosign private key (from 25.10.3) integrated into Github Actions directly: <https://github.com/telemetryforge/agent/blob/main/.github/workflows/call-build-containers.yaml>
@@ -141,3 +160,4 @@ To minimize attack surface and binary size, the following 17 plugins are **disab
 - `FLB_SHARED_LIB` - Shared library build (static preferred)
 - `FLB_EXAMPLES` - Example binaries
 - `FLB_CHUNK_TRACE` - Debug chunk tracing
+

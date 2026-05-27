@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Telemetry Forge Fleet Manager Card Image</title>
+  <desc id="desc">Connected nodes illustrating fleet orchestration in Telemetry Forge brand colours.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f223d"/>
+      <stop offset="100%" stop-color="#0a1628"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2ed3c3"/>
+      <stop offset="100%" stop-color="#1798a9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="360" rx="24" fill="url(#bg)"/>
+  <circle cx="560" cy="72" r="26" fill="#2ed3c3" opacity="0.12"/>
+  <circle cx="72" cy="300" r="20" fill="#2ed3c3" opacity="0.1"/>
+
+  <g stroke="#2ed3c3" stroke-opacity="0.65" stroke-width="6" fill="none">
+    <path d="M320 170 L204 118"/>
+    <path d="M320 170 L436 118"/>
+    <path d="M320 170 L206 238"/>
+    <path d="M320 170 L434 238"/>
+    <path d="M204 118 L206 238" opacity="0.45"/>
+    <path d="M436 118 L434 238" opacity="0.45"/>
+  </g>
+
+  <g>
+    <circle cx="320" cy="170" r="42" fill="url(#accent)"/>
+    <circle cx="204" cy="118" r="24" fill="#17365c" stroke="#2ed3c3" stroke-opacity="0.7" stroke-width="4"/>
+    <circle cx="436" cy="118" r="24" fill="#17365c" stroke="#2ed3c3" stroke-opacity="0.7" stroke-width="4"/>
+    <circle cx="206" cy="238" r="24" fill="#17365c" stroke="#2ed3c3" stroke-opacity="0.7" stroke-width="4"/>
+    <circle cx="434" cy="238" r="24" fill="#17365c" stroke="#2ed3c3" stroke-opacity="0.7" stroke-width="4"/>
+  </g>
+
+  <g fill="#f4fcff" opacity="0.95">
+    <rect x="312" y="152" width="16" height="36" rx="4"/>
+    <rect x="300" y="164" width="40" height="12" rx="4"/>
+  </g>
+
+  <text x="46" y="318" fill="#d8ebf4" font-size="30" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="700">Fleet Manager</text>
+</svg>

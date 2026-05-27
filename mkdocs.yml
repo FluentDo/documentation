@@ -22,6 +22,13 @@ nav:
     - fully-managed-logs/index.md
   - Fleet Manager:
     - fleet-manager/index.md
+    - Core Concepts: fleet-manager/core-concepts.md
+    - Common Use Cases: fleet-manager/use-cases.md
+    - Operations Guide: fleet-manager/operations-guide.md
+    - Comparisons:
+      - Overview: fleet-manager/comparisons/index.md
+      - Fleet Compatibility: fleet-manager/comparisons/fleet-compatibility.md
+      - Deployment and Lock-In: fleet-manager/comparisons/deployment-and-lock-in.md
 
 # These files are generated and used elsewhere so just ignore them in the navigation to prevent warnings
 not_in_nav: |
@@ -46,6 +53,7 @@ plugins:
         "security/cves.md": "agent/security/cves.md"
         "security/triaged.md": "agent/security/triaged.md"
 markdown_extensions:
+  - pymdownx.details
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.tabbed:
@@ -56,6 +64,8 @@ markdown_extensions:
 
 theme:
   name: material
+  logo: assets/favicon/logo-mark-512.png
+  favicon: assets/favicon/favicon-32x32.png
   highlightjs: true
   copyright: Telemetry Forge 2026
   custom_dir: overrides
@@ -85,6 +95,10 @@ theme:
     - navigation.tabs.sticky
     - navigation.path
     - navigation.indexes
+
+extra_css:
+  - assets/stylesheets/brand.css
+
 extra:
   homepage: https://telemetryforge.io
   # Disable made by mkdocs

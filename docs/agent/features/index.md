@@ -11,6 +11,7 @@ This section documents advanced features and capabilities of Fluent Bit.
 - **[Record Deduplication](record-deduplication.md)** - Remove duplicate log records based on configurable keys
 - **[Log Sampling](log-sampling.md)** - Sample log data to reduce volume while maintaining statistical accuracy
 
-## AI
+## Artificial intelligence (AI)
 
-- **[AI filtering and routing](llm-tagging.md)** - Automatically tag records using an LLM prompt to easily route data
+- **[AI filtering and routing](llm-tagging.md)** - Automatically tag records using a large language model (LLM) prompt to easily route data
+

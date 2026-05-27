@@ -4,7 +4,7 @@ The `llm_tag` filter plugin uses a Large Language Model (LLM) to **classify log 
 
 It extracts the log payload (looking for `log` or `message` keys) and queries the configured OpenAI-compatible API using natural language prompts. For remote endpoints, HTTPS is recommended; if `model_api_key` is configured, it is used for authenticated requests. If the LLM determines that a record matches a specific prompt classification, the plugin emits a copy of the record with a newly assigned tag.
 
-This is highly useful for semantic log routing, such as identifying security anomalies, analyzing sentiment, or catching obscure errors without writing complex regular expressions.
+This is highly useful for semantic log routing, such as identifying security anomalies, analysing sentiment, or catching obscure errors without writing complex regular expressions.
 
 This plugin is OpenAI API-compatible and works with OpenAI, Azure OpenAI, vLLM, Ollama (with the OpenAI-compatible endpoint), LM Studio, and any other server that exposes an OpenAI-compatible `/chat/completions` endpoint.
 
@@ -152,3 +152,4 @@ Logs are sent to the configured LLM endpoint. Do not send sensitive data to thir
 * Use environment variables or secrets management for `model_api_key`.
 * Consider redacting secrets before this filter if logs may contain credentials, tokens, personal data, or regulated information.
 * For sensitive environments, use a local OpenAI-compatible model endpoint.
+
