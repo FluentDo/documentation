@@ -2,6 +2,14 @@
 
 Our Agent is **~70% smaller than OSS Fluent Bit** through strategic optimisations while maintaining security and performance.
 
+??? info "Acronyms used on this page"
+  - `IPO/LTO`: Interprocedural Optimisation / Link Time Optimisation
+  - `FLB`: Fluent Bit build option prefix
+  - `MB`: Megabyte
+  - `RSS`: Resident Set Size
+  - `OSS`: Open Source Software
+  - `WASM`: WebAssembly
+
 ## Optimisation Techniques
 
 ### 1. Strategic Plugin Selection
@@ -84,3 +92,4 @@ If you need plugins that are disabled by default, you can:
 1. **Request a custom build** from our commercial support with specific plugins enabled
 2. **Use OSS Fluent Bit** if vendor-specific plugins are required
 3. **Build from source** with your required configuration
+

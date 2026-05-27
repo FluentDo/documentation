@@ -11,3 +11,4 @@ The versions to be scanned (OSS and commercial) are configured in [`scripts/secu
 Markdown templates are provided for Grype in [`scripts/security/templates/grype-markdown.tmpl`](scripts/security/templates/grype-markdown.tmpl).
 
 [Instructions are provided](./docs/security/triaged/README.md) for how to triage CVEs.
+

@@ -6,14 +6,14 @@ nav:
     - agent/index.md
     - Getting Started: agent/getting-started.md
     - Features:
-      - Overview: agent/features/index.md
+      - agent/features/index.md
       - Record Deduplication: agent/features/record-deduplication.md
       - Log Sampling: agent/features/log-sampling.md
       - Git Configuration Auto-Reload: agent/features/git-config-auto-reload.md
       - Hardening and Optimisation: agent/build-optimisations.md
       - AI filtering and routing: agent/features/llm-tagging.md
     - Security:
-      - Overview: agent/security.md
+      - agent/security.md
       - CVE Information: agent/security/cves.md
       - Current Triaged Vulnerabilities: agent/security/triaged.md
     - Supported Platforms: agent/supported-platforms.md
@@ -22,6 +22,13 @@ nav:
     - fully-managed-logs/index.md
   - Fleet Manager:
     - fleet-manager/index.md
+    - Core Concepts: fleet-manager/core-concepts.md
+    - Common Use Cases: fleet-manager/use-cases.md
+    - Operations Guide: fleet-manager/operations-guide.md
+    - Comparisons:
+      - fleet-manager/comparisons/index.md
+      - Fleet Compatibility: fleet-manager/comparisons/fleet-compatibility.md
+      - Deployment and Lock-In: fleet-manager/comparisons/deployment-and-lock-in.md
 
 # These files are generated and used elsewhere so just ignore them in the navigation to prevent warnings
 not_in_nav: |

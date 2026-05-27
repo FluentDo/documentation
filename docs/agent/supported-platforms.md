@@ -8,6 +8,23 @@ Packages are available via [https://packages.telemetryforge.io](https://packages
 
 Please [contact us](mailto:info@telemetryforge.io) for full details.
 
+??? info "Acronyms used on this page"
+	- `AKS`: Azure Kubernetes Service
+	- `AMI`: Amazon Machine Image
+	- `AMD64`: 64-bit x86 architecture from AMD/Intel
+	- `ARM64`: 64-bit ARM architecture
+	- `AWS`: Amazon Web Services
+	- `ECS`: Amazon Elastic Container Service
+	- `EKS`: Amazon Elastic Kubernetes Service
+	- `GKE`: Google Kubernetes Engine
+	- `LTS`: Long-Term Support
+	- `OS`: Operating System
+	- `OSS`: Open Source Software
+	- `RHEL`: Red Hat Enterprise Linux
+	- `SLES`: SUSE Linux Enterprise Server
+	- `UBI`: Universal Base Image
+	- `VM`: Virtual Machine
+
 ## Kubernetes versions
 
 We support all mainstream Kubernetes providers including Digital Ocean, Openshift, EKS (AWS), GKE (Google), AKS (Microsoft) and all their supported versions as well.
@@ -27,7 +44,7 @@ Hardened container images are provided for:
 * AWS via ECS
 * Google Cloud via Artifact Registry
 * All images are in docker.io and ghcr.io as well
-* [Red Hat catalog](https://catalog.redhat.com/software/container-stacks/detail/68cfeb03e65464ef8fd4d608)
+* [Red Hat catalogue](https://catalog.redhat.com/software/container-stacks/detail/68cfeb03e65464ef8fd4d608)
 
 ## Native installation
 
@@ -53,3 +70,4 @@ ARM64 and AMD64 variants are provided where applicable.
 Part of our support package includes testing against the specific use cases or configurations you may require.
 
 Installation of packages is available via [https://packages.telemetryforge.io](https://packages.telemetryforge.io/index.html).
+
