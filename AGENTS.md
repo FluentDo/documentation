@@ -60,6 +60,22 @@ Canonical packaging flow:
 ./scripts/local-serve.sh
 ```
 
+## Fleet Manager Docs Workflow
+
+When updating pages under `docs/fleet-manager/`, use this workflow unless the task explicitly requests otherwise.
+
+- Treat `https://manager.telemetryforge.io` as the default endpoint for user-facing instructions, links, and login screenshots.
+- Use the production login experience (for example, GitHub/Google providers), not local dev-mode login.
+- Avoid `http://localhost:4444` references in published docs unless a task explicitly asks for local-only instructions.
+- If you need local UI validation/screenshot capture, the manager stack can be started from this repository with:
+
+```bash
+docker compose -f ../manager/compose.yaml up -d
+```
+
+- Reuse a still-running local stack when available; do not restart it unnecessarily.
+- For GraphQL `createAgent` examples, use a valid `config` payload (JSON object string) that maps to the getting-started pipeline in `docs/agent/getting-started.md`.
+
 ## Navigation Warning Handling
 
 MkDocs omitted-from-nav suppression should use `not_in_nav` in `mkdocs.yml` with .gitignore-style glob patterns (not regex).

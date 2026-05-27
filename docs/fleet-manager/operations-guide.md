@@ -1,107 +1,117 @@
 # Operations Guide
 
-Use this guide to operate Fleet Manager safely at scale.
+This guide focuses on the current UI workflow for adding and controlling agents.
 
-## 1. Onboard Agents
+## 1. Open Fleet Manager (Hosted)
 
-1. Open Fleet Manager at <https://manager.telemetryforge.io>.
-2. Register each Fluent Bit instance with Fleet Manager.
-3. Assign agents to the correct groups during onboarding.
-4. Verify agents appear as connected and healthy.
+Open Fleet Manager at:
 
-Tip: start with a small non-production group to validate connectivity and naming conventions.
+- `https://manager.telemetryforge.io`
 
-Common onboarding patterns include:
+## 2. Login
 
-- Kubernetes: DaemonSet-based Fluent Bit deployments per cluster.
-- Native infrastructure: Linux services on virtual machines (VMs) or bare metal.
-- Endpoint fleets: Windows and macOS deployments managed through mobile device management (MDM) tooling.
-- Edge and embedded: site-local agents that may connect intermittently.
+1. Open the login page.
+2. Use one of the default production login providers.
 
-Agent channel patterns include:
+![Production login page](../assets/fleet-manager/login-production.png)
 
-- Upstream Fluent Bit (OSS) as a default baseline for broad portability.
-- Telemetry Forge Agent for teams that want commercial packaging and support.
-- Mixed-channel fleets where different business units use different agent distributions.
+## 3. Create or Select an Organization
 
-## 2. Build a Baseline Configuration
+1. Use the org switcher in the left sidebar.
+2. Create a new org (or select an existing one).
+3. Open **Agents** under the selected org.
 
-1. Define a baseline Fluent Bit configuration shared by most agents.
-2. Add environment-specific differences as separate revisions or overlays.
-3. Keep revisions small and focused to simplify troubleshooting.
-4. Add meaningful revision notes so operators understand intent.
+## 4. Add an Agent
+1. In **Agents**, click **Add Agent**.
+2. In the onboarding flow, click **Tokens**.
+3. Click **Create Token**.
+4. Create a token (scope is fixed to `REGISTER_AGENT` in this form).
+5. Copy the token immediately. The secret is only shown once.
+6. Use that token in your agent bootstrap process.
 
-Optional GitOps-style approach:
+![Agents list](../assets/fleet-manager/agents-list-with-running-agent.png)
 
-- Keep baseline and environment overlays in Git repositories.
-- Use the Agent [Git Configuration Auto-Reload](../agent/features/git-config-auto-reload.md) plugin for Git-driven hot reload where needed.
-- Use Fleet Manager groups and rollout rings to control promotion and blast radius.
+![Create REGISTER_AGENT token](../assets/fleet-manager/create-register-agent-token-form.png)
 
-## 3. Roll Out Changes Safely
+![REGISTER_AGENT token in list](../assets/fleet-manager/tokens-register-agent-token.png)
 
-Use progressive rollout rings:
+### API Registration Shortcut
 
-1. Canary group.
-2. Staging group.
-3. Production subset.
-4. Full production.
+You can create an agent directly via GraphQL using a `REGISTER_AGENT` token:
 
-At each step:
+```bash
+curl -sS https://manager.telemetryforge.io/graphql \
+	-H 'Content-Type: application/json' \
+	-H 'Authorization: <REGISTER_AGENT_TOKEN>' \
+	--data '{
+		"query":"mutation($in: CreateAgentInput!){createAgent(in:$in){id token createdAt}}",
+		"variables":{
+			"in":{
+				"kind":"FLUENTBIT",
+				"name":"docs-agent-01",
+				"version":"3.1.2",
+				"config":"{\"service\":{\"flush\":1,\"log_level\":\"info\"},\"pipeline\":{\"inputs\":[{\"name\":\"tail\",\"tag\":\"demo.logs\",\"path\":\"/var/log/*.log\",\"read_from_head\":true}],\"outputs\":[{\"name\":\"stdout\",\"match\":\"demo.logs\"}]}}",
+				"os":"linux",
+				"arch":"x86_64",
+				"distro":"ubuntu",
+				"packageType":"CONTAINER",
+				"labels":{"env":"dev","site":"local"}
+			}
+		}
+	}'
+```
 
-- Confirm agent health and configuration apply success.
-- Validate telemetry quality in your destination platform.
-- Proceed only when metrics are stable.
+Note: this API expects the raw token value in the `Authorization` header (not `Bearer ...`).
 
-For mixed fleets, sequence by risk and connectivity. Example order:
+## 5. Control Agents from the UI
 
-1. Kubernetes canary.
-2. Linux VM canary.
-3. Windows/macOS MDM pilot ring.
-4. Edge or embedded pilot locations.
-5. Broader production rollout.
+Once agents appear in **Agents**, use these controls:
 
-## 4. Monitor Fleet Health and Version Status
+1. Filter by name and use column filters (status, version, OS, labels).
+2. Click an agent name to open the detail page.
+3. On the detail page, review:
+	 - Status and last-seen timestamp.
+	 - Version and platform metadata.
+	 - Labels.
+	 - Input/output throughput metrics.
+	 - Rendered pipeline/config sections.
+4. Use **Edit** in the labels section to update labels on a single agent.
+5. Use **Delete** to remove an agent.
 
-Use Fleet Manager to answer key operational questions:
+![Agent detail controls](../assets/fleet-manager/agent-details-controls.png)
 
-- Which agents are online or disconnected?
-- Which revision is each group running?
-- Which Fluent Bit versions are in use?
-- Where are rollout failures or lagging updates?
+## 6. Bulk Control Multiple Agents
 
-Also track platform-specific indicators:
+1. In **Agents**, check one or more rows.
+2. Use **Apply Labels** to add labels to all selected agents.
+3. Use **Remove** to remove selected agents.
 
-- Endpoint adoption by MDM cohort.
-- Edge update lag caused by offline periods.
-- Drift between Kubernetes, server, and endpoint baselines.
+![Bulk actions on Agents page](../assets/fleet-manager/agents-bulk-controls.png)
 
-Use this data for daily operations, release planning, and security reviews.
+![Apply labels dialog](../assets/fleet-manager/agents-apply-labels-dialog.png)
 
-## 5. Roll Back When Needed
+## 7. Review Audit Logs
 
-If a change causes issues:
+Use **AuditLogs** to track who changed what and when across your organisation.
 
-1. Select the affected group.
-2. Re-assign the previous known-good revision.
-3. Confirm fleet convergence and telemetry recovery.
-4. Document root cause before retrying the change.
+1. Open **AuditLogs** in the left sidebar under your organisation.
+2. Use the **Action** filter to narrow by operation type (for example `CREATE_AGENT`, `CREATE_TOKEN`, `UPDATE_AGENT`).
+3. Use the **Resource** filter to focus on object type (`AGENT`, `TOKEN`, `ORG`, and others).
+4. Review each entry for actor, action, target resource ID, and timestamp.
+5. Expand **View metadata** on an entry to inspect the request details/payload.
 
-## Best Practices
+![Audit logs page](../assets/fleet-manager/audit-logs-page.png)
 
-- Treat configuration as versioned change: small, reviewable revisions.
-- Use progressive rollout rather than all-at-once production changes.
-- Keep group naming consistent and environment-first.
-- Track version drift regularly, not only during incidents.
-- Maintain a known-good rollback revision for each production group.
-- Keep hosted and self-hosted operating procedures aligned to reduce migration effort and lock-in.
+![Audit log metadata expanded](../assets/fleet-manager/audit-logs-metadata-open.png)
 
-## Example Operating Model
+Common usage patterns:
 
-An operations team manages 2,500 Fluent Bit agents across three regions.
+- Validate who created or removed agents during rollout windows.
+- Confirm token creation/deletion events during access reviews.
+- Correlate operational changes with telemetry or service regressions.
 
-- They define one global baseline for common parsing and enrichment.
-- They keep output destinations per environment as separate revisions.
-- Every change follows canary -> staging -> production rollout.
-- They review version compliance weekly and remediate laggards.
+## 8. Operational Tips
 
-Result: faster, safer telemetry updates with fewer production incidents caused by configuration drift.
+- Keep labels consistent (`env`, `region`, `team`, `service`) so filtering and bulk actions stay predictable.
+- Use agent detail pages during incident response to confirm status and last-seen timestamps quickly.
+- Treat token creation as sensitive: create per environment, rotate regularly, and store secrets in a secure system.
