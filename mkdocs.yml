@@ -53,6 +53,7 @@ plugins:
         "security/cves.md": "agent/security/cves.md"
         "security/triaged.md": "agent/security/triaged.md"
 markdown_extensions:
+  - pymdownx.details
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.tabbed:

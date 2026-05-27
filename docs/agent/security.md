@@ -13,23 +13,23 @@ We provide an agent with the following security and compliance considerations:
 - Hardened container images and best practice helm charts
 
 ??? info "Acronyms used on this page"
-      - `ASLR`: Address Space Layout Randomization
-      - `CI`: Continuous Integration
-      - `CVE`: Common Vulnerabilities and Exposures
-      - `DLP`: Data Loss Prevention
-      - `FIPS`: Federal Information Processing Standards
-      - `GOT/PLT`: Global Offset Table / Procedure Linkage Table
-      - `GPG`: GNU Privacy Guard
-      - `gRPC`: Google Remote Procedure Call
-      - `HTTP`: Hypertext Transfer Protocol
-      - `LTS`: Long-Term Support
-      - `NX`: No-eXecute
-      - `PIE`: Position Independent Executable
-      - `RELRO`: Relocation Read-Only
-      - `SBOM`: Software Bill of Materials
-      - `SQL`: Structured Query Language
-      - `VEX`: Vulnerability Exploitability eXchange
-      - `WASM`: WebAssembly
+    - `ASLR`: Address Space Layout Randomization
+    - `CI`: Continuous Integration
+    - `CVE`: Common Vulnerabilities and Exposures
+    - `DLP`: Data Loss Prevention
+    - `FIPS`: Federal Information Processing Standards
+    - `GOT/PLT`: Global Offset Table / Procedure Linkage Table
+    - `GPG`: GNU Privacy Guard
+    - `gRPC`: Google Remote Procedure Call
+    - `HTTP`: Hypertext Transfer Protocol
+    - `LTS`: Long-Term Support
+    - `NX`: No-eXecute
+    - `PIE`: Position Independent Executable
+    - `RELRO`: Relocation Read-Only
+    - `SBOM`: Software Bill of Materials
+    - `SQL`: Structured Query Language
+    - `VEX`: Vulnerability Exploitability eXchange
+    - `WASM`: WebAssembly
 
 ## Cosign
 
