@@ -5,7 +5,7 @@ The following shows the underlying open source software (OSS) version of [Fluent
 ## Version mapping table
 
 | Agent Version | OSS Version Base |
-| ---------------------- | ---------------- |
+| ------------- | ---------------- |
 | 26.6.1 | 4.2.4 |
 | 26.5.4 | 4.2.4 |
 | 26.5.3 | 4.1.0 |

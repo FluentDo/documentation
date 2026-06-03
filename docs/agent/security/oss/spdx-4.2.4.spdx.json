@@ -3,14 +3,14 @@
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
   "name": "ghcr.io/fluent/fluent-bit",
-  "documentNamespace": "https://anchore.com/syft/image/ghcr.io/fluent/fluent-bit-e5e19147-7489-44c3-9cd8-4dbf5ab199d6",
+  "documentNamespace": "https://anchore.com/syft/image/ghcr.io/fluent/fluent-bit-0f048b6a-54f9-44b6-a853-a6c6126be78d",
   "creationInfo": {
     "licenseListVersion": "3.28",
     "creators": [
       "Organization: Anchore, Inc",
-      "Tool: syft-1.43.0"
+      "Tool: syft-1.45.0"
     ],
-    "created": "2026-04-24T14:21:53Z"
+    "created": "2026-06-03T12:06:24Z"
   },
   "packages": [
     {
@@ -142,7 +142,7 @@
     },
     {
       "name": "gcc-14-base",
-      "SPDXID": "SPDXRef-Package-deb-gcc-14-base-cf018a81635f3130",
+      "SPDXID": "SPDXRef-Package-deb-gcc-14-base-7e17eca42542b0ea",
       "versionInfo": "14.2.0-19",
       "supplier": "NOASSERTION",
       "downloadLocation": "NOASSERTION",
@@ -151,8 +151,8 @@
         "packageVerificationCodeValue": "4fe1da0ea5a79fd6d37edf915df70f4bd1a2241b"
       },
       "sourceInfo": "acquired package info from DPKG DB: /var/lib/dpkg/status.d/gcc-14-base, /usr/share/doc/gcc-14-base/copyright, /var/lib/dpkg/status.d/gcc-14-base.md5sums",
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "LicenseRef-Artistic AND GFDL-1.2-only AND LicenseRef-GPL AND GPL-3.0-only AND LicenseRef-LGPL",
+      "licenseConcluded": "LicenseRef-20390f8a6f3b1e4d7cb45dd8652dabb259bbef688cbad839bcdb0b9ba7252f79",
+      "licenseDeclared": "NOASSERTION",
       "copyrightText": "NOASSERTION",
       "externalRefs": [
         {
@@ -413,7 +413,7 @@
     },
     {
       "name": "libgcc-s1",
-      "SPDXID": "SPDXRef-Package-deb-libgcc-s1-1fdbab05f00996f4",
+      "SPDXID": "SPDXRef-Package-deb-libgcc-s1-aa49ac20455c7644",
       "versionInfo": "14.2.0-19",
       "supplier": "NOASSERTION",
       "downloadLocation": "NOASSERTION",
@@ -422,8 +422,8 @@
         "packageVerificationCodeValue": "1240bf001c9f308e24aa1a6d4406c3913609e63a"
       },
       "sourceInfo": "acquired package info from DPKG DB: /var/lib/dpkg/status.d/libgcc-s1, /usr/share/doc/gcc-14-base/copyright, /var/lib/dpkg/status.d/libgcc-s1.md5sums",
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "LicenseRef-Artistic AND GFDL-1.2-only AND LicenseRef-GPL AND GPL-3.0-only AND LicenseRef-LGPL",
+      "licenseConcluded": "LicenseRef-20390f8a6f3b1e4d7cb45dd8652dabb259bbef688cbad839bcdb0b9ba7252f79",
+      "licenseDeclared": "NOASSERTION",
       "copyrightText": "NOASSERTION",
       "externalRefs": [
         {
@@ -537,7 +537,7 @@
     },
     {
       "name": "libgomp1",
-      "SPDXID": "SPDXRef-Package-deb-libgomp1-5c48bcfc4c39d1fd",
+      "SPDXID": "SPDXRef-Package-deb-libgomp1-fa06adc0996a76e7",
       "versionInfo": "14.2.0-19",
       "supplier": "NOASSERTION",
       "downloadLocation": "NOASSERTION",
@@ -546,8 +546,8 @@
         "packageVerificationCodeValue": "12a7b5b5e352337578392683bd39df9969bd636c"
       },
       "sourceInfo": "acquired package info from DPKG DB: /var/lib/dpkg/status.d/libgomp1, /var/lib/dpkg/status.d/libgomp1.md5sums, /usr/share/doc/gcc-14-base/copyright",
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "LicenseRef-Artistic AND GFDL-1.2-only AND LicenseRef-GPL AND GPL-3.0-only AND LicenseRef-LGPL",
+      "licenseConcluded": "LicenseRef-20390f8a6f3b1e4d7cb45dd8652dabb259bbef688cbad839bcdb0b9ba7252f79",
+      "licenseDeclared": "NOASSERTION",
       "copyrightText": "NOASSERTION",
       "externalRefs": [
         {
@@ -1354,7 +1354,7 @@
     },
     {
       "name": "libstdc++6",
-      "SPDXID": "SPDXRef-Package-deb-libstdc--6-563847bf1116e309",
+      "SPDXID": "SPDXRef-Package-deb-libstdc--6-82b808487e206a4b",
       "versionInfo": "14.2.0-19",
       "supplier": "NOASSERTION",
       "downloadLocation": "NOASSERTION",
@@ -1363,8 +1363,8 @@
         "packageVerificationCodeValue": "872cc7d9f561fa39662bfce118bc05cb681a61ac"
       },
       "sourceInfo": "acquired package info from DPKG DB: /var/lib/dpkg/status.d/libstdc++6, /var/lib/dpkg/status.d/libstdc++6.md5sums, /usr/share/doc/gcc-14-base/copyright",
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "LicenseRef-Artistic AND GFDL-1.2-only AND LicenseRef-GPL AND GPL-3.0-only AND LicenseRef-LGPL",
+      "licenseConcluded": "LicenseRef-20390f8a6f3b1e4d7cb45dd8652dabb259bbef688cbad839bcdb0b9ba7252f79",
+      "licenseDeclared": "NOASSERTION",
       "copyrightText": "NOASSERTION",
       "externalRefs": [
         {
@@ -32745,6 +32745,11 @@
   ],
   "hasExtractedLicensingInfos": [
     {
+      "licenseId": "LicenseRef-20390f8a6f3b1e4d7cb45dd8652dabb259bbef688cbad839bcdb0b9ba7252f79",
+      "extractedText": "NOASSERTION",
+      "name": "sha256:20390f8a6f3b1e4d7cb45dd8652dabb259bbef688cbad839bcdb0b9ba7252f79"
+    },
+    {
       "licenseId": "LicenseRef-Artistic",
       "extractedText": "NOASSERTION",
       "name": "Artistic"
@@ -32815,11 +32820,6 @@
       "name": "Inner-Net"
     },
     {
-      "licenseId": "LicenseRef-LGPL",
-      "extractedText": "NOASSERTION",
-      "name": "LGPL"
-    },
-    {
       "licenseId": "LicenseRef-LGPL-2.1--with-link-exception",
       "extractedText": "NOASSERTION",
       "name": "LGPL-2.1+-with-link-exception"
@@ -32857,16 +32857,6 @@
   ],
   "relationships": [
     {
-      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-1fdbab05f00996f4",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-lintian-overrides-libgcc-s1-77182b2bbeab5dda",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-1fdbab05f00996f4",
-      "relatedSpdxElement": "SPDXRef-File-usr-lib-x86-64-linux-gnu-libgcc-s.so.1-b51bdb4b2bc8d0d9",
-      "relationshipType": "CONTAINS"
-    },
-    {
       "spdxElementId": "SPDXRef-Package-deb-media-types-3c9375f7f83b0d94",
       "relatedSpdxElement": "SPDXRef-File-usr-share-doc-media-types-copyright-e6bea96639250827",
       "relationshipType": "CONTAINS"
@@ -32899,36 +32889,6 @@
     {
       "spdxElementId": "SPDXRef-Package-deb-libzstd1-4227c89854f9eaa4",
       "relatedSpdxElement": "SPDXRef-File-...share-doc-libzstd1-changelog.Debian.gz-f885cc1a472b25f3",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-563847bf1116e309",
-      "relatedSpdxElement": "SPDXRef-File-...gcc-python-libstdcxx-v6-printers.py-4e888efd5bb8d240",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-563847bf1116e309",
-      "relatedSpdxElement": "SPDXRef-File-...gcc-python-libstdcxx-v6---init--.py-619bc6ead4968e98",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-563847bf1116e309",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-libstdc--.so.6.0.33-7053847ecd312129",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-563847bf1116e309",
-      "relatedSpdxElement": "SPDXRef-File-...share-gcc-python-libstdcxx---init--.py-8c474afbbb6a23ab",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-563847bf1116e309",
-      "relatedSpdxElement": "SPDXRef-File-...gcc-python-libstdcxx-v6-xmethods.py-cdde13afc9e577ef",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-563847bf1116e309",
-      "relatedSpdxElement": "SPDXRef-File-...libstdc--.so.6.0.33-gdb.py-f331631455475c84",
       "relationshipType": "CONTAINS"
     },
     {
@@ -32979,11 +32939,6 @@
     {
       "spdxElementId": "SPDXRef-Package-deb-libssl3t64-5c291573dec694f2",
       "relatedSpdxElement": "SPDXRef-File-usr-share-lintian-overrides-libssl3t64-fbc20b7c5cb9b1bf",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libgomp1-5c48bcfc4c39d1fd",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-libgomp.so.1.0.0-d01e94193726fb35",
       "relationshipType": "CONTAINS"
     },
     {
@@ -34562,6 +34517,56 @@
       "relationshipType": "CONTAINS"
     },
     {
+      "spdxElementId": "SPDXRef-Package-deb-gcc-14-base-7e17eca42542b0ea",
+      "relatedSpdxElement": "SPDXRef-File-...doc-gcc-14-base-README.Debian.amd64.gz-156ea223470c903f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-gcc-14-base-7e17eca42542b0ea",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-gcc-14-base-copyright-5eae69a10bd92b68",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-gcc-14-base-7e17eca42542b0ea",
+      "relatedSpdxElement": "SPDXRef-File-...doc-gcc-14-base-changelog.Debian.gz-82b297c6d61087fe",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-gcc-14-base-7e17eca42542b0ea",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-gcc-14-base-TODO.Debian-f0227dbb7bc5c283",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-82b808487e206a4b",
+      "relatedSpdxElement": "SPDXRef-File-...gcc-python-libstdcxx-v6-printers.py-4e888efd5bb8d240",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-82b808487e206a4b",
+      "relatedSpdxElement": "SPDXRef-File-...gcc-python-libstdcxx-v6---init--.py-619bc6ead4968e98",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-82b808487e206a4b",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-libstdc--.so.6.0.33-7053847ecd312129",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-82b808487e206a4b",
+      "relatedSpdxElement": "SPDXRef-File-...share-gcc-python-libstdcxx---init--.py-8c474afbbb6a23ab",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-82b808487e206a4b",
+      "relatedSpdxElement": "SPDXRef-File-...gcc-python-libstdcxx-v6-xmethods.py-cdde13afc9e577ef",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-82b808487e206a4b",
+      "relatedSpdxElement": "SPDXRef-File-...libstdc--.so.6.0.33-gdb.py-f331631455475c84",
+      "relationshipType": "CONTAINS"
+    },
+    {
       "spdxElementId": "SPDXRef-Package-deb-zlib1g-9624b8abfaf8a472",
       "relatedSpdxElement": "SPDXRef-File-...share-doc-zlib1g-changelog.Debian.gz-1b762eb33f21ceed",
       "relationshipType": "CONTAINS"
@@ -34584,6 +34589,16 @@
     {
       "spdxElementId": "SPDXRef-Package-deb-zlib1g-9624b8abfaf8a472",
       "relatedSpdxElement": "SPDXRef-File-usr-share-doc-zlib1g-copyright-99a5e436209b17ec",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-aa49ac20455c7644",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-lintian-overrides-libgcc-s1-77182b2bbeab5dda",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-aa49ac20455c7644",
+      "relatedSpdxElement": "SPDXRef-File-usr-lib-x86-64-linux-gnu-libgcc-s.so.1-b51bdb4b2bc8d0d9",
       "relationshipType": "CONTAINS"
     },
     {
@@ -36832,26 +36847,6 @@
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-gcc-14-base-cf018a81635f3130",
-      "relatedSpdxElement": "SPDXRef-File-...doc-gcc-14-base-README.Debian.amd64.gz-156ea223470c903f",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-gcc-14-base-cf018a81635f3130",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-gcc-14-base-copyright-5eae69a10bd92b68",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-gcc-14-base-cf018a81635f3130",
-      "relatedSpdxElement": "SPDXRef-File-...doc-gcc-14-base-changelog.Debian.gz-82b297c6d61087fe",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-gcc-14-base-cf018a81635f3130",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-gcc-14-base-TODO.Debian-f0227dbb7bc5c283",
-      "relationshipType": "CONTAINS"
-    },
-    {
       "spdxElementId": "SPDXRef-Package-deb-tzdata-legacy-d9521b4a2d6d0070",
       "relatedSpdxElement": "SPDXRef-File-...share-zoneinfo-right-Pacific-Pago-Pago-002dbd52ddf53cef",
       "relationshipType": "CONTAINS"
@@ -39052,6 +39047,11 @@
       "relationshipType": "CONTAINS"
     },
     {
+      "spdxElementId": "SPDXRef-Package-deb-libgomp1-fa06adc0996a76e7",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-libgomp.so.1.0.0-d01e94193726fb35",
+      "relationshipType": "CONTAINS"
+    },
+    {
       "spdxElementId": "SPDXRef-Package-deb-libtasn1-6-04ef2a4cf087de67",
       "relatedSpdxElement": "SPDXRef-Package-deb-libgnutls30t64-3c7a5e6105f5c289",
       "relationshipType": "DEPENDENCY_OF"
@@ -39079,16 +39079,6 @@
     {
       "spdxElementId": "SPDXRef-Package-deb-libpsl5t64-17bbcaf3b6d8398c",
       "relatedSpdxElement": "SPDXRef-Package-deb-libcurl4t64-2c9e2faa683beba2",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-1fdbab05f00996f4",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libstdc--6-563847bf1116e309",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-1fdbab05f00996f4",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libc6-5e21ad3d95f6eebc",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
@@ -39238,11 +39228,6 @@
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libc6-5e21ad3d95f6eebc",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgcc-s1-1fdbab05f00996f4",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-5e21ad3d95f6eebc",
       "relatedSpdxElement": "SPDXRef-Package-deb-librtmp1-23838f5232faca64",
       "relationshipType": "DEPENDENCY_OF"
     },
@@ -39298,11 +39283,6 @@
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libc6-5e21ad3d95f6eebc",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libstdc--6-563847bf1116e309",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-5e21ad3d95f6eebc",
       "relatedSpdxElement": "SPDXRef-Package-deb-libkrb5support0-56fc39be304d53f0",
       "relationshipType": "DEPENDENCY_OF"
     },
@@ -39319,11 +39299,6 @@
     {
       "spdxElementId": "SPDXRef-Package-deb-libc6-5e21ad3d95f6eebc",
       "relatedSpdxElement": "SPDXRef-Package-deb-libssl3t64-5c291573dec694f2",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-5e21ad3d95f6eebc",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgomp1-5c48bcfc4c39d1fd",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
@@ -39348,12 +39323,22 @@
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libc6-5e21ad3d95f6eebc",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libstdc--6-82b808487e206a4b",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-5e21ad3d95f6eebc",
       "relatedSpdxElement": "SPDXRef-Package-deb-zlib1g-9624b8abfaf8a472",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libc6-5e21ad3d95f6eebc",
       "relatedSpdxElement": "SPDXRef-Package-deb-libunistring5-a02a02fd680e5190",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-5e21ad3d95f6eebc",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgcc-s1-aa49ac20455c7644",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
@@ -39408,6 +39393,11 @@
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libc6-5e21ad3d95f6eebc",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgomp1-fa06adc0996a76e7",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-5e21ad3d95f6eebc",
       "relatedSpdxElement": "SPDXRef-Package-deb-libnghttp2-14-fa925028c58e5356",
       "relationshipType": "DEPENDENCY_OF"
     },
@@ -39429,6 +39419,26 @@
     {
       "spdxElementId": "SPDXRef-Package-deb-libnettle8t64-7c65eb57a9e17b42",
       "relatedSpdxElement": "SPDXRef-Package-deb-libhogweed6t64-e4c4d3890245d52f",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-gcc-14-base-7e17eca42542b0ea",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libstdc--6-82b808487e206a4b",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-gcc-14-base-7e17eca42542b0ea",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgcc-s1-aa49ac20455c7644",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-gcc-14-base-7e17eca42542b0ea",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libatomic1-aed854e9dcf390b8",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-gcc-14-base-7e17eca42542b0ea",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgomp1-fa06adc0996a76e7",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
@@ -39467,6 +39477,16 @@
       "relationshipType": "DEPENDENCY_OF"
     },
     {
+      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-aa49ac20455c7644",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libc6-5e21ad3d95f6eebc",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-aa49ac20455c7644",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libstdc--6-82b808487e206a4b",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
       "spdxElementId": "SPDXRef-Package-deb-tzdata-b579583c7128019b",
       "relatedSpdxElement": "SPDXRef-Package-deb-tzdata-legacy-d9521b4a2d6d0070",
       "relationshipType": "DEPENDENCY_OF"
@@ -39489,26 +39509,6 @@
     {
       "spdxElementId": "SPDXRef-Package-deb-libkeyutils1-c56ecc3ec628a824",
       "relatedSpdxElement": "SPDXRef-Package-deb-libkrb5-3-d4c94f2fc66f3184",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-gcc-14-base-cf018a81635f3130",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgcc-s1-1fdbab05f00996f4",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-gcc-14-base-cf018a81635f3130",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libstdc--6-563847bf1116e309",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-gcc-14-base-cf018a81635f3130",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgomp1-5c48bcfc4c39d1fd",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-gcc-14-base-cf018a81635f3130",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libatomic1-aed854e9dcf390b8",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
@@ -39573,24 +39573,6 @@
     {
       "spdxElementId": "SPDXRef-Package-deb-libpsl5t64-17bbcaf3b6d8398c",
       "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libpsl5t64-408537437bca4483",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-1fdbab05f00996f4",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-gcc-14-base-copyright-5eae69a10bd92b68",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-1fdbab05f00996f4",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libgcc-s1-7fa74609fb7d8a7c",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-1fdbab05f00996f4",
-      "relatedSpdxElement": "SPDXRef-File-...lib-dpkg-status.d-libgcc-s1.md5sums-da9946901a80793f",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
@@ -39691,24 +39673,6 @@
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-563847bf1116e309",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-gcc-14-base-copyright-5eae69a10bd92b68",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-563847bf1116e309",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libstdc--6-7304cb9a8d4ac304",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-563847bf1116e309",
-      "relatedSpdxElement": "SPDXRef-File-...lib-dpkg-status.d-libstdc--6.md5sums-e40051bc4e7f31c5",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
       "spdxElementId": "SPDXRef-Package-deb-libkrb5support0-56fc39be304d53f0",
       "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libkrb5support0-39902d2bba6d716f",
       "relationshipType": "OTHER",
@@ -39741,24 +39705,6 @@
     {
       "spdxElementId": "SPDXRef-Package-deb-libssl3t64-5c291573dec694f2",
       "relatedSpdxElement": "SPDXRef-File-...lib-dpkg-status.d-libssl3t64.md5sums-ec3657565ec3c464",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libgomp1-5c48bcfc4c39d1fd",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libgomp1-4f14662d148b0c6b",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libgomp1-5c48bcfc4c39d1fd",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-gcc-14-base-copyright-5eae69a10bd92b68",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libgomp1-5c48bcfc4c39d1fd",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libgomp1.md5sums-bf9a08c972628e1a",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
@@ -39859,6 +39805,42 @@
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
+      "spdxElementId": "SPDXRef-Package-deb-gcc-14-base-7e17eca42542b0ea",
+      "relatedSpdxElement": "SPDXRef-File-...lib-dpkg-status.d-gcc-14-base.md5sums-246400381c825fcd",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-gcc-14-base-7e17eca42542b0ea",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-gcc-14-base-copyright-5eae69a10bd92b68",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-gcc-14-base-7e17eca42542b0ea",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-gcc-14-base-8743c8be682d83bd",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-82b808487e206a4b",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-gcc-14-base-copyright-5eae69a10bd92b68",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-82b808487e206a4b",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libstdc--6-7304cb9a8d4ac304",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-82b808487e206a4b",
+      "relatedSpdxElement": "SPDXRef-File-...lib-dpkg-status.d-libstdc--6.md5sums-e40051bc4e7f31c5",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
       "spdxElementId": "SPDXRef-Package-deb-zlib1g-9624b8abfaf8a472",
       "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-zlib1g-7de82609bb9198c6",
       "relationshipType": "OTHER",
@@ -39879,6 +39861,24 @@
     {
       "spdxElementId": "SPDXRef-Package-deb-libunistring5-a02a02fd680e5190",
       "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libunistring5-b955d290c2e0b6f5",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-aa49ac20455c7644",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-gcc-14-base-copyright-5eae69a10bd92b68",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-aa49ac20455c7644",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libgcc-s1-7fa74609fb7d8a7c",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-aa49ac20455c7644",
+      "relatedSpdxElement": "SPDXRef-File-...lib-dpkg-status.d-libgcc-s1.md5sums-da9946901a80793f",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
@@ -39927,24 +39927,6 @@
     {
       "spdxElementId": "SPDXRef-Package-deb-libkeyutils1-c56ecc3ec628a824",
       "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libkeyutils1-53fc888e1b48ed08",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-gcc-14-base-cf018a81635f3130",
-      "relatedSpdxElement": "SPDXRef-File-...lib-dpkg-status.d-gcc-14-base.md5sums-246400381c825fcd",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-gcc-14-base-cf018a81635f3130",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-gcc-14-base-copyright-5eae69a10bd92b68",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-gcc-14-base-cf018a81635f3130",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-gcc-14-base-8743c8be682d83bd",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
@@ -40003,6 +39985,24 @@
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
+      "spdxElementId": "SPDXRef-Package-deb-libgomp1-fa06adc0996a76e7",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libgomp1-4f14662d148b0c6b",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libgomp1-fa06adc0996a76e7",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-gcc-14-base-copyright-5eae69a10bd92b68",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libgomp1-fa06adc0996a76e7",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libgomp1.md5sums-bf9a08c972628e1a",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
       "spdxElementId": "SPDXRef-Package-deb-libnghttp2-14-fa925028c58e5356",
       "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libnghttp2-14-f55d2156ae1d315f",
       "relationshipType": "OTHER",
@@ -40025,7 +40025,7 @@
     },
     {
       "spdxElementId": "SPDXRef-DocumentRoot-Image-ghcr.io-fluent-fluent-bit",
-      "relatedSpdxElement": "SPDXRef-Package-deb-gcc-14-base-cf018a81635f3130",
+      "relatedSpdxElement": "SPDXRef-Package-deb-gcc-14-base-7e17eca42542b0ea",
       "relationshipType": "CONTAINS"
     },
     {
@@ -40065,7 +40065,7 @@
     },
     {
       "spdxElementId": "SPDXRef-DocumentRoot-Image-ghcr.io-fluent-fluent-bit",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgcc-s1-1fdbab05f00996f4",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgcc-s1-aa49ac20455c7644",
       "relationshipType": "CONTAINS"
     },
     {
@@ -40085,7 +40085,7 @@
     },
     {
       "spdxElementId": "SPDXRef-DocumentRoot-Image-ghcr.io-fluent-fluent-bit",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgomp1-5c48bcfc4c39d1fd",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgomp1-fa06adc0996a76e7",
       "relationshipType": "CONTAINS"
     },
     {
@@ -40195,7 +40195,7 @@
     },
     {
       "spdxElementId": "SPDXRef-DocumentRoot-Image-ghcr.io-fluent-fluent-bit",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libstdc--6-563847bf1116e309",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libstdc--6-82b808487e206a4b",
       "relationshipType": "CONTAINS"
     },
     {

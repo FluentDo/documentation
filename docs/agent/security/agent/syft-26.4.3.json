@@ -168901,7 +168901,7 @@
   },
   "descriptor": {
     "name": "syft",
-    "version": "1.43.0",
+    "version": "1.45.0",
     "configuration": {
       "catalogers": {
         "requested": {
@@ -168973,6 +168973,7 @@
           "pypy-binary-lib",
           "go-binary",
           "julia-binary",
+          "julia-binary",
           "helm",
           "redis-binary",
           "valkey-binary",
@@ -168990,6 +168991,11 @@
           "mysql-binary",
           "mysql-binary",
           "mysql-binary",
+          "mysqld-mysql-cluster-legacy-binary",
+          "mysqld-binary",
+          "ndbd-binary",
+          "ndbmtd-binary",
+          "ndb_mgmd-binary",
           "xtrabackup-binary",
           "mariadb-binary",
           "rust-standard-library-linux",
@@ -169034,6 +169040,7 @@
           "grafana-binary",
           "envoy-binary",
           "mongodb-binary",
+          "ingress-nginx-binary",
           "java-binary",
           "java-jdb-binary"
         ],

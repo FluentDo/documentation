@@ -3,14 +3,14 @@
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
   "name": "ghcr.io/telemetryforge/agent",
-  "documentNamespace": "https://anchore.com/syft/image/ghcr.io/telemetryforge/agent-b60ee247-9f11-47ee-b456-0809bed16816",
+  "documentNamespace": "https://anchore.com/syft/image/ghcr.io/telemetryforge/agent-5eeb8858-d438-45ea-9ca0-61e43157ab4f",
   "creationInfo": {
     "licenseListVersion": "3.28",
     "creators": [
       "Organization: Anchore, Inc",
-      "Tool: syft-1.43.0"
+      "Tool: syft-1.45.0"
     ],
-    "created": "2026-04-24T14:21:32Z"
+    "created": "2026-06-03T12:00:00Z"
   },
   "packages": [
     {
