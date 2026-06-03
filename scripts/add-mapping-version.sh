@@ -56,21 +56,29 @@ if grep -q "| $NEW_AGENT_VERSION |" "$MAPPING_FILE"; then
     exit 1
 fi
 
-# Find the table header line and insert the new mapping after it
-HEADER_LINE=$(grep -n "| Agent Version |" "$MAPPING_FILE" | cut -d: -f1)
-if [[ -z "$HEADER_LINE" ]]; then
-    echo "ERROR: Header line not found in $MAPPING_FILE."
-    exit 1
-fi
-INSERT_LINE=$((HEADER_LINE + 2)) # Insert after the header and separator lines
-NEW_MAPPING="| $NEW_AGENT_VERSION | $NEW_OSS_VERSION |"
-# Insert the new mapping line
-sed -i "${INSERT_LINE}i $NEW_MAPPING" "$MAPPING_FILE"
-echo "Updated $MAPPING_FILE with new mapping: $NEW_MAPPING"
+# Ignore versions with the v25.10 and v26.4 prefixes as they are already in the mapping file
+# We have generic mappings for 25.10.x and 26.4.x, so we don't need to add specific versions in those ranges
+if [[ "$NEW_AGENT_VERSION" == 25.10.* ]]; then
+    echo "INFO: Agent version $NEW_AGENT_VERSION is already covered by existing mappings in $MAPPING_FILE."
+elif [[ "$NEW_AGENT_VERSION" == 26.4.* ]]; then
+    echo "INFO: Agent version $NEW_AGENT_VERSION is already covered by existing mappings in $MAPPING_FILE."
+else
+    # Find the table header line and insert the new mapping after it
+    HEADER_LINE=$(grep -n "| Agent Version |" "$MAPPING_FILE" | cut -d: -f1)
+    if [[ -z "$HEADER_LINE" ]]; then
+        echo "ERROR: Header line not found in $MAPPING_FILE."
+        exit 1
+    fi
+    INSERT_LINE=$((HEADER_LINE + 2)) # Insert after the header and separator lines
+    NEW_MAPPING="| $NEW_AGENT_VERSION | $NEW_OSS_VERSION |"
+    # Insert the new mapping line
+    sed -i "${INSERT_LINE}i $NEW_MAPPING" "$MAPPING_FILE"
+    echo "Updated $MAPPING_FILE with new mapping: $NEW_MAPPING"
 
-# Output the updated mapping file
-echo "Current version mapping:"
-cat "$MAPPING_FILE"
+    # Output the updated mapping file
+    echo "Current version mapping:"
+    cat "$MAPPING_FILE"
+fi
 
 # Update the scan file with the new versions
 # Use jq to add the new versions to the respective arrays if they don't already exist
