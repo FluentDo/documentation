@@ -2,17 +2,17 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:b9142619-810f-4ffc-a96f-b7490e3add7d",
+  "serialNumber": "urn:uuid:39f0429e-b7e6-4f00-89c0-f48e6fcaf4fb",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-04-24T15:21:53+01:00",
+    "timestamp": "2026-06-03T13:06:24+01:00",
     "tools": {
       "components": [
         {
           "type": "application",
           "author": "anchore",
           "name": "syft",
-          "version": "1.43.0"
+          "version": "1.45.0"
         }
       ]
     },
@@ -273,7 +273,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:deb/debian/gcc-14-base@14.2.0-19?arch=amd64&distro=debian-13&package-id=cf018a81635f3130&upstream=gcc-14",
+      "bom-ref": "pkg:deb/debian/gcc-14-base@14.2.0-19?arch=amd64&distro=debian-13&package-id=7e17eca42542b0ea&upstream=gcc-14",
       "type": "library",
       "publisher": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
       "name": "gcc-14-base",
@@ -281,27 +281,7 @@
       "licenses": [
         {
           "license": {
-            "id": "GFDL-1.2-only"
-          }
-        },
-        {
-          "license": {
-            "id": "GPL-3.0-only"
-          }
-        },
-        {
-          "license": {
-            "name": "Artistic"
-          }
-        },
-        {
-          "license": {
-            "name": "GPL"
-          }
-        },
-        {
-          "license": {
-            "name": "LGPL"
+            "name": "sha256:20390f8a6f3b1e4d7cb45dd8652dabb259bbef688cbad839bcdb0b9ba7252f79"
           }
         }
       ],
@@ -874,7 +854,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:deb/debian/libgcc-s1@14.2.0-19?arch=amd64&distro=debian-13&package-id=1fdbab05f00996f4&upstream=gcc-14",
+      "bom-ref": "pkg:deb/debian/libgcc-s1@14.2.0-19?arch=amd64&distro=debian-13&package-id=aa49ac20455c7644&upstream=gcc-14",
       "type": "library",
       "publisher": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
       "name": "libgcc-s1",
@@ -882,27 +862,7 @@
       "licenses": [
         {
           "license": {
-            "id": "GFDL-1.2-only"
-          }
-        },
-        {
-          "license": {
-            "id": "GPL-3.0-only"
-          }
-        },
-        {
-          "license": {
-            "name": "Artistic"
-          }
-        },
-        {
-          "license": {
-            "name": "GPL"
-          }
-        },
-        {
-          "license": {
-            "name": "LGPL"
+            "name": "sha256:20390f8a6f3b1e4d7cb45dd8652dabb259bbef688cbad839bcdb0b9ba7252f79"
           }
         }
       ],
@@ -1089,7 +1049,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:deb/debian/libgomp1@14.2.0-19?arch=amd64&distro=debian-13&package-id=5c48bcfc4c39d1fd&upstream=gcc-14",
+      "bom-ref": "pkg:deb/debian/libgomp1@14.2.0-19?arch=amd64&distro=debian-13&package-id=fa06adc0996a76e7&upstream=gcc-14",
       "type": "library",
       "publisher": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
       "name": "libgomp1",
@@ -1097,27 +1057,7 @@
       "licenses": [
         {
           "license": {
-            "id": "GFDL-1.2-only"
-          }
-        },
-        {
-          "license": {
-            "id": "GPL-3.0-only"
-          }
-        },
-        {
-          "license": {
-            "name": "Artistic"
-          }
-        },
-        {
-          "license": {
-            "name": "GPL"
-          }
-        },
-        {
-          "license": {
-            "name": "LGPL"
+            "name": "sha256:20390f8a6f3b1e4d7cb45dd8652dabb259bbef688cbad839bcdb0b9ba7252f79"
           }
         }
       ],
@@ -2252,7 +2192,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:deb/debian/libstdc%2B%2B6@14.2.0-19?arch=amd64&distro=debian-13&package-id=563847bf1116e309&upstream=gcc-14",
+      "bom-ref": "pkg:deb/debian/libstdc%2B%2B6@14.2.0-19?arch=amd64&distro=debian-13&package-id=82b808487e206a4b&upstream=gcc-14",
       "type": "library",
       "publisher": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
       "name": "libstdc++6",
@@ -2260,27 +2200,7 @@
       "licenses": [
         {
           "license": {
-            "id": "GFDL-1.2-only"
-          }
-        },
-        {
-          "license": {
-            "id": "GPL-3.0-only"
-          }
-        },
-        {
-          "license": {
-            "name": "Artistic"
-          }
-        },
-        {
-          "license": {
-            "name": "GPL"
-          }
-        },
-        {
-          "license": {
-            "name": "LGPL"
+            "name": "sha256:20390f8a6f3b1e4d7cb45dd8652dabb259bbef688cbad839bcdb0b9ba7252f79"
           }
         }
       ],
@@ -22659,7 +22579,7 @@
     {
       "ref": "pkg:deb/debian/libatomic1@14.2.0-19?arch=amd64&distro=debian-13&package-id=aed854e9dcf390b8&upstream=gcc-14",
       "dependsOn": [
-        "pkg:deb/debian/gcc-14-base@14.2.0-19?arch=amd64&distro=debian-13&package-id=cf018a81635f3130&upstream=gcc-14",
+        "pkg:deb/debian/gcc-14-base@14.2.0-19?arch=amd64&distro=debian-13&package-id=7e17eca42542b0ea&upstream=gcc-14",
         "pkg:deb/debian/libc6@2.41-12%2Bdeb13u2?arch=amd64&distro=debian-13&package-id=5e21ad3d95f6eebc&upstream=glibc"
       ]
     },
@@ -22672,7 +22592,7 @@
     {
       "ref": "pkg:deb/debian/libc6@2.41-12%2Bdeb13u2?arch=amd64&distro=debian-13&package-id=5e21ad3d95f6eebc&upstream=glibc",
       "dependsOn": [
-        "pkg:deb/debian/libgcc-s1@14.2.0-19?arch=amd64&distro=debian-13&package-id=1fdbab05f00996f4&upstream=gcc-14"
+        "pkg:deb/debian/libgcc-s1@14.2.0-19?arch=amd64&distro=debian-13&package-id=aa49ac20455c7644&upstream=gcc-14"
       ]
     },
     {
@@ -22712,9 +22632,9 @@
       ]
     },
     {
-      "ref": "pkg:deb/debian/libgcc-s1@14.2.0-19?arch=amd64&distro=debian-13&package-id=1fdbab05f00996f4&upstream=gcc-14",
+      "ref": "pkg:deb/debian/libgcc-s1@14.2.0-19?arch=amd64&distro=debian-13&package-id=aa49ac20455c7644&upstream=gcc-14",
       "dependsOn": [
-        "pkg:deb/debian/gcc-14-base@14.2.0-19?arch=amd64&distro=debian-13&package-id=cf018a81635f3130&upstream=gcc-14",
+        "pkg:deb/debian/gcc-14-base@14.2.0-19?arch=amd64&distro=debian-13&package-id=7e17eca42542b0ea&upstream=gcc-14",
         "pkg:deb/debian/libc6@2.41-12%2Bdeb13u2?arch=amd64&distro=debian-13&package-id=5e21ad3d95f6eebc&upstream=glibc"
       ]
     },
@@ -22745,9 +22665,9 @@
       ]
     },
     {
-      "ref": "pkg:deb/debian/libgomp1@14.2.0-19?arch=amd64&distro=debian-13&package-id=5c48bcfc4c39d1fd&upstream=gcc-14",
+      "ref": "pkg:deb/debian/libgomp1@14.2.0-19?arch=amd64&distro=debian-13&package-id=fa06adc0996a76e7&upstream=gcc-14",
       "dependsOn": [
-        "pkg:deb/debian/gcc-14-base@14.2.0-19?arch=amd64&distro=debian-13&package-id=cf018a81635f3130&upstream=gcc-14",
+        "pkg:deb/debian/gcc-14-base@14.2.0-19?arch=amd64&distro=debian-13&package-id=7e17eca42542b0ea&upstream=gcc-14",
         "pkg:deb/debian/libc6@2.41-12%2Bdeb13u2?arch=amd64&distro=debian-13&package-id=5e21ad3d95f6eebc&upstream=glibc"
       ]
     },
@@ -22909,11 +22829,11 @@
       ]
     },
     {
-      "ref": "pkg:deb/debian/libstdc%2B%2B6@14.2.0-19?arch=amd64&distro=debian-13&package-id=563847bf1116e309&upstream=gcc-14",
+      "ref": "pkg:deb/debian/libstdc%2B%2B6@14.2.0-19?arch=amd64&distro=debian-13&package-id=82b808487e206a4b&upstream=gcc-14",
       "dependsOn": [
-        "pkg:deb/debian/gcc-14-base@14.2.0-19?arch=amd64&distro=debian-13&package-id=cf018a81635f3130&upstream=gcc-14",
+        "pkg:deb/debian/gcc-14-base@14.2.0-19?arch=amd64&distro=debian-13&package-id=7e17eca42542b0ea&upstream=gcc-14",
         "pkg:deb/debian/libc6@2.41-12%2Bdeb13u2?arch=amd64&distro=debian-13&package-id=5e21ad3d95f6eebc&upstream=glibc",
-        "pkg:deb/debian/libgcc-s1@14.2.0-19?arch=amd64&distro=debian-13&package-id=1fdbab05f00996f4&upstream=gcc-14"
+        "pkg:deb/debian/libgcc-s1@14.2.0-19?arch=amd64&distro=debian-13&package-id=aa49ac20455c7644&upstream=gcc-14"
       ]
     },
     {

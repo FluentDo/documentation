@@ -3,19 +3,19 @@
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
   "name": "ghcr.io/fluent/fluent-bit",
-  "documentNamespace": "https://anchore.com/syft/image/ghcr.io/fluent/fluent-bit-3bb68a87-06db-46fc-b9a3-4bc7c412248f",
+  "documentNamespace": "https://anchore.com/syft/image/ghcr.io/fluent/fluent-bit-f390498b-04b2-48e5-8198-c135a92717ca",
   "creationInfo": {
-    "licenseListVersion": "3.27",
+    "licenseListVersion": "3.28",
     "creators": [
       "Organization: Anchore, Inc",
-      "Tool: syft-1.34.2"
+      "Tool: syft-1.45.0"
     ],
-    "created": "2025-10-19T14:00:12Z"
+    "created": "2026-06-03T12:05:51Z"
   },
   "packages": [
     {
       "name": "base-files",
-      "SPDXID": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
+      "SPDXID": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
       "versionInfo": "12.4+deb12u12",
       "supplier": "Person: Santiago Vila (sanvila@debian.org)",
       "originator": "Person: Santiago Vila (sanvila@debian.org)",
@@ -25,8 +25,8 @@
         "packageVerificationCodeValue": "8903ea271f53fcddd3029f0db8e36eeee9f7c14b"
       },
       "sourceInfo": "acquired package info from DPKG DB: /var/lib/dpkg/status.d/base-files, /usr/share/doc/base-files/copyright, /var/lib/dpkg/status.d/base-files.md5sums",
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "LicenseRef-GPL",
+      "licenseConcluded": "LicenseRef-fd7e4aae7e7b05f217bcf2d02322825c360e66c52c4c2f1b28d784d6297a1c23",
+      "licenseDeclared": "NOASSERTION",
       "copyrightText": "NOASSERTION",
       "externalRefs": [
         {
@@ -142,7 +142,7 @@
     },
     {
       "name": "gcc-12-base",
-      "SPDXID": "SPDXRef-Package-deb-gcc-12-base-0a534483a88e1e33",
+      "SPDXID": "SPDXRef-Package-deb-gcc-12-base-963c99b42a0be1ee",
       "versionInfo": "12.2.0-14+deb12u1",
       "supplier": "NOASSERTION",
       "downloadLocation": "NOASSERTION",
@@ -151,8 +151,8 @@
         "packageVerificationCodeValue": "7afe10a98e1e18ca739533dd692b66bade3754f0"
       },
       "sourceInfo": "acquired package info from DPKG DB: /var/lib/dpkg/status.d/gcc-12-base, /usr/share/doc/gcc-12-base/copyright, /var/lib/dpkg/status.d/gcc-12-base.md5sums",
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "LicenseRef-Artistic AND GFDL-1.2-only AND LicenseRef-GPL AND GPL-2.0-only AND GPL-3.0-only AND LicenseRef-LGPL",
+      "licenseConcluded": "LicenseRef-da8191658b3452ce9caf31638ba61dab31a38c619fa39df119812e050f592fd3",
+      "licenseDeclared": "NOASSERTION",
       "copyrightText": "NOASSERTION",
       "externalRefs": [
         {
@@ -263,7 +263,7 @@
     },
     {
       "name": "libc6",
-      "SPDXID": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
+      "SPDXID": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
       "versionInfo": "2.36-9+deb12u13",
       "supplier": "NOASSERTION",
       "downloadLocation": "NOASSERTION",
@@ -272,8 +272,8 @@
         "packageVerificationCodeValue": "a262e5963e89a78ac053a1684ae71fc997415399"
       },
       "sourceInfo": "acquired package info from DPKG DB: /var/lib/dpkg/status.d/libc6, /usr/share/doc/libc6/copyright, /var/lib/dpkg/status.d/libc6.md5sums",
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseConcluded": "LicenseRef-40c7e1f2118531f038ca22999bd976901254e1bc5cd1b0f0211bdd064c599987",
+      "licenseDeclared": "NOASSERTION",
       "copyrightText": "NOASSERTION",
       "externalRefs": [
         {
@@ -414,7 +414,7 @@
     },
     {
       "name": "libgcc-s1",
-      "SPDXID": "SPDXRef-Package-deb-libgcc-s1-74f0cf86f14f0675",
+      "SPDXID": "SPDXRef-Package-deb-libgcc-s1-531f514be4b1b4c4",
       "versionInfo": "12.2.0-14+deb12u1",
       "supplier": "NOASSERTION",
       "downloadLocation": "NOASSERTION",
@@ -423,8 +423,8 @@
         "packageVerificationCodeValue": "a9c0ee806d22946df65c9ddb1b64acdb6d76b7a4"
       },
       "sourceInfo": "acquired package info from DPKG DB: /var/lib/dpkg/status.d/libgcc-s1, /usr/share/doc/gcc-12-base/copyright, /var/lib/dpkg/status.d/libgcc-s1.md5sums",
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "LicenseRef-Artistic AND GFDL-1.2-only AND LicenseRef-GPL AND GPL-2.0-only AND GPL-3.0-only AND LicenseRef-LGPL",
+      "licenseConcluded": "LicenseRef-da8191658b3452ce9caf31638ba61dab31a38c619fa39df119812e050f592fd3",
+      "licenseDeclared": "NOASSERTION",
       "copyrightText": "NOASSERTION",
       "externalRefs": [
         {
@@ -538,7 +538,7 @@
     },
     {
       "name": "libgomp1",
-      "SPDXID": "SPDXRef-Package-deb-libgomp1-cd7473971e9d06dd",
+      "SPDXID": "SPDXRef-Package-deb-libgomp1-1f52ffed9a91c6fe",
       "versionInfo": "12.2.0-14+deb12u1",
       "supplier": "NOASSERTION",
       "downloadLocation": "NOASSERTION",
@@ -547,8 +547,8 @@
         "packageVerificationCodeValue": "6409bb8e6b10d99c05af96d5961a795bec5c1ad5"
       },
       "sourceInfo": "acquired package info from DPKG DB: /var/lib/dpkg/status.d/libgomp1, /var/lib/dpkg/status.d/libgomp1.md5sums, /usr/share/doc/gcc-12-base/copyright",
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "LicenseRef-Artistic AND GFDL-1.2-only AND LicenseRef-GPL AND GPL-2.0-only AND GPL-3.0-only AND LicenseRef-LGPL",
+      "licenseConcluded": "LicenseRef-da8191658b3452ce9caf31638ba61dab31a38c619fa39df119812e050f592fd3",
+      "licenseDeclared": "NOASSERTION",
       "copyrightText": "NOASSERTION",
       "externalRefs": [
         {
@@ -1351,7 +1351,7 @@
     },
     {
       "name": "libstdc++6",
-      "SPDXID": "SPDXRef-Package-deb-libstdc--6-9a37debf0d05047e",
+      "SPDXID": "SPDXRef-Package-deb-libstdc--6-22e3c711107504d2",
       "versionInfo": "12.2.0-14+deb12u1",
       "supplier": "NOASSERTION",
       "downloadLocation": "NOASSERTION",
@@ -1360,8 +1360,8 @@
         "packageVerificationCodeValue": "ae97a73d347dfdc79ff13affc9a39f1ab05b8a28"
       },
       "sourceInfo": "acquired package info from DPKG DB: /var/lib/dpkg/status.d/libstdc++6, /var/lib/dpkg/status.d/libstdc++6.md5sums, /usr/share/doc/gcc-12-base/copyright",
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "LicenseRef-Artistic AND GFDL-1.2-only AND LicenseRef-GPL AND GPL-2.0-only AND GPL-3.0-only AND LicenseRef-LGPL",
+      "licenseConcluded": "LicenseRef-da8191658b3452ce9caf31638ba61dab31a38c619fa39df119812e050f592fd3",
+      "licenseDeclared": "NOASSERTION",
       "copyrightText": "NOASSERTION",
       "externalRefs": [
         {
@@ -1700,7 +1700,7 @@
     },
     {
       "name": "systemd",
-      "SPDXID": "SPDXRef-Package-deb-systemd-fbdf5e39d3c6b8fd",
+      "SPDXID": "SPDXRef-Package-deb-systemd-9731dfc4cd168377",
       "versionInfo": "254.26-1~bpo12+1",
       "supplier": "NOASSERTION",
       "downloadLocation": "NOASSERTION",
@@ -1718,7 +1718,7 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceType": "purl",
-          "referenceLocator": "pkg:deb/systemd@254.26-1~bpo12%2B1"
+          "referenceLocator": "pkg:deb/Debian/systemd@254.26-1~bpo12%2B1?distro=Debian"
         }
       ]
     },
@@ -32680,24 +32680,29 @@
   ],
   "hasExtractedLicensingInfos": [
     {
+      "licenseId": "LicenseRef-40c7e1f2118531f038ca22999bd976901254e1bc5cd1b0f0211bdd064c599987",
+      "extractedText": "NOASSERTION",
+      "name": "sha256:40c7e1f2118531f038ca22999bd976901254e1bc5cd1b0f0211bdd064c599987"
+    },
+    {
       "licenseId": "LicenseRef-Artistic",
       "extractedText": "NOASSERTION",
       "name": "Artistic"
     },
     {
-      "licenseId": "LicenseRef-GPL",
-      "extractedText": "NOASSERTION",
-      "name": "GPL"
-    },
-    {
-      "licenseId": "LicenseRef-LGPL",
-      "extractedText": "NOASSERTION",
-      "name": "LGPL"
-    },
-    {
       "licenseId": "LicenseRef-ad-hoc",
       "extractedText": "NOASSERTION",
       "name": "ad-hoc"
+    },
+    {
+      "licenseId": "LicenseRef-da8191658b3452ce9caf31638ba61dab31a38c619fa39df119812e050f592fd3",
+      "extractedText": "NOASSERTION",
+      "name": "sha256:da8191658b3452ce9caf31638ba61dab31a38c619fa39df119812e050f592fd3"
+    },
+    {
+      "licenseId": "LicenseRef-fd7e4aae7e7b05f217bcf2d02322825c360e66c52c4c2f1b28d784d6297a1c23",
+      "extractedText": "NOASSERTION",
+      "name": "sha256:fd7e4aae7e7b05f217bcf2d02322825c360e66c52c4c2f1b28d784d6297a1c23"
     },
     {
       "licenseId": "LicenseRef-public-domain",
@@ -32707,173 +32712,1608 @@
   ],
   "relationships": [
     {
-      "spdxElementId": "SPDXRef-Package-deb-gcc-12-base-0a534483a88e1e33",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-gcc-12-base-copyright-06324e9c173b5048",
+      "spdxElementId": "SPDXRef-Package-deb-libgomp1-1f52ffed9a91c6fe",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-libgomp.so.1.0.0-1c5f82c72e8c0596",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-gcc-12-base-0a534483a88e1e33",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-gcc-12-base-TODO.Debian-97e14c77b0adbe1f",
+      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-22e3c711107504d2",
+      "relatedSpdxElement": "SPDXRef-File-...share-gcc-python-libstdcxx---init--.py-0c3539fc4048abe6",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-gcc-12-base-0a534483a88e1e33",
-      "relatedSpdxElement": "SPDXRef-File-...doc-gcc-12-base-README.Debian.amd64.gz-a53a0676ad482f61",
+      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-22e3c711107504d2",
+      "relatedSpdxElement": "SPDXRef-File-...gcc-python-libstdcxx-v6-printers.py-27a12780b0366ff1",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-gcc-12-base-0a534483a88e1e33",
-      "relatedSpdxElement": "SPDXRef-File-...doc-gcc-12-base-changelog.Debian.gz-b5d71972fd1339ae",
+      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-22e3c711107504d2",
+      "relatedSpdxElement": "SPDXRef-File-...gcc-python-libstdcxx-v6---init--.py-66adddf44f73cd1d",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-base-files-motd-00873b49c396a2b3",
+      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-22e3c711107504d2",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-libstdc--.so.6.0.30-6ed49e8a701d8a8a",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-lib-os-release-03d0d276038f09ad",
+      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-22e3c711107504d2",
+      "relatedSpdxElement": "SPDXRef-File-...gcc-python-libstdcxx-v6-xmethods.py-baab700d83279072",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-LGPL-2-079608fd3e610c4a",
+      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-22e3c711107504d2",
+      "relatedSpdxElement": "SPDXRef-File-...libstdc--.so.6.0.30-gdb.py-d7ed0cef286e0bd5",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-...base-files-staff-group-for-usr-local-0e54d88c0e51630f",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-libBrokenLocale.so.1-00294e9816605378",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-LGPL-3-1784bf3eda4b6cb3",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-6.so-005785d89a6d50c6",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-MPL-2.0-23fca06b647e183f",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EBCDIC-FI-SE.so-007b660c8ea19cf5",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-MPL-1.1-3d4b0cdd8c2a92c4",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1097.so-00b2961e83e9b80d",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-base-files-copyright-3dad699fc5959653",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM939.so-018c1f40bdf3d8dc",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-base-files-profile-3dde5a557022dbf8",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-UTF-16.so-02b9d55f20c45806",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-base-files-dot.profile-3fdc121bee186a7f",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-usr-lib-x86-64-linux-gnu-gconv-BIG5.so-030baae638224d0a",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-Artistic-43ca19ffe6f2c740",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-GEORGIAN-PS.so-05c5e30a0c6a7b74",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-GPL-3-4dfe6aacbc952c54",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...gconv-GEORGIAN-ACADEMY.so-06a809f8f26041da",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-base-files-info.dir-600e30b1ade84b07",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM9066.so-0710ea5d75379bf2",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-base-files-README-71837d04467b5f0a",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EBCDIC-CA-FR.so-082d7749719dc764",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-GFDL-1.3-7845b48da4bdb6f8",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-HP-TURKISH8.so-08b0cfa8ee09c00d",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-base-files-profile.md5sums-815ce8cfd7a4a79c",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP1255.so-0b4748f13efebf35",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-base-files-changelog.gz-8b4924a767864811",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM5347.so-0caf4e250112c107",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-CC0-1.0-99326b80b52759c5",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM290.so-0e4584eaa9ea30f0",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-...share-base-files-dot.profile.md5sums-a87eb337db93626e",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM865.so-0e4e45481d111566",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-base-files-dot.bashrc-ab506b96927ace65",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-UTF-32.so-0ec6bfab31cbd041",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-GFDL-1.2-b2c782de003af816",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EBCDIC-AT-DE.so-0f4b6cb01dac680f",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-BSD-b3d670087513ef59",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-libnss-hesiod.so.2-100d99624b67e0df",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-GPL-1-c3848cbf22de7a04",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP10007.so-141e18227bdbee4b",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-GPL-2-c796c70c2073c4d0",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM9030.so-154820de9fe55e2a",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-Apache-2.0-d1d5f4887598a8d4",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-13.so-15652e357f8da5bb",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-base-files-README.FHS-d918b91cdbc4e171",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-EUC-TW.so-162fd68aefc724f5",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-LGPL-2.1-e29d924a7c2e8db1",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...gconv-gconv-modules.cache-179982b33df7ce1e",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-lintian-overrides-base-files-ea6e710251cdb1a8",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-EUC-CN.so-180d0fed3ba71b64",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-74f0cf86f14f0675",
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1124.so-18634b0a3ba73fd0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM037.so-1920d5f399e6deb6",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-libc6-NEWS.gz-1e66cfc3e6649f5f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP1254.so-1ebf6698ccf3a1e7",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-INIS-8.so-1efe5996ad1a99d3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libmemusage.so-1f82055a66eeb27e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-4.so-212289ee9b3eeaad",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-HP-GREEK8.so-21b86ce0033ab56a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-RK1048.so-2435de2b89b5345a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP1253.so-2488e35ea96e6f8e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM424.so-25e7a3424f59d13e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-libc6-README.Debian.gz-262dbcc8f770a5cc",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM901.so-269d00d86e937ef9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-gconv-modules-27da6f59e5d10439",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libm.so.6-293d43b27d89ebfe",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-7.so-298b00ac80d91a2a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...gconv-SHIFT-JISX0213.so-2d199827e2c18c4a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO-11548-1.so-2d6a88f727c0b73a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-GB18030.so-2f5b0b8fbfc7a15d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-ISO-6937.so-30399fbf267595a3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM903.so-30606195eea7f9c3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-5.so-30b6ad7fd6db9b64",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1143.so-311cf7451146e8bb",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM864.so-323dab3d17df1e0d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1047.so-3275b79666d4bceb",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-SAMI-WS2.so-32e0a475fefa3811",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP1125.so-347c0e210bce949b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-usr-lib-x86-64-linux-gnu-gconv-CWI.so-3569a0b80e993883",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-3.so-3674c2f3fe7e9246",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-KOI8-U.so-36942ed6eee00268",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1167.so-36e81378b447c8eb",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libnss-files.so.2-36efb26d004555ce",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-8.so-37e39079201ca398",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-usr-lib-x86-64-linux-gnu-gconv-INIS.so-3935d822ea7ab29f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM273.so-397a96a4c00169bd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM918.so-3a7066ab7b41780a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM905.so-3aae4df956064172",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM857.so-3d57278b828234f3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-usr-lib-x86-64-linux-gnu-gconv-SJIS.so-3de2858f234d5078",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1166.so-3fb94de3d2a973da",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM437.so-3ff60895b2036e3a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...libc-malloc-debug.so.0-4076035a238a1e86",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...gconv-LATIN-GREEK-1.so-40fd9f0104e674dd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-librt.so.1-42aff543bd3673ea",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libutil.so.1-4370d04ac021a583",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP773.so-437752d76a5d2a3d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM855.so-457cd98183415ae9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1149.so-468bbfc69e18a6a2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...gconv-EBCDIC-DK-NO-A.so-468f5e4d13bc7c2a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-GREEK7-OLD.so-46f49cccf10cac30",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1161.so-47a33669e1ace9d6",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1144.so-47fb62ce34462a58",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libpthread.so.0-4971c44e9ce01475",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM256.so-4ac466e6b397ac82",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1140.so-4adc676bd15ba630",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1154.so-4c2c955d9d24b26e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO-2022-CN.so-4c5c1d3f2ce49788",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-usr-lib-x86-64-linux-gnu-gconv-T.61.so-4daad495a9f643da",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1155.so-4f1ca326e98d4cbd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...gconv-MAC-CENTRALEUROPE.so-4f7b6195c0999f40",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-EUC-JP.so-4fb66898e93e6e1e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-libc6-copyright-4fb7531f0779c027",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...gconv-modules-extra.conf-50609fee14e076a3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP771.so-51bafd9407507c84",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1004.so-5259777eb2b5cd5a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EBCDIC-ES-A.so-534cd4a0aa187b37",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-BIG5HKSCS.so-54d6ab0ae8c78f9a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-GBGBK.so-5729dcfeb5c5f9cf",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...gconv-ISO-10367-BOX.so-57d4091b8d442492",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM852.so-5866fb5fb9ad5e1e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM420.so-589d0477aa2218ff",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM281.so-58c30ee460b7a8f6",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM285.so-59082ca5c5ec53d5",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM922.so-5a6fab52f61c7709",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1046.so-5be58dd8e516026a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-UTF-7.so-5cae67305952fc52",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1162.so-5d5d98244416e3b7",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-16.so-5e303d907f007483",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM870.so-5fb789726457a3ea",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP774.so-5fe9b14291293eef",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-HP-ROMAN9.so-627b57db8684163f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-CSN-369103.so-63a89fb8b50f63ea",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-TSCII.so-642a6ea7938c1b38",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP772.so-661c79faa756ad04",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP1257.so-662b78ba4898819e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1364.so-66f111755ba2a034",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM860.so-6812fa33d5f417f0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM275.so-6878bdc534049f0c",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM803.so-68a59eae871fc1e8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...gconv-EBCDIC-FI-SE-A.so-6a58f8d81dce0a45",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-TCVN5712-1.so-6a8f2bb5aa7dd94d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libresolv.so.2-6bbd20fee7e8f99c",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISIRI-3342.so-6c6cfb72bd1c3587",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-KOI-8.so-6d487408628214df",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1133.so-6d5599062a0dde7c",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1399.so-6e00829044d85baf",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-MAC-IS.so-6e4b9e14d40d7b99",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-usr-lib-x86-64-linux-gnu-gconv-BRF.so-6f05c38056161a8f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM874.so-6ffae484d4ee437a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-PT154.so-7270cab74f63de4d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-ISO-5428.so-72b48197f2ea5fac",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM891.so-744d0c14fb2e398f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM943.so-74526e4115452f82",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EBCDIC-US.so-7557b119fe9b48df",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM921.so-75b71769597d085b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-TIS-620.so-75e981ec6bc1e13e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1390.so-77c7a0c60857c167",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-UNICODE.so-79c9560f5ff77657",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO-IR-209.so-7ab8c980a122e84d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EBCDIC-FR.so-7accb5899aec7bfd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM277.so-7b477cafe3f1b74d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM038.so-7b91289b6a752991",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-ASMO-449.so-7dfb72e1d0366a3a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM937.so-7e91d7ac1bd0bcff",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...share-doc-libc6-changelog.Debian.gz-7ecf872f607c99dc",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-libJISX0213.so-7f2cce71bb869ef8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-MAC-UK.so-7f5532937cabc589",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1160.so-7ffbc1eebe2c8894",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-LATIN-GREEK.so-8064a2a02c0f8526",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-9E.so-80fd138672dca17e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1156.so-81141b962c36a417",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-KOI8-RU.so-81beb5437b9d3196",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM858.so-829e47a7e7ee8008",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-MACINTOSH.so-82e9d6de58d56610",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-JOHAB.so-83521ecd97ce9ebd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-KOI8-R.so-83b98d9b6253818a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM278.so-83e0aa76a6769516",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-HP-ROMAN8.so-83e576eab69da558",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-ISO646.so-846a6d153226f385",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EBCDIC-ES.so-88339a5d7b35c3f3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP1251.so-88b3eb6cad8dcbed",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-ISO-2033.so-88eedb75aa55a8e9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM902.so-8b33065c16e62c70",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP737.so-8c2f92ebc46c7402",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1137.so-8f236609f8f6d183",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-libKSC.so-8fa1f46129f036de",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-lintian-overrides-libc6-8fb2d95e5fa9dd04",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-15.so-9066fe03ed9c72a4",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EBCDIC-PT.so-906808b3d017dc83",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM16804.so-910af84ef57f4af1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-usr-lib-x86-64-linux-gnu-gconv-GBK.so-933a8566989ba161",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-IBM1008-420.so-9416d2d2cb0ccbb3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-EUC-KR.so-941c4c694da8a05d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO-2022-KR.so-94917230f74e1f55",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM904.so-949e6f93d5c164f7",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libnss-dns.so.2-952d081b9e55cbad",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1163.so-968c26fec3ef3bfd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...gconv-GOST-19768-74.so-97090a6d2d5a881c",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-GREEK-CCITT.so-97d7823f727b136b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-libGB.so-98f58607fc8cf571",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO-2022-JP.so-9a77725e01a0c66c",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...gconv-ECMA-CYRILLIC.so-9a8cd7c25097f77b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM856.so-9ae83142653ab5c9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM863.so-9d2c27ac456b45f3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP1252.so-9e28eb7678fe9554",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1371.so-9f2a53c69797ceaa",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-libc6-NEWS.Debian.gz-a1ce64a52953ebbd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...gconv-EBCDIC-AT-DE-A.so-a2cd7024f309d451",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-IEC-P27-1.so-a4c3e2c9dac2774f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-libISOIR165.so-a5b97d51d6bc9e2e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1157.so-a68d63ffd3b3a2bf",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libdl.so.2-a690d123a412f10f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM4899.so-a7b185dbc7a37588",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM4909.so-a9e68f27f090ba55",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO-IR-197.so-aa28e0c7dbcb6e4f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM869.so-aa71df55a962cfb3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...gconv-EBCDIC-IS-FRISS.so-aa953beb96a78740",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libmvec.so.1-abe649c92adc8446",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP1258.so-aca4f0ddf73f7ae3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EBCDIC-UK.so-ad2825dde31a3304",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM850.so-ae3b8d7802691166",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-ld-linux-x86-64.so.2-aeab2e5eaee4d908",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM12712.so-b0ced451f71b64ca",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP932.so-b230ae3e62cafaf6",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-14.so-b376113877e7ce44",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-10.so-b5ada60e753f4d30",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1141.so-b5b02d3b9c2ebea3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM880.so-b5b45fcba8e3475c",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-1.so-b5d7a97b57fd53d0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM4971.so-b5d82d6b284e5baa",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-NATS-SEFI.so-b5e68b315258c90f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM866.so-b6ac615852b77aec",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM932.so-b6b030f8785ad719",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO-6937-2.so-b6f9f43ac378445d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...gconv-INIS-CYRILLIC.so-b81c9c3b27efcf2b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM851.so-ba535a6636af236d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-GBBIG5.so-bad8280915a14385",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-9.so-be781231c2b63413",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM423.so-be79abf4dd30f294",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libthread-db.so.1-bf84a158cc513ff4",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1112.so-c03fd7d750954e31",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM868.so-c159684f47c37161",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-KOI8-T.so-c2581398acfb08aa",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-libc6-changelog.gz-c3284a59d68d38a0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM861.so-c331aa00eb17e2db",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1123.so-c41eef0f16ffb547",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM9448.so-c5c9fff07a6ae800",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1147.so-c62f5e288f575eb7",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libc.so.6-c7d2d4f4453ab7b0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ANSI-X3.110.so-c7eea535a906817b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libnsl.so.1-cad2ead38f96058d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-11.so-cbd45945bf29b43c",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-VISCII.so-ccc1b32e18258a79",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1146.so-ccddcceb45443429",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP1256.so-cdad9d7328b733d9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM500.so-ce53e915cfcecf23",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1153.so-cfdddd6191c85628",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1122.so-d0e27a17b6783696",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM862.so-d0fab80bcc7dbc46",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ARMSCII-8.so-d148e55c1194b02e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1132.so-d2ff5db374633ab8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO-5427-EXT.so-d3f1d3951dbdd6f2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EUC-JISX0213.so-d3f7319c4fb19470",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-usr-lib-x86-64-linux-gnu-gconv-MIK.so-d48d23554f48f3f1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP775.so-d5634e2064199b26",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM871.so-d5abb61e3f79d4e9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1129.so-d62040e8b727fb0c",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-2.so-d67ef9e77ffeb35c",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1145.so-d6c112981ed1b8e6",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-ISO-5427.so-d71bbb1cb7beae37",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1164.so-d8c9f42d034143cf",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM930.so-d8d8de70d3c7b312",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-usr-lib-x86-64-linux-gnu-gconv-UHC.so-d8f2981cee46bacb",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...gconv-ISO-2022-CN-EXT.so-d9fc68121042651c",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM935.so-dab22dda2e39e57a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM297.so-dae8f5cb0ed84083",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP1250.so-de03ab71c621251b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libpcprofile.so-e0906d5a1706299c",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1008.so-e0e6cc338e80a382",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-libnss-compat.so.2-e1527f1e92a54eab",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-IBM866NAV.so-e226940aabcd6559",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-libCNS.so-e2c3fbb054d81503",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP770.so-e3c9c57ca4f01116",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...gconv-ISO-2022-JP-3.so-e48794f78023df78",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1388.so-e691fd7198e77e36",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1148.so-e6dbd9c6f89a13fe",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EUC-JP-MS.so-e7b85830fec8beef",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-HP-THAI8.so-eab63665fe3c692b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1142.so-eb7bc6b94cbe15fc",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1025.so-ec37df3219b0fe05",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM875.so-ec98112d920ebd59",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM280.so-ee3455e4ff05d022",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1158.so-efcb7209a8511e50",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EBCDIC-ES-S.so-efcfedf0d8d0f295",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-libJIS.so-f156747e37838833",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1026.so-f1e9e67c6c7cb376",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-GREEK7.so-f2377fa7278a14c7",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM284.so-f2564decfd38ec6f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EBCDIC-DK-NO.so-f2de0d3f1f4d482d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libanl.so.1-f367885cf3e29599",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-DEC-MCS.so-f4fd691def940973",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM933.so-f6134e3bb9a840a8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-NATS-DANO.so-f668f3513ecd998b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-libc6-README.hesiod.gz-f67aed0a43008e2a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EBCDIC-IT.so-f6f77dd0a071e9ff",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1130.so-fbe71ae60b092084",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-MAC-SAMI.so-fd925f7b3aa04a86",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM4517.so-fdbe9914e4694970",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM274.so-fe838900446b177d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-531f514be4b1b4c4",
       "relatedSpdxElement": "SPDXRef-File-usr-share-lintian-overrides-libgcc-s1-30da9445046629d5",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-74f0cf86f14f0675",
+      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-531f514be4b1b4c4",
       "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libgcc-s.so.1-72e33335cd0d84b2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-base-files-motd-00873b49c396a2b3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-lib-os-release-03d0d276038f09ad",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-LGPL-2-079608fd3e610c4a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-...base-files-staff-group-for-usr-local-0e54d88c0e51630f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-LGPL-3-1784bf3eda4b6cb3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-MPL-2.0-23fca06b647e183f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-MPL-1.1-3d4b0cdd8c2a92c4",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-base-files-copyright-3dad699fc5959653",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-base-files-profile-3dde5a557022dbf8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-base-files-dot.profile-3fdc121bee186a7f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-Artistic-43ca19ffe6f2c740",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-GPL-3-4dfe6aacbc952c54",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-base-files-info.dir-600e30b1ade84b07",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-base-files-README-71837d04467b5f0a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-GFDL-1.3-7845b48da4bdb6f8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-base-files-profile.md5sums-815ce8cfd7a4a79c",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-base-files-changelog.gz-8b4924a767864811",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-CC0-1.0-99326b80b52759c5",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-...share-base-files-dot.profile.md5sums-a87eb337db93626e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-base-files-dot.bashrc-ab506b96927ace65",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-GFDL-1.2-b2c782de003af816",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-BSD-b3d670087513ef59",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-GPL-1-c3848cbf22de7a04",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-GPL-2-c796c70c2073c4d0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-Apache-2.0-d1d5f4887598a8d4",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-base-files-README.FHS-d918b91cdbc4e171",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-common-licenses-LGPL-2.1-e29d924a7c2e8db1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-lintian-overrides-base-files-ea6e710251cdb1a8",
       "relationshipType": "CONTAINS"
     },
     {
@@ -32892,33 +34332,23 @@
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-9a37debf0d05047e",
-      "relatedSpdxElement": "SPDXRef-File-...share-gcc-python-libstdcxx---init--.py-0c3539fc4048abe6",
+      "spdxElementId": "SPDXRef-Package-deb-gcc-12-base-963c99b42a0be1ee",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-gcc-12-base-copyright-06324e9c173b5048",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-9a37debf0d05047e",
-      "relatedSpdxElement": "SPDXRef-File-...gcc-python-libstdcxx-v6-printers.py-27a12780b0366ff1",
+      "spdxElementId": "SPDXRef-Package-deb-gcc-12-base-963c99b42a0be1ee",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-gcc-12-base-TODO.Debian-97e14c77b0adbe1f",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-9a37debf0d05047e",
-      "relatedSpdxElement": "SPDXRef-File-...gcc-python-libstdcxx-v6---init--.py-66adddf44f73cd1d",
+      "spdxElementId": "SPDXRef-Package-deb-gcc-12-base-963c99b42a0be1ee",
+      "relatedSpdxElement": "SPDXRef-File-...doc-gcc-12-base-README.Debian.amd64.gz-a53a0676ad482f61",
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-9a37debf0d05047e",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-libstdc--.so.6.0.30-6ed49e8a701d8a8a",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-9a37debf0d05047e",
-      "relatedSpdxElement": "SPDXRef-File-...gcc-python-libstdcxx-v6-xmethods.py-baab700d83279072",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-9a37debf0d05047e",
-      "relatedSpdxElement": "SPDXRef-File-...libstdc--.so.6.0.30-gdb.py-d7ed0cef286e0bd5",
+      "spdxElementId": "SPDXRef-Package-deb-gcc-12-base-963c99b42a0be1ee",
+      "relatedSpdxElement": "SPDXRef-File-...doc-gcc-12-base-changelog.Debian.gz-b5d71972fd1339ae",
       "relationshipType": "CONTAINS"
     },
     {
@@ -37447,1431 +38877,6 @@
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-libBrokenLocale.so.1-00294e9816605378",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-6.so-005785d89a6d50c6",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EBCDIC-FI-SE.so-007b660c8ea19cf5",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1097.so-00b2961e83e9b80d",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM939.so-018c1f40bdf3d8dc",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-UTF-16.so-02b9d55f20c45806",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-usr-lib-x86-64-linux-gnu-gconv-BIG5.so-030baae638224d0a",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-GEORGIAN-PS.so-05c5e30a0c6a7b74",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...gconv-GEORGIAN-ACADEMY.so-06a809f8f26041da",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM9066.so-0710ea5d75379bf2",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EBCDIC-CA-FR.so-082d7749719dc764",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-HP-TURKISH8.so-08b0cfa8ee09c00d",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP1255.so-0b4748f13efebf35",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM5347.so-0caf4e250112c107",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM290.so-0e4584eaa9ea30f0",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM865.so-0e4e45481d111566",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-UTF-32.so-0ec6bfab31cbd041",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EBCDIC-AT-DE.so-0f4b6cb01dac680f",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-libnss-hesiod.so.2-100d99624b67e0df",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP10007.so-141e18227bdbee4b",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM9030.so-154820de9fe55e2a",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-13.so-15652e357f8da5bb",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-EUC-TW.so-162fd68aefc724f5",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...gconv-gconv-modules.cache-179982b33df7ce1e",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-EUC-CN.so-180d0fed3ba71b64",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1124.so-18634b0a3ba73fd0",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM037.so-1920d5f399e6deb6",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-libc6-NEWS.gz-1e66cfc3e6649f5f",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP1254.so-1ebf6698ccf3a1e7",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-INIS-8.so-1efe5996ad1a99d3",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libmemusage.so-1f82055a66eeb27e",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-4.so-212289ee9b3eeaad",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-HP-GREEK8.so-21b86ce0033ab56a",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-RK1048.so-2435de2b89b5345a",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP1253.so-2488e35ea96e6f8e",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM424.so-25e7a3424f59d13e",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-libc6-README.Debian.gz-262dbcc8f770a5cc",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM901.so-269d00d86e937ef9",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-gconv-modules-27da6f59e5d10439",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libm.so.6-293d43b27d89ebfe",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-7.so-298b00ac80d91a2a",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...gconv-SHIFT-JISX0213.so-2d199827e2c18c4a",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO-11548-1.so-2d6a88f727c0b73a",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-GB18030.so-2f5b0b8fbfc7a15d",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-ISO-6937.so-30399fbf267595a3",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM903.so-30606195eea7f9c3",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-5.so-30b6ad7fd6db9b64",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1143.so-311cf7451146e8bb",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM864.so-323dab3d17df1e0d",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1047.so-3275b79666d4bceb",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-SAMI-WS2.so-32e0a475fefa3811",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP1125.so-347c0e210bce949b",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-usr-lib-x86-64-linux-gnu-gconv-CWI.so-3569a0b80e993883",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-3.so-3674c2f3fe7e9246",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-KOI8-U.so-36942ed6eee00268",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1167.so-36e81378b447c8eb",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libnss-files.so.2-36efb26d004555ce",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-8.so-37e39079201ca398",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-usr-lib-x86-64-linux-gnu-gconv-INIS.so-3935d822ea7ab29f",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM273.so-397a96a4c00169bd",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM918.so-3a7066ab7b41780a",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM905.so-3aae4df956064172",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM857.so-3d57278b828234f3",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-usr-lib-x86-64-linux-gnu-gconv-SJIS.so-3de2858f234d5078",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1166.so-3fb94de3d2a973da",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM437.so-3ff60895b2036e3a",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...libc-malloc-debug.so.0-4076035a238a1e86",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...gconv-LATIN-GREEK-1.so-40fd9f0104e674dd",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-librt.so.1-42aff543bd3673ea",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libutil.so.1-4370d04ac021a583",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP773.so-437752d76a5d2a3d",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM855.so-457cd98183415ae9",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1149.so-468bbfc69e18a6a2",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...gconv-EBCDIC-DK-NO-A.so-468f5e4d13bc7c2a",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-GREEK7-OLD.so-46f49cccf10cac30",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1161.so-47a33669e1ace9d6",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1144.so-47fb62ce34462a58",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libpthread.so.0-4971c44e9ce01475",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM256.so-4ac466e6b397ac82",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1140.so-4adc676bd15ba630",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1154.so-4c2c955d9d24b26e",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO-2022-CN.so-4c5c1d3f2ce49788",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-usr-lib-x86-64-linux-gnu-gconv-T.61.so-4daad495a9f643da",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1155.so-4f1ca326e98d4cbd",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...gconv-MAC-CENTRALEUROPE.so-4f7b6195c0999f40",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-EUC-JP.so-4fb66898e93e6e1e",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-libc6-copyright-4fb7531f0779c027",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...gconv-modules-extra.conf-50609fee14e076a3",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP771.so-51bafd9407507c84",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1004.so-5259777eb2b5cd5a",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EBCDIC-ES-A.so-534cd4a0aa187b37",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-BIG5HKSCS.so-54d6ab0ae8c78f9a",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-GBGBK.so-5729dcfeb5c5f9cf",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...gconv-ISO-10367-BOX.so-57d4091b8d442492",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM852.so-5866fb5fb9ad5e1e",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM420.so-589d0477aa2218ff",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM281.so-58c30ee460b7a8f6",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM285.so-59082ca5c5ec53d5",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM922.so-5a6fab52f61c7709",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1046.so-5be58dd8e516026a",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-UTF-7.so-5cae67305952fc52",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1162.so-5d5d98244416e3b7",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-16.so-5e303d907f007483",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM870.so-5fb789726457a3ea",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP774.so-5fe9b14291293eef",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-HP-ROMAN9.so-627b57db8684163f",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-CSN-369103.so-63a89fb8b50f63ea",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-TSCII.so-642a6ea7938c1b38",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP772.so-661c79faa756ad04",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP1257.so-662b78ba4898819e",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1364.so-66f111755ba2a034",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM860.so-6812fa33d5f417f0",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM275.so-6878bdc534049f0c",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM803.so-68a59eae871fc1e8",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...gconv-EBCDIC-FI-SE-A.so-6a58f8d81dce0a45",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-TCVN5712-1.so-6a8f2bb5aa7dd94d",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libresolv.so.2-6bbd20fee7e8f99c",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISIRI-3342.so-6c6cfb72bd1c3587",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-KOI-8.so-6d487408628214df",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1133.so-6d5599062a0dde7c",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1399.so-6e00829044d85baf",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-MAC-IS.so-6e4b9e14d40d7b99",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-usr-lib-x86-64-linux-gnu-gconv-BRF.so-6f05c38056161a8f",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM874.so-6ffae484d4ee437a",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-PT154.so-7270cab74f63de4d",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-ISO-5428.so-72b48197f2ea5fac",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM891.so-744d0c14fb2e398f",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM943.so-74526e4115452f82",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EBCDIC-US.so-7557b119fe9b48df",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM921.so-75b71769597d085b",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-TIS-620.so-75e981ec6bc1e13e",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1390.so-77c7a0c60857c167",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-UNICODE.so-79c9560f5ff77657",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO-IR-209.so-7ab8c980a122e84d",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EBCDIC-FR.so-7accb5899aec7bfd",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM277.so-7b477cafe3f1b74d",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM038.so-7b91289b6a752991",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-ASMO-449.so-7dfb72e1d0366a3a",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM937.so-7e91d7ac1bd0bcff",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...share-doc-libc6-changelog.Debian.gz-7ecf872f607c99dc",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-libJISX0213.so-7f2cce71bb869ef8",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-MAC-UK.so-7f5532937cabc589",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1160.so-7ffbc1eebe2c8894",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-LATIN-GREEK.so-8064a2a02c0f8526",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-9E.so-80fd138672dca17e",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1156.so-81141b962c36a417",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-KOI8-RU.so-81beb5437b9d3196",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM858.so-829e47a7e7ee8008",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-MACINTOSH.so-82e9d6de58d56610",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-JOHAB.so-83521ecd97ce9ebd",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-KOI8-R.so-83b98d9b6253818a",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM278.so-83e0aa76a6769516",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-HP-ROMAN8.so-83e576eab69da558",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-ISO646.so-846a6d153226f385",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EBCDIC-ES.so-88339a5d7b35c3f3",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP1251.so-88b3eb6cad8dcbed",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-ISO-2033.so-88eedb75aa55a8e9",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM902.so-8b33065c16e62c70",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP737.so-8c2f92ebc46c7402",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1137.so-8f236609f8f6d183",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-libKSC.so-8fa1f46129f036de",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-lintian-overrides-libc6-8fb2d95e5fa9dd04",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-15.so-9066fe03ed9c72a4",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EBCDIC-PT.so-906808b3d017dc83",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM16804.so-910af84ef57f4af1",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-usr-lib-x86-64-linux-gnu-gconv-GBK.so-933a8566989ba161",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-IBM1008-420.so-9416d2d2cb0ccbb3",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-EUC-KR.so-941c4c694da8a05d",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO-2022-KR.so-94917230f74e1f55",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM904.so-949e6f93d5c164f7",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libnss-dns.so.2-952d081b9e55cbad",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1163.so-968c26fec3ef3bfd",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...gconv-GOST-19768-74.so-97090a6d2d5a881c",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-GREEK-CCITT.so-97d7823f727b136b",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-libGB.so-98f58607fc8cf571",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO-2022-JP.so-9a77725e01a0c66c",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...gconv-ECMA-CYRILLIC.so-9a8cd7c25097f77b",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM856.so-9ae83142653ab5c9",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM863.so-9d2c27ac456b45f3",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP1252.so-9e28eb7678fe9554",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1371.so-9f2a53c69797ceaa",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-libc6-NEWS.Debian.gz-a1ce64a52953ebbd",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...gconv-EBCDIC-AT-DE-A.so-a2cd7024f309d451",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-IEC-P27-1.so-a4c3e2c9dac2774f",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-libISOIR165.so-a5b97d51d6bc9e2e",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1157.so-a68d63ffd3b3a2bf",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libdl.so.2-a690d123a412f10f",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM4899.so-a7b185dbc7a37588",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM4909.so-a9e68f27f090ba55",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO-IR-197.so-aa28e0c7dbcb6e4f",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM869.so-aa71df55a962cfb3",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...gconv-EBCDIC-IS-FRISS.so-aa953beb96a78740",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libmvec.so.1-abe649c92adc8446",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP1258.so-aca4f0ddf73f7ae3",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EBCDIC-UK.so-ad2825dde31a3304",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM850.so-ae3b8d7802691166",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-ld-linux-x86-64.so.2-aeab2e5eaee4d908",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM12712.so-b0ced451f71b64ca",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP932.so-b230ae3e62cafaf6",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-14.so-b376113877e7ce44",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-10.so-b5ada60e753f4d30",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1141.so-b5b02d3b9c2ebea3",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM880.so-b5b45fcba8e3475c",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-1.so-b5d7a97b57fd53d0",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM4971.so-b5d82d6b284e5baa",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-NATS-SEFI.so-b5e68b315258c90f",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM866.so-b6ac615852b77aec",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM932.so-b6b030f8785ad719",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO-6937-2.so-b6f9f43ac378445d",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...gconv-INIS-CYRILLIC.so-b81c9c3b27efcf2b",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM851.so-ba535a6636af236d",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-GBBIG5.so-bad8280915a14385",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-9.so-be781231c2b63413",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM423.so-be79abf4dd30f294",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libthread-db.so.1-bf84a158cc513ff4",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1112.so-c03fd7d750954e31",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM868.so-c159684f47c37161",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-KOI8-T.so-c2581398acfb08aa",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-libc6-changelog.gz-c3284a59d68d38a0",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM861.so-c331aa00eb17e2db",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1123.so-c41eef0f16ffb547",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM9448.so-c5c9fff07a6ae800",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1147.so-c62f5e288f575eb7",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libc.so.6-c7d2d4f4453ab7b0",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ANSI-X3.110.so-c7eea535a906817b",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libnsl.so.1-cad2ead38f96058d",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-11.so-cbd45945bf29b43c",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-VISCII.so-ccc1b32e18258a79",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1146.so-ccddcceb45443429",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP1256.so-cdad9d7328b733d9",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM500.so-ce53e915cfcecf23",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1153.so-cfdddd6191c85628",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1122.so-d0e27a17b6783696",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM862.so-d0fab80bcc7dbc46",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ARMSCII-8.so-d148e55c1194b02e",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1132.so-d2ff5db374633ab8",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO-5427-EXT.so-d3f1d3951dbdd6f2",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EUC-JISX0213.so-d3f7319c4fb19470",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-usr-lib-x86-64-linux-gnu-gconv-MIK.so-d48d23554f48f3f1",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP775.so-d5634e2064199b26",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM871.so-d5abb61e3f79d4e9",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1129.so-d62040e8b727fb0c",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-ISO8859-2.so-d67ef9e77ffeb35c",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1145.so-d6c112981ed1b8e6",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-ISO-5427.so-d71bbb1cb7beae37",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1164.so-d8c9f42d034143cf",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM930.so-d8d8de70d3c7b312",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-usr-lib-x86-64-linux-gnu-gconv-UHC.so-d8f2981cee46bacb",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...gconv-ISO-2022-CN-EXT.so-d9fc68121042651c",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM935.so-dab22dda2e39e57a",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM297.so-dae8f5cb0ed84083",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP1250.so-de03ab71c621251b",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libpcprofile.so-e0906d5a1706299c",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1008.so-e0e6cc338e80a382",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-libnss-compat.so.2-e1527f1e92a54eab",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-IBM866NAV.so-e226940aabcd6559",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-libCNS.so-e2c3fbb054d81503",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-CP770.so-e3c9c57ca4f01116",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...gconv-ISO-2022-JP-3.so-e48794f78023df78",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1388.so-e691fd7198e77e36",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1148.so-e6dbd9c6f89a13fe",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EUC-JP-MS.so-e7b85830fec8beef",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-HP-THAI8.so-eab63665fe3c692b",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1142.so-eb7bc6b94cbe15fc",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1025.so-ec37df3219b0fe05",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM875.so-ec98112d920ebd59",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM280.so-ee3455e4ff05d022",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1158.so-efcb7209a8511e50",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EBCDIC-ES-S.so-efcfedf0d8d0f295",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-libJIS.so-f156747e37838833",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1026.so-f1e9e67c6c7cb376",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-GREEK7.so-f2377fa7278a14c7",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM284.so-f2564decfd38ec6f",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EBCDIC-DK-NO.so-f2de0d3f1f4d482d",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-lib-x86-64-linux-gnu-libanl.so.1-f367885cf3e29599",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-DEC-MCS.so-f4fd691def940973",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM933.so-f6134e3bb9a840a8",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-NATS-DANO.so-f668f3513ecd998b",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-libc6-README.hesiod.gz-f67aed0a43008e2a",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-gconv-EBCDIC-IT.so-f6f77dd0a071e9ff",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM1130.so-fbe71ae60b092084",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-MAC-SAMI.so-fd925f7b3aa04a86",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM4517.so-fdbe9914e4694970",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-gconv-IBM274.so-fe838900446b177d",
-      "relationshipType": "CONTAINS"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libgomp1-cd7473971e9d06dd",
-      "relatedSpdxElement": "SPDXRef-File-...lib-x86-64-linux-gnu-libgomp.so.1.0.0-1c5f82c72e8c0596",
-      "relationshipType": "CONTAINS"
-    },
-    {
       "spdxElementId": "SPDXRef-Package-deb-libssl3-f17ef78f1c42683d",
       "relatedSpdxElement": "SPDXRef-File-...engines-3-loader-attic.so-1785c5b448e80a20",
       "relationshipType": "CONTAINS"
@@ -38927,26 +38932,6 @@
       "relationshipType": "CONTAINS"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-gcc-12-base-0a534483a88e1e33",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgcc-s1-74f0cf86f14f0675",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-gcc-12-base-0a534483a88e1e33",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libstdc--6-9a37debf0d05047e",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-gcc-12-base-0a534483a88e1e33",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgomp1-cd7473971e9d06dd",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-gcc-12-base-0a534483a88e1e33",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libatomic1-d36a882b8a3ded0b",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
       "spdxElementId": "SPDXRef-Package-deb-libnettle8-22ee1f32510608b7",
       "relatedSpdxElement": "SPDXRef-Package-deb-librtmp1-4332a74a6aafcedd",
       "relationshipType": "DEPENDENCY_OF"
@@ -38967,6 +38952,201 @@
       "relationshipType": "DEPENDENCY_OF"
     },
     {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgomp1-1f52ffed9a91c6fe",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libstdc--6-22e3c711107504d2",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libnettle8-22ee1f32510608b7",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libpsl5-26ecde7e69dbfa04",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libyaml-0-2-3fc6ff121848d01d",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-librtmp1-4332a74a6aafcedd",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-liblzma5-472c1368193da0b1",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libtasn1-6-48b70e4d102cdd4b",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-liblz4-1-4b24c77f0499bf0c",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgcc-s1-531f514be4b1b4c4",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgnutls30-5458fd103c1e4fd3",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libkrb5-3-575c8aeb7addaf05",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libidn2-0-5ab8f828207bcd0f",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libunistring2-6a8ad0923210971a",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libsasl2-2-76e875c485ac6ca4",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libcurl4-7b756a4c6b6cb784",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libnghttp2-14-7fba61587556f31d",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libssh2-1-8905b74027385650",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libzstd1-8ebb6fc734ae3ca2",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libk5crypto3-8f3a478cb18888b8",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libldap-2.5-0-919a44d8cbaa32e2",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libhogweed6-9534d60a97673a0b",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-systemd-9731dfc4cd168377",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libp11-kit0-a45a1ff230c2a77b",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libsystemd0-a48fdf88485dfed0",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libcap2-a55e64e0eb914b2a",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgcrypt20-aa143951e2980797",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgpg-error0-aefc39f8981b26da",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libbrotli1-c635b43528452638",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgssapi-krb5-2-c8948b00cda8062b",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-zlib1g-ca40227a4415e447",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libatomic1-d36a882b8a3ded0b",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libpq5-da0ab4ee51b298d8",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libffi8-dca42f6ba1d88ca7",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libcom-err2-f051a8fe09c1d5b7",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libkrb5support0-f17cb326c34696aa",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libssl3-f17ef78f1c42683d",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgmp10-f6d1dead66cdc801",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libkeyutils1-fffb37b9240d6c2f",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
       "spdxElementId": "SPDXRef-Package-deb-librtmp1-4332a74a6aafcedd",
       "relatedSpdxElement": "SPDXRef-Package-deb-libcurl4-7b756a4c6b6cb784",
       "relationshipType": "DEPENDENCY_OF"
@@ -38984,6 +39164,16 @@
     {
       "spdxElementId": "SPDXRef-Package-deb-liblz4-1-4b24c77f0499bf0c",
       "relatedSpdxElement": "SPDXRef-Package-deb-libsystemd0-a48fdf88485dfed0",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-531f514be4b1b4c4",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libstdc--6-22e3c711107504d2",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-531f514be4b1b4c4",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
@@ -39029,16 +39219,6 @@
     {
       "spdxElementId": "SPDXRef-Package-deb-libunistring2-6a8ad0923210971a",
       "relatedSpdxElement": "SPDXRef-Package-deb-libidn2-0-5ab8f828207bcd0f",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-74f0cf86f14f0675",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libstdc--6-9a37debf0d05047e",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-74f0cf86f14f0675",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
@@ -39097,6 +39277,26 @@
       "relationshipType": "DEPENDENCY_OF"
     },
     {
+      "spdxElementId": "SPDXRef-Package-deb-gcc-12-base-963c99b42a0be1ee",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgomp1-1f52ffed9a91c6fe",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-gcc-12-base-963c99b42a0be1ee",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libstdc--6-22e3c711107504d2",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-gcc-12-base-963c99b42a0be1ee",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgcc-s1-531f514be4b1b4c4",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-gcc-12-base-963c99b42a0be1ee",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libatomic1-d36a882b8a3ded0b",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
       "spdxElementId": "SPDXRef-Package-deb-libp11-kit0-a45a1ff230c2a77b",
       "relatedSpdxElement": "SPDXRef-Package-deb-libgnutls30-5458fd103c1e4fd3",
       "relationshipType": "DEPENDENCY_OF"
@@ -39114,201 +39314,6 @@
     {
       "spdxElementId": "SPDXRef-Package-deb-libgpg-error0-aefc39f8981b26da",
       "relatedSpdxElement": "SPDXRef-Package-deb-libgcrypt20-aa143951e2980797",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libnettle8-22ee1f32510608b7",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libpsl5-26ecde7e69dbfa04",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libyaml-0-2-3fc6ff121848d01d",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-librtmp1-4332a74a6aafcedd",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-liblzma5-472c1368193da0b1",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libtasn1-6-48b70e4d102cdd4b",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-liblz4-1-4b24c77f0499bf0c",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgnutls30-5458fd103c1e4fd3",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libkrb5-3-575c8aeb7addaf05",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libidn2-0-5ab8f828207bcd0f",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libunistring2-6a8ad0923210971a",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgcc-s1-74f0cf86f14f0675",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libsasl2-2-76e875c485ac6ca4",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libcurl4-7b756a4c6b6cb784",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libnghttp2-14-7fba61587556f31d",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libssh2-1-8905b74027385650",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libzstd1-8ebb6fc734ae3ca2",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libk5crypto3-8f3a478cb18888b8",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libldap-2.5-0-919a44d8cbaa32e2",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libhogweed6-9534d60a97673a0b",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libstdc--6-9a37debf0d05047e",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libp11-kit0-a45a1ff230c2a77b",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libsystemd0-a48fdf88485dfed0",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libcap2-a55e64e0eb914b2a",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgcrypt20-aa143951e2980797",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgpg-error0-aefc39f8981b26da",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libbrotli1-c635b43528452638",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgssapi-krb5-2-c8948b00cda8062b",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-zlib1g-ca40227a4415e447",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgomp1-cd7473971e9d06dd",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libatomic1-d36a882b8a3ded0b",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libpq5-da0ab4ee51b298d8",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libffi8-dca42f6ba1d88ca7",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libcom-err2-f051a8fe09c1d5b7",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libkrb5support0-f17cb326c34696aa",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libssl3-f17ef78f1c42683d",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgmp10-f6d1dead66cdc801",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-systemd-fbdf5e39d3c6b8fd",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libkeyutils1-fffb37b9240d6c2f",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
@@ -39412,38 +39417,38 @@
       "relationshipType": "DEPENDENCY_OF"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-gcc-12-base-0a534483a88e1e33",
+      "spdxElementId": "SPDXRef-Package-deb-libgomp1-1f52ffed9a91c6fe",
       "relatedSpdxElement": "SPDXRef-File-usr-share-doc-gcc-12-base-copyright-06324e9c173b5048",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-gcc-12-base-0a534483a88e1e33",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-gcc-12-base-20cfaa60cdc174cb",
+      "spdxElementId": "SPDXRef-Package-deb-libgomp1-1f52ffed9a91c6fe",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libgomp1.md5sums-e2f598f3797d5a65",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-gcc-12-base-0a534483a88e1e33",
-      "relatedSpdxElement": "SPDXRef-File-...lib-dpkg-status.d-gcc-12-base.md5sums-5ca2529237a3b691",
+      "spdxElementId": "SPDXRef-Package-deb-libgomp1-1f52ffed9a91c6fe",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libgomp1-ed9f73f8877f6240",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-base-files-copyright-3dad699fc5959653",
+      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-22e3c711107504d2",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-gcc-12-base-copyright-06324e9c173b5048",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-base-files-bc72dce830007584",
+      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-22e3c711107504d2",
+      "relatedSpdxElement": "SPDXRef-File-...lib-dpkg-status.d-libstdc--6.md5sums-1df01cb0c261782c",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
-      "relatedSpdxElement": "SPDXRef-File-...lib-dpkg-status.d-base-files.md5sums-dfeb9618c3c71c92",
+      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-22e3c711107504d2",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libstdc--6-dd921499f2afb85d",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
@@ -39462,6 +39467,24 @@
     {
       "spdxElementId": "SPDXRef-Package-deb-libyaml-0-2-3fc6ff121848d01d",
       "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libyaml-0-2-4ca9d1a8ec1fa3e5",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libc6-41c48b2833a9a2ef",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libc6.md5sums-469b0394d5554a0b",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-libc6-copyright-4fb7531f0779c027",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
@@ -39490,6 +39513,24 @@
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
+      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-531f514be4b1b4c4",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-gcc-12-base-copyright-06324e9c173b5048",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-531f514be4b1b4c4",
+      "relatedSpdxElement": "SPDXRef-File-...lib-dpkg-status.d-libgcc-s1.md5sums-4a8278e1d68478d0",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-531f514be4b1b4c4",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libgcc-s1-73cb07df94766993",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
       "spdxElementId": "SPDXRef-Package-deb-libgnutls30-5458fd103c1e4fd3",
       "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libgnutls30-2285b4fd3e82f2be",
       "relationshipType": "OTHER",
@@ -39498,6 +39539,24 @@
     {
       "spdxElementId": "SPDXRef-Package-deb-libkrb5-3-575c8aeb7addaf05",
       "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libkrb5-3-15e9726506d4189a",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-base-files-copyright-3dad699fc5959653",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-base-files-bc72dce830007584",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
+      "relatedSpdxElement": "SPDXRef-File-...lib-dpkg-status.d-base-files.md5sums-dfeb9618c3c71c92",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
@@ -39516,24 +39575,6 @@
     {
       "spdxElementId": "SPDXRef-Package-deb-libunistring2-6a8ad0923210971a",
       "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libunistring2-811df8871524ff3e",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-74f0cf86f14f0675",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-gcc-12-base-copyright-06324e9c173b5048",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-74f0cf86f14f0675",
-      "relatedSpdxElement": "SPDXRef-File-...lib-dpkg-status.d-libgcc-s1.md5sums-4a8278e1d68478d0",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libgcc-s1-74f0cf86f14f0675",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libgcc-s1-73cb07df94766993",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
@@ -39604,20 +39645,26 @@
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-9a37debf0d05047e",
+      "spdxElementId": "SPDXRef-Package-deb-gcc-12-base-963c99b42a0be1ee",
       "relatedSpdxElement": "SPDXRef-File-usr-share-doc-gcc-12-base-copyright-06324e9c173b5048",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-9a37debf0d05047e",
-      "relatedSpdxElement": "SPDXRef-File-...lib-dpkg-status.d-libstdc--6.md5sums-1df01cb0c261782c",
+      "spdxElementId": "SPDXRef-Package-deb-gcc-12-base-963c99b42a0be1ee",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-gcc-12-base-20cfaa60cdc174cb",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-libstdc--6-9a37debf0d05047e",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libstdc--6-dd921499f2afb85d",
+      "spdxElementId": "SPDXRef-Package-deb-gcc-12-base-963c99b42a0be1ee",
+      "relatedSpdxElement": "SPDXRef-File-...lib-dpkg-status.d-gcc-12-base.md5sums-5ca2529237a3b691",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-systemd-9731dfc4cd168377",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-libsystemd.so.0.37.0-afd3c0ff5be1d660",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
@@ -39670,24 +39717,6 @@
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libc6-41c48b2833a9a2ef",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libc6.md5sums-469b0394d5554a0b",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-libc6-copyright-4fb7531f0779c027",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
       "spdxElementId": "SPDXRef-Package-deb-libbrotli1-c635b43528452638",
       "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libbrotli1-ce6e1b859eb8f00a",
       "relationshipType": "OTHER",
@@ -39702,24 +39731,6 @@
     {
       "spdxElementId": "SPDXRef-Package-deb-zlib1g-ca40227a4415e447",
       "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-zlib1g-d8061b0dce1e284d",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libgomp1-cd7473971e9d06dd",
-      "relatedSpdxElement": "SPDXRef-File-usr-share-doc-gcc-12-base-copyright-06324e9c173b5048",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libgomp1-cd7473971e9d06dd",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libgomp1.md5sums-e2f598f3797d5a65",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libgomp1-cd7473971e9d06dd",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libgomp1-ed9f73f8877f6240",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
@@ -39802,12 +39813,6 @@
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
-      "spdxElementId": "SPDXRef-Package-deb-systemd-fbdf5e39d3c6b8fd",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-libsystemd.so.0.37.0-afd3c0ff5be1d660",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
       "spdxElementId": "SPDXRef-Package-deb-ca-certificates-fc9f32d36e0ec03a",
       "relatedSpdxElement": "SPDXRef-File-...share-doc-ca-certificates-copyright-5e075c0fd077508d",
       "relationshipType": "OTHER",
@@ -39827,7 +39832,7 @@
     },
     {
       "spdxElementId": "SPDXRef-DocumentRoot-Image-ghcr.io-fluent-fluent-bit",
-      "relatedSpdxElement": "SPDXRef-Package-deb-base-files-0d9a3a0d950abc76",
+      "relatedSpdxElement": "SPDXRef-Package-deb-base-files-59002f318ddb6670",
       "relationshipType": "CONTAINS"
     },
     {
@@ -39842,7 +39847,7 @@
     },
     {
       "spdxElementId": "SPDXRef-DocumentRoot-Image-ghcr.io-fluent-fluent-bit",
-      "relatedSpdxElement": "SPDXRef-Package-deb-gcc-12-base-0a534483a88e1e33",
+      "relatedSpdxElement": "SPDXRef-Package-deb-gcc-12-base-963c99b42a0be1ee",
       "relationshipType": "CONTAINS"
     },
     {
@@ -39857,7 +39862,7 @@
     },
     {
       "spdxElementId": "SPDXRef-DocumentRoot-Image-ghcr.io-fluent-fluent-bit",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libc6-b1f23f68887853e1",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libc6-42b546cf79458b62",
       "relationshipType": "CONTAINS"
     },
     {
@@ -39882,7 +39887,7 @@
     },
     {
       "spdxElementId": "SPDXRef-DocumentRoot-Image-ghcr.io-fluent-fluent-bit",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgcc-s1-74f0cf86f14f0675",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgcc-s1-531f514be4b1b4c4",
       "relationshipType": "CONTAINS"
     },
     {
@@ -39902,7 +39907,7 @@
     },
     {
       "spdxElementId": "SPDXRef-DocumentRoot-Image-ghcr.io-fluent-fluent-bit",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgomp1-cd7473971e9d06dd",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgomp1-1f52ffed9a91c6fe",
       "relationshipType": "CONTAINS"
     },
     {
@@ -40007,7 +40012,7 @@
     },
     {
       "spdxElementId": "SPDXRef-DocumentRoot-Image-ghcr.io-fluent-fluent-bit",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libstdc--6-9a37debf0d05047e",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libstdc--6-22e3c711107504d2",
       "relationshipType": "CONTAINS"
     },
     {
@@ -40052,7 +40057,7 @@
     },
     {
       "spdxElementId": "SPDXRef-DocumentRoot-Image-ghcr.io-fluent-fluent-bit",
-      "relatedSpdxElement": "SPDXRef-Package-deb-systemd-fbdf5e39d3c6b8fd",
+      "relatedSpdxElement": "SPDXRef-Package-deb-systemd-9731dfc4cd168377",
       "relationshipType": "CONTAINS"
     },
     {
