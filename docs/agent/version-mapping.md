@@ -6,6 +6,7 @@ The following shows the underlying open source software (OSS) version of [Fluent
 
 | Agent Version | OSS Version Base |
 | ------------- | ---------------- |
+| 26.6.3 | 4.2.4 |
 | 26.6.2 | 4.2.4 |
 | 26.6.1 | 4.2.4 |
 | 26.5.4 | 4.2.4 |
