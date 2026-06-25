@@ -5,6 +5,7 @@ This section documents advanced features and capabilities of Fluent Bit.
 ## Configuration Management
 
 - **[Git Configuration Auto-Reload](git-config-auto-reload.md)** - Automatically reload Fluent Bit configuration from a Git repository when changes are detected
+- **[Environment Variables](environment-variables.md)** - Runtime variables available for configuration
 
 ## Data Processing
 

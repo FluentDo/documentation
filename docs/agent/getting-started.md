@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Getting Started
 
 This quick guide helps you install Telemetry Forge Agent and run a minimal Fluent Bit pipeline that tails logs and prints them to stdout.
