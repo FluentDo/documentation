@@ -18,39 +18,39 @@ These variables are available in Telemetry Forge Agent version 26.7.1 and later.
 
 ## Values currently used in agent builds
 
-These values are primarily for our [Fleet Management solution](../fleet-manager/index.md) but are available to all users as well.
+These values are primarily for our [Fleet Management solution](../../fleet-manager/index.md) but are available to all users as well.
 
 ### AGENT_PACKAGE_TYPE
 
 Current build values:
 
-- CONTAINER (container image builds)
-- PACKAGE (native package and installer builds)
+- `CONTAINER` (container image builds)
+- `PACKAGE` (native package and installer builds)
 
 ### AGENT_DISTRO
 
-Current production build values are set based on our [supported targets](./supported-platforms.md) for each release but examples include:
+Current production build values are set based on our [supported targets](../supported-platforms.md) for each release but examples include:
 
 - Container defaults:
-  - debian/trixie
-  - ubi/10.2
+  - `debian/trixie`
+  - `ubi/10.2`
 - Linux package build targets (release set):
-  - almalinux/8
-  - almalinux/9
-  - almalinux/10
-  - amazonlinux/2023
-  - centos/6
-  - centos/7
-  - debian/bookworm
-  - debian/trixie
-  - ubuntu/22.04
-  - ubuntu/24.04
-  - ubuntu/26.04
-  - suse/15
+  - `almalinux/8`
+  - `almalinux/9`
+  - `almalinux/10`
+  - `amazonlinux/2023`
+  - `centos/6`
+  - `centos/7`
+  - `debian/bookworm`
+  - `debian/trixie`
+  - `ubuntu/22.04`
+  - `ubuntu/24.04`
+  - `ubuntu/26.04`
+  - `suse/15`
 - Native package and installer platform values:
-  - windows-x64
-  - macos-15
-  - macos-15-intel
+  - `windows-x64`
+  - `macos-15`
+  - `macos-15-intel`
 
 ### AGENT_VERSION
 
@@ -58,7 +58,7 @@ Current build values:
 
 - Set from release/build metadata at build time
 - Matches the agent release version (for example, `26.7.1`)
-- See [Version Mapping](./version-mapping.md) for published version alignment
+- See [Version Mapping](../version-mapping.md) for published version alignment
 
 ## How values are resolved
 
