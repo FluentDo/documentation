@@ -5,6 +5,7 @@ nav:
   - Telemetry Forge Agent:
     - agent/index.md
     - Getting Started: agent/getting-started.md
+    - Environment Variables: agent/environment-variables.md
     - Features:
       - Overview: agent/features/index.md
       - Record Deduplication: agent/features/record-deduplication.md

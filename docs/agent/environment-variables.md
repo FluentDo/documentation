@@ -11,10 +11,10 @@ These variables are available in Telemetry Forge Agent version 26.7.1 and later.
 | Variable | Description | Default when not provided in process environment |
 | --- | --- | --- |
 | HOSTNAME | Host identity used by the running process. | System hostname (when available) |
-| OS_TYPE | Normalized operating system name. | linux, macos, windows, or unknown |
-| AGENT_DISTRO | Build distribution metadata. | Value from build metadata, or unknown |
-| AGENT_PACKAGE_TYPE | Build package type metadata. | Value from build metadata, or unknown |
-| AGENT_VERSION | Agent version metadata. | Value from build metadata, or unknown |
+| OS_TYPE | Normalized operating system name. | `linux`, `macos`, `windows`, or `unknown` |
+| AGENT_DISTRO | Build distribution metadata. | [Value from build metadata](#agent_distro), or `unknown` |
+| AGENT_PACKAGE_TYPE | Build package type metadata. | [Value from build metadata](#agent_package_type), or `unknown` |
+| AGENT_VERSION | Agent version metadata. | [Value from build metadata](#agent_version), or `unknown` |
 
 ## Values currently used in agent builds
 
@@ -52,13 +52,21 @@ Current production build values are set based on our [supported targets](./suppo
   - macos-15
   - macos-15-intel
 
+### AGENT_VERSION
+
+Current build values:
+
+- Set from release/build metadata at build time
+- Matches the agent release version (for example, `26.7.1`)
+- See [Version Mapping](./version-mapping.md) for published version alignment
+
 ## How values are resolved
 
 Resolution order for each variable:
 
 1. Existing process environment value is kept as-is.
 2. If missing, the agent applies an internal preset set during the build.
-3. If build metadata is unavailable for AGENT_DISTRO, AGENT_PACKAGE_TYPE, or AGENT_VERSION, the value is unknown.
+3. If build metadata is unavailable for AGENT_DISTRO, AGENT_PACKAGE_TYPE, or AGENT_VERSION, the value is `unknown`.
 
 ## Use in Fluent Bit configuration
 
