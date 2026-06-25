@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Getting Started
 
 This quick guide helps you install Telemetry Forge Agent and run a minimal Fluent Bit pipeline that tails logs and prints them to stdout.
@@ -220,6 +225,7 @@ All binaries and installers are available at [https://packages.telemetryforge.io
 - Replace `tail` or add your target input plugins.
 - Add any additional processing/filtering required.
 - Update the systemd service to use your specific configuration.
+- Review [Environment Variables](./features/environment-variables.md) for `AGENT_DISTRO`, `AGENT_PACKAGE_TYPE`, `AGENT_VERSION`, `OS_TYPE`, and `HOSTNAME` usage.
 - Review our custom [GitOps plugin](./features/git-config-auto-reload.md) to simplify configuration management.
 - Review [Supported Platforms](./supported-platforms.md).
 - Review [Version Mapping](./version-mapping.md) to align with your upstream Fluent Bit baseline.

@@ -58,7 +58,7 @@ Packages as well as public VM images (or AMIs) are available for the following E
 | Alma Linux | 8, 9, 10 | RHEL–compatible without breaking changes from CentOS stream. |
 | Rocky Linux | 8, 9, 10 | RHEL–compatible without breaking changes from CentOS stream. |
 | SUSE Linux Enterprise Server (SLES) | 12, 15 | |
-| Ubuntu LTS | 18.04, 20.04, 22.04, 24.04 | |
+| Ubuntu LTS | 18.04, 20.04, 22.04, 24.04, 26.04 | |
 | Debian | 10,11,12,13 | |
 | Mariner/Azure Linux | 2,3 | |
 | Amazon Linux | 2023 | |

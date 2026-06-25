@@ -7,6 +7,7 @@ nav:
     - Getting Started: agent/getting-started.md
     - Features:
       - Overview: agent/features/index.md
+      - Environment Variables: agent/features/environment-variables.md
       - Record Deduplication: agent/features/record-deduplication.md
       - Log Sampling: agent/features/log-sampling.md
       - Git Configuration Auto-Reload: agent/features/git-config-auto-reload.md
