@@ -2,7 +2,7 @@
 
 The Telemetry Forge Agent pre-populates a small set of runtime environment variables that you can always reference in Fluent Bit configuration files rather than have to set explicitly.
 
-Each variable will always pick up the value if set in the environment first.
+If a variable is already set in the process environment, the agent keeps that value unchanged.
 
 These variables are available in Telemetry Forge Agent version 26.7.1 and later.
 
@@ -11,14 +11,14 @@ These variables are available in Telemetry Forge Agent version 26.7.1 and later.
 | Variable | Description | Default when not provided in process environment |
 | --- | --- | --- |
 | HOSTNAME | Host identity used by the running process. | System hostname (when available) |
-| OS_TYPE | Normalized operating system name. | `linux`, `macos`, `windows`, or `unknown` |
+| OS_TYPE | Normalised operating system name. | `linux`, `macos`, `windows`, or `unknown` |
 | AGENT_DISTRO | Build distribution metadata. | [Value from build metadata](#agent_distro), or `unknown` |
 | AGENT_PACKAGE_TYPE | Build package type metadata. | [Value from build metadata](#agent_package_type), or `unknown` |
 | AGENT_VERSION | Agent version metadata. | [Value from build metadata](#agent_version), or `unknown` |
 
 ## Values currently used in agent builds
 
-These values are primarily for our [Fleet Management solution](../../fleet-manager/index.md) but are available to all users as well.
+These values are primarily for our [Fleet Manager](../../fleet-manager/index.md) but are available to all users as well.
 
 ### AGENT_PACKAGE_TYPE
 
@@ -65,7 +65,7 @@ Current build values:
 Resolution order for each variable:
 
 1. Existing process environment value is kept as-is.
-2. If missing, the agent applies an internal preset set during the build.
+2. If missing, the agent applies an internal preset configured at build time.
 3. If build metadata is unavailable for AGENT_DISTRO, AGENT_PACKAGE_TYPE, or AGENT_VERSION, the value is `unknown`.
 
 ## Use in Fluent Bit configuration
@@ -84,7 +84,7 @@ pipeline:
       match: env.test
 ```
 
-Expected output when run with the UBI container:
+Expected output when run with the Universal Base Image (UBI) container:
 
 ```text
 [0] env.test: [[<timestamp>, {}], {"distro"=>"ubi/10.2", "package_type"=>"CONTAINER", "version"=>"26.7.1", "os"=>"linux", "hostname"=>"my-host"}]
