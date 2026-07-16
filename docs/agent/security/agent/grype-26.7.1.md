@@ -1,6 +1,6 @@
-# Grype Vulnerabilities for ghcr.io/telemetryforge/agent:26.6.5
+# Grype Vulnerabilities for ghcr.io/telemetryforge/agent:26.7.1
 
-Unfiltered vulnerability scan results for ghcr.io/telemetryforge/agent:26.6.5 using Grype.
+Unfiltered vulnerability scan results for ghcr.io/telemetryforge/agent:26.7.1 using Grype.
 Refer to the [triaged vulnerabilities](https://docs.fluent.do/security/triaged.html) or [VEX endpoint](https://docs.fluent.do/security/vex.json) for more information on vulnerabilities that have been reviewed.
 
 | Package | Version Installed | Vulnerability ID | Severity |
@@ -40,9 +40,6 @@ Refer to the [triaged vulnerabilities](https://docs.fluent.do/security/triaged.h
 | curl | 8.12.1-4.el10 | [CVE-2026-6429](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6429) | Medium |
 | libcurl-minimal | 8.12.1-4.el10 | [CVE-2026-6429](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6429) | Medium |
 | sqlite-libs | 3.46.1-5.el10_1 | [CVE-2025-29087](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-29087) | Medium |
-| glibc | 2.39-124.el10_2 | [CVE-2026-5450](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5450) | Medium |
-| glibc-common | 2.39-124.el10_2 | [CVE-2026-5450](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5450) | Medium |
-| glibc-minimal-langpack | 2.39-124.el10_2 | [CVE-2026-5450](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5450) | Medium |
 | openssl | 1:3.5.5-4.el10_2 | [CVE-2026-2673](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2673) | Medium |
 | openssl-libs | 1:3.5.5-4.el10_2 | [CVE-2026-2673](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2673) | Medium |
 | curl | 8.12.1-4.el10 | [CVE-2026-7168](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7168) | Medium |
@@ -51,17 +48,17 @@ Refer to the [triaged vulnerabilities](https://docs.fluent.do/security/triaged.h
 | libcurl-minimal | 8.12.1-4.el10 | [CVE-2026-5545](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5545) | Medium |
 | glib2 | 2.80.4-12.el10_2.13 | [CVE-2026-58015](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58015) | Medium |
 | libarchive | 3.7.7-8.el10_1 | [CVE-2026-14164](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14164) | Medium |
-| glibc | 2.39-124.el10_2 | [CVE-2026-6238](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238) | Medium |
-| glibc-common | 2.39-124.el10_2 | [CVE-2026-6238](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238) | Medium |
-| glibc-minimal-langpack | 2.39-124.el10_2 | [CVE-2026-6238](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238) | Medium |
+| glibc | 2.39-126.el10_2 | [CVE-2026-6238](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238) | Medium |
+| glibc-common | 2.39-126.el10_2 | [CVE-2026-6238](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238) | Medium |
+| glibc-minimal-langpack | 2.39-126.el10_2 | [CVE-2026-6238](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238) | Medium |
 | glib2 | 2.80.4-12.el10_2.13 | [CVE-2026-58011](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58011) | Medium |
 | gnutls | 3.8.10-4.el10_2 | [CVE-2024-28835](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-28835) | Medium |
 | glib2 | 2.80.4-12.el10_2.13 | [CVE-2026-58013](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58013) | Medium |
 | glib2 | 2.80.4-12.el10_2.13 | [CVE-2026-58010](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58010) | Medium |
 | glib2 | 2.80.4-12.el10_2.13 | [CVE-2026-58012](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58012) | Medium |
-| glibc | 2.39-124.el10_2 | [CVE-2026-5928](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5928) | Medium |
-| glibc-common | 2.39-124.el10_2 | [CVE-2026-5928](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5928) | Medium |
-| glibc-minimal-langpack | 2.39-124.el10_2 | [CVE-2026-5928](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5928) | Medium |
+| glibc | 2.39-126.el10_2 | [CVE-2026-5928](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5928) | Medium |
+| glibc-common | 2.39-126.el10_2 | [CVE-2026-5928](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5928) | Medium |
+| glibc-minimal-langpack | 2.39-126.el10_2 | [CVE-2026-5928](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5928) | Medium |
 | xz-libs | 1:5.6.2-4.el10_0 | [CVE-2026-34743](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34743) | Medium |
 | glib2 | 2.80.4-12.el10_2.13 | [CVE-2026-58014](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58014) | Medium |
 | curl | 8.12.1-4.el10 | [CVE-2026-3783](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3783) | Medium |
@@ -81,13 +78,12 @@ Refer to the [triaged vulnerabilities](https://docs.fluent.do/security/triaged.h
 | curl | 8.12.1-4.el10 | [CVE-2025-13034](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13034) | Medium |
 | libcurl-minimal | 8.12.1-4.el10 | [CVE-2025-13034](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13034) | Medium |
 | krb5-libs | 1.21.3-10.el10_2 | [CVE-2026-11850](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11850) | Medium |
-| glibc | 2.39-124.el10_2 | [CVE-2026-5435](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5435) | Medium |
-| glibc-common | 2.39-124.el10_2 | [CVE-2026-5435](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5435) | Medium |
-| glibc-minimal-langpack | 2.39-124.el10_2 | [CVE-2026-5435](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5435) | Medium |
+| glibc | 2.39-126.el10_2 | [CVE-2026-5435](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5435) | Medium |
+| glibc-common | 2.39-126.el10_2 | [CVE-2026-5435](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5435) | Medium |
+| glibc-minimal-langpack | 2.39-126.el10_2 | [CVE-2026-5435](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5435) | Medium |
 | sqlite-libs | 3.46.1-5.el10_1 | [CVE-2025-7458](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-7458) | Medium |
 | libxml2 | 2.12.5-10.el10_2.1 | [CVE-2026-1757](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1757) | Medium |
 | expat | 2.7.3-1.el10_2.1 | [CVE-2026-50219](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-50219) | Medium |
-| coreutils-single | 9.5-7.el10 | [CVE-2025-5278](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5278) | Medium |
 | libusb1 | 1.0.29-3.el10 | [CVE-2026-23679](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-23679) | Medium |
 | expat | 2.7.3-1.el10_2.1 | [CVE-2026-32777](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32777) | Medium |
 | expat | 2.7.3-1.el10_2.1 | [CVE-2026-32776](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32776) | Medium |
