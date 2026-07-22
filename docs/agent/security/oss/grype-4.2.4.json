@@ -13,8 +13,8 @@
           {
             "cve": "CVE-2011-3389",
             "epss": 0.73327,
-            "percentile": 0.994,
-            "date": "2026-07-15"
+            "percentile": 0.99403,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -148,8 +148,8 @@
             {
               "cve": "CVE-2011-3389",
               "epss": 0.73327,
-              "percentile": 0.994,
-              "date": "2026-07-15"
+              "percentile": 0.99403,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -237,8 +237,8 @@
           {
             "cve": "CVE-2026-45447",
             "epss": 0.02719,
-            "percentile": 0.8435,
-            "date": "2026-07-15"
+            "percentile": 0.84409,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -336,8 +336,8 @@
             {
               "cve": "CVE-2026-45447",
               "epss": 0.02719,
-              "percentile": 0.8435,
-              "date": "2026-07-15"
+              "percentile": 0.84409,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -455,8 +455,8 @@
           {
             "cve": "CVE-2026-42009",
             "epss": 0.01335,
-            "percentile": 0.67945,
-            "date": "2026-07-15"
+            "percentile": 0.68063,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -520,6 +520,7 @@
             "https://access.redhat.com/errata/RHSA-2026:36004",
             "https://access.redhat.com/errata/RHSA-2026:36005",
             "https://access.redhat.com/errata/RHSA-2026:36006",
+            "https://access.redhat.com/errata/RHSA-2026:41921",
             "https://access.redhat.com/security/cve/CVE-2026-42009",
             "https://bugzilla.redhat.com/show_bug.cgi?id=2467279",
             "https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-2",
@@ -556,8 +557,8 @@
             {
               "cve": "CVE-2026-42009",
               "epss": 0.01335,
-              "percentile": 0.67945,
-              "date": "2026-07-15"
+              "percentile": 0.68063,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -654,8 +655,8 @@
           {
             "cve": "CVE-2026-11856",
             "epss": 0.01064,
-            "percentile": 0.60838,
-            "date": "2026-07-15"
+            "percentile": 0.60976,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -703,8 +704,8 @@
             {
               "cve": "CVE-2026-11856",
               "epss": 0.01064,
-              "percentile": 0.60838,
-              "date": "2026-07-15"
+              "percentile": 0.60976,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -792,8 +793,8 @@
           {
             "cve": "CVE-2026-9079",
             "epss": 0.01064,
-            "percentile": 0.60837,
-            "date": "2026-07-15"
+            "percentile": 0.60975,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -841,8 +842,8 @@
             {
               "cve": "CVE-2026-9079",
               "epss": 0.01064,
-              "percentile": 0.60837,
-              "date": "2026-07-15"
+              "percentile": 0.60975,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -930,8 +931,8 @@
           {
             "cve": "CVE-2026-42010",
             "epss": 0.0105,
-            "percentile": 0.60393,
-            "date": "2026-07-15"
+            "percentile": 0.60532,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -1000,6 +1001,7 @@
             "https://access.redhat.com/errata/RHSA-2026:36004",
             "https://access.redhat.com/errata/RHSA-2026:36005",
             "https://access.redhat.com/errata/RHSA-2026:36006",
+            "https://access.redhat.com/errata/RHSA-2026:41921",
             "https://access.redhat.com/security/cve/CVE-2026-42010",
             "https://bugzilla.redhat.com/show_bug.cgi?id=2467289",
             "https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-4",
@@ -1048,8 +1050,8 @@
             {
               "cve": "CVE-2026-42010",
               "epss": 0.0105,
-              "percentile": 0.60393,
-              "date": "2026-07-15"
+              "percentile": 0.60532,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -1152,8 +1154,8 @@
           {
             "cve": "CVE-2026-33846",
             "epss": 0.01263,
-            "percentile": 0.66364,
-            "date": "2026-07-15"
+            "percentile": 0.66486,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -1214,6 +1216,7 @@
             "https://access.redhat.com/errata/RHSA-2026:36004",
             "https://access.redhat.com/errata/RHSA-2026:36005",
             "https://access.redhat.com/errata/RHSA-2026:36006",
+            "https://access.redhat.com/errata/RHSA-2026:41921",
             "https://access.redhat.com/security/cve/CVE-2026-33846",
             "https://bugzilla.redhat.com/show_bug.cgi?id=2450625",
             "https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33846.json"
@@ -1249,8 +1252,8 @@
             {
               "cve": "CVE-2026-33846",
               "epss": 0.01263,
-              "percentile": 0.66364,
-              "date": "2026-07-15"
+              "percentile": 0.66486,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -1347,8 +1350,8 @@
           {
             "cve": "CVE-2026-10536",
             "epss": 0.00891,
-            "percentile": 0.5532,
-            "date": "2026-07-15"
+            "percentile": 0.55464,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -1396,8 +1399,8 @@
             {
               "cve": "CVE-2026-10536",
               "epss": 0.00891,
-              "percentile": 0.5532,
-              "date": "2026-07-15"
+              "percentile": 0.55464,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -1485,8 +1488,8 @@
           {
             "cve": "CVE-2025-13151",
             "epss": 0.01109,
-            "percentile": 0.62148,
-            "date": "2026-07-15"
+            "percentile": 0.62287,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -1544,8 +1547,8 @@
             {
               "cve": "CVE-2025-13151",
               "epss": 0.01109,
-              "percentile": 0.62148,
-              "date": "2026-07-15"
+              "percentile": 0.62287,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -1637,8 +1640,8 @@
           {
             "cve": "CVE-2026-33845",
             "epss": 0.00805,
-            "percentile": 0.52617,
-            "date": "2026-07-15"
+            "percentile": 0.5278,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -1699,6 +1702,7 @@
             "https://access.redhat.com/errata/RHSA-2026:36004",
             "https://access.redhat.com/errata/RHSA-2026:36005",
             "https://access.redhat.com/errata/RHSA-2026:36006",
+            "https://access.redhat.com/errata/RHSA-2026:41921",
             "https://access.redhat.com/security/cve/CVE-2026-33845",
             "https://bugzilla.redhat.com/show_bug.cgi?id=2450624",
             "https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33845.json"
@@ -1746,8 +1750,8 @@
             {
               "cve": "CVE-2026-33845",
               "epss": 0.00805,
-              "percentile": 0.52617,
-              "date": "2026-07-15"
+              "percentile": 0.5278,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -1844,8 +1848,8 @@
           {
             "cve": "CVE-2026-8927",
             "epss": 0.00752,
-            "percentile": 0.50804,
-            "date": "2026-07-15"
+            "percentile": 0.50969,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -1893,8 +1897,8 @@
             {
               "cve": "CVE-2026-8927",
               "epss": 0.00752,
-              "percentile": 0.50804,
-              "date": "2026-07-15"
+              "percentile": 0.50969,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -1958,6 +1962,189 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2025-15661",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-15661",
+        "namespace": "debian:distro:debian:13",
+        "severity": "Medium",
+        "urls": [],
+        "description": "libssh2 through 1.11.1, fixed in commit 2dae302, contains an out-of-bounds heap read vulnerability in the sftp_symlink() function in src/sftp.c that allows a malicious SSH server or man-in-the-middle attacker to disclose heap memory contents or cause a crash by sending a crafted SSH_FXP_NAME response. Attackers can supply a link_len value larger than the actual packet data in SSH_FXP_NAME responses for SFTP READLINK and REALPATH operations, triggering a heap buffer over-read of up to target_len minus one bytes due to the missing validation of available packet buffer size before the memcpy operation.",
+        "cvss": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
+            "metrics": {
+              "baseScore": 6.5,
+              "exploitabilityScore": 2.3,
+              "impactScore": 4.3
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-15661",
+            "epss": 0.0103,
+            "percentile": 0.59931,
+            "date": "2026-07-21"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-15661",
+            "cwe": "CWE-125",
+            "source": "disclosure@vulncheck.com",
+            "type": "Secondary"
+          }
+        ],
+        "fix": {
+          "versions": [
+            "1.11.1-1+deb13u1"
+          ],
+          "state": "fixed",
+          "available": [
+            {
+              "version": "1.11.1-1+deb13u1",
+              "date": "2026-06-25",
+              "kind": "advisory"
+            }
+          ]
+        },
+        "advisories": [
+          {
+            "id": "DSA-6365-1",
+            "link": "https://security-tracker.debian.org/tracker/DSA-6365-1"
+          }
+        ],
+        "risk": 0.5922499999999999
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-15661",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-15661",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://github.com/libssh2/libssh2/commit/2dae3024897e1898d389835151f4e9606227721d",
+            "https://github.com/libssh2/libssh2/pull/1705",
+            "https://github.com/libssh2/libssh2/pull/1717",
+            "https://www.vulncheck.com/advisories/libssh2-heap-buffer-over-read-via-sftp-symlink-in-sftp-c"
+          ],
+          "description": "libssh2 through 1.11.1, fixed in commit 2dae302, contains an out-of-bounds heap read vulnerability in the sftp_symlink() function in src/sftp.c that allows a malicious SSH server or man-in-the-middle attacker to disclose heap memory contents or cause a crash by sending a crafted SSH_FXP_NAME response. Attackers can supply a link_len value larger than the actual packet data in SSH_FXP_NAME responses for SFTP READLINK and REALPATH operations, triggering a heap buffer over-read of up to target_len minus one bytes due to the missing validation of available packet buffer size before the memcpy operation.",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
+              "metrics": {
+                "baseScore": 6.5,
+                "exploitabilityScore": 2.3,
+                "impactScore": 4.3
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "disclosure@vulncheck.com",
+              "type": "Secondary",
+              "version": "4.0",
+              "vector": "CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:L/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+              "metrics": {
+                "baseScore": 8.3
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "disclosure@vulncheck.com",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
+              "metrics": {
+                "baseScore": 6.5,
+                "exploitabilityScore": 2.3,
+                "impactScore": 4.3
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-15661",
+              "epss": 0.0103,
+              "percentile": 0.59931,
+              "date": "2026-07-21"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-15661",
+              "cwe": "CWE-125",
+              "source": "disclosure@vulncheck.com",
+              "type": "Secondary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "13"
+            },
+            "package": {
+              "name": "libssh2",
+              "version": "1.11.1-1"
+            },
+            "namespace": "debian:distro:debian:13"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-15661",
+            "versionConstraint": "< 1.11.1-1+deb13u1 (deb)"
+          },
+          "fix": {
+            "suggestedVersion": "1.11.1-1+deb13u1"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "db086fa0f05191a1",
+        "name": "libssh2-1t64",
+        "version": "1.11.1-1",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libssh2-1t64",
+            "layerID": "sha256:73c462bbf110b45d1a57a4d592f0cec743bc1bf41281b698149f276b7abaa3b3",
+            "accessPath": "/var/lib/dpkg/status.d/libssh2-1t64",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libssh2-1t64:libssh2-1t64:1.11.1-1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libssh2-1t64:libssh2_1t64:1.11.1-1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libssh2_1t64:libssh2-1t64:1.11.1-1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libssh2_1t64:libssh2_1t64:1.11.1-1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libssh2:libssh2-1t64:1.11.1-1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libssh2:libssh2_1t64:1.11.1-1:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libssh2-1t64@1.11.1-1?arch=amd64&distro=debian-13&upstream=libssh2",
+        "upstreams": [
+          {
+            "name": "libssh2"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2026-8924",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2026-8924",
         "namespace": "debian:distro:debian:13",
@@ -1982,8 +2169,8 @@
           {
             "cve": "CVE-2026-8924",
             "epss": 0.00649,
-            "percentile": 0.4696,
-            "date": "2026-07-15"
+            "percentile": 0.47123,
+            "date": "2026-07-21"
           }
         ],
         "fix": {
@@ -2023,8 +2210,8 @@
             {
               "cve": "CVE-2026-8924",
               "epss": 0.00649,
-              "percentile": 0.4696,
-              "date": "2026-07-15"
+              "percentile": 0.47123,
+              "date": "2026-07-21"
             }
           ]
         }
@@ -2104,8 +2291,8 @@
           {
             "cve": "CVE-2026-27135",
             "epss": 0.00775,
-            "percentile": 0.51605,
-            "date": "2026-07-15"
+            "percentile": 0.51765,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -2237,8 +2424,8 @@
             {
               "cve": "CVE-2026-27135",
               "epss": 0.00775,
-              "percentile": 0.51605,
-              "date": "2026-07-15"
+              "percentile": 0.51765,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -2340,8 +2527,8 @@
           {
             "cve": "CVE-2026-55200",
             "epss": 0.00732,
-            "percentile": 0.5016,
-            "date": "2026-07-15"
+            "percentile": 0.50315,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -2426,8 +2613,8 @@
             {
               "cve": "CVE-2026-55200",
               "epss": 0.00732,
-              "percentile": 0.5016,
-              "date": "2026-07-15"
+              "percentile": 0.50315,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -2523,8 +2710,8 @@
           {
             "cve": "CVE-2026-5260",
             "epss": 0.00727,
-            "percentile": 0.49978,
-            "date": "2026-07-15"
+            "percentile": 0.50133,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -2575,6 +2762,7 @@
             "https://access.redhat.com/errata/RHSA-2026:30850",
             "https://access.redhat.com/errata/RHSA-2026:32962",
             "https://access.redhat.com/errata/RHSA-2026:33125",
+            "https://access.redhat.com/errata/RHSA-2026:41921",
             "https://access.redhat.com/security/cve/CVE-2026-5260",
             "https://bugzilla.redhat.com/show_bug.cgi?id=2467450",
             "https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-10"
@@ -2598,8 +2786,8 @@
             {
               "cve": "CVE-2026-5260",
               "epss": 0.00727,
-              "percentile": 0.49978,
-              "date": "2026-07-15"
+              "percentile": 0.50133,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -2690,8 +2878,8 @@
           {
             "cve": "CVE-2026-8926",
             "epss": 0.0061,
-            "percentile": 0.45172,
-            "date": "2026-07-15"
+            "percentile": 0.45323,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -2739,8 +2927,8 @@
             {
               "cve": "CVE-2026-8926",
               "epss": 0.0061,
-              "percentile": 0.45172,
-              "date": "2026-07-15"
+              "percentile": 0.45323,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -2828,8 +3016,8 @@
           {
             "cve": "CVE-2026-6473",
             "epss": 0.00668,
-            "percentile": 0.47726,
-            "date": "2026-07-15"
+            "percentile": 0.47882,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -2889,6 +3077,7 @@
             "https://access.redhat.com/errata/RHSA-2026:27743",
             "https://access.redhat.com/errata/RHSA-2026:28037",
             "https://access.redhat.com/errata/RHSA-2026:28143",
+            "https://access.redhat.com/errata/RHSA-2026:28208",
             "https://access.redhat.com/errata/RHSA-2026:28999",
             "https://access.redhat.com/errata/RHSA-2026:29212",
             "https://access.redhat.com/errata/RHSA-2026:29815",
@@ -2902,6 +3091,7 @@
             "https://access.redhat.com/errata/RHSA-2026:34362",
             "https://access.redhat.com/errata/RHSA-2026:34363",
             "https://access.redhat.com/errata/RHSA-2026:35880",
+            "https://access.redhat.com/errata/RHSA-2026:42555",
             "https://access.redhat.com/security/cve/CVE-2026-6473",
             "https://bugzilla.redhat.com/show_bug.cgi?id=2477448",
             "https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-6473.json"
@@ -2937,8 +3127,8 @@
             {
               "cve": "CVE-2026-6473",
               "epss": 0.00668,
-              "percentile": 0.47726,
-              "date": "2026-07-15"
+              "percentile": 0.47882,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -3035,8 +3225,8 @@
           {
             "cve": "CVE-2026-3805",
             "epss": 0.00715,
-            "percentile": 0.49541,
-            "date": "2026-07-15"
+            "percentile": 0.49692,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -3094,8 +3284,8 @@
             {
               "cve": "CVE-2026-3805",
               "epss": 0.00715,
-              "percentile": 0.49541,
-              "date": "2026-07-15"
+              "percentile": 0.49692,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -3186,8 +3376,8 @@
           {
             "cve": "CVE-2026-42764",
             "epss": 0.00684,
-            "percentile": 0.48411,
-            "date": "2026-07-15"
+            "percentile": 0.48553,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -3245,8 +3435,8 @@
             {
               "cve": "CVE-2026-42764",
               "epss": 0.00684,
-              "percentile": 0.48411,
-              "date": "2026-07-15"
+              "percentile": 0.48553,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -3358,8 +3548,8 @@
           {
             "cve": "CVE-2026-5450",
             "epss": 0.00502,
-            "percentile": 0.39564,
-            "date": "2026-07-15"
+            "percentile": 0.39736,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -3413,8 +3603,8 @@
             {
               "cve": "CVE-2026-5450",
               "epss": 0.00502,
-              "percentile": 0.39564,
-              "date": "2026-07-15"
+              "percentile": 0.39736,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -3557,8 +3747,8 @@
           {
             "cve": "CVE-2026-6478",
             "epss": 0.00558,
-            "percentile": 0.42721,
-            "date": "2026-07-15"
+            "percentile": 0.42868,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -3633,6 +3823,7 @@
             "https://access.redhat.com/errata/RHSA-2026:34362",
             "https://access.redhat.com/errata/RHSA-2026:34363",
             "https://access.redhat.com/errata/RHSA-2026:35880",
+            "https://access.redhat.com/errata/RHSA-2026:42555",
             "https://access.redhat.com/security/cve/CVE-2026-6478",
             "https://bugzilla.redhat.com/show_bug.cgi?id=2477447",
             "https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-6478.json"
@@ -3668,8 +3859,8 @@
             {
               "cve": "CVE-2026-6478",
               "epss": 0.00558,
-              "percentile": 0.42721,
-              "date": "2026-07-15"
+              "percentile": 0.42868,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -3766,8 +3957,8 @@
           {
             "cve": "CVE-2026-12064",
             "epss": 0.00574,
-            "percentile": 0.43495,
-            "date": "2026-07-15"
+            "percentile": 0.43644,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -3815,8 +4006,8 @@
             {
               "cve": "CVE-2026-12064",
               "epss": 0.00574,
-              "percentile": 0.43495,
-              "date": "2026-07-15"
+              "percentile": 0.43644,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -3904,8 +4095,8 @@
           {
             "cve": "CVE-2026-7598",
             "epss": 0.00466,
-            "percentile": 0.37358,
-            "date": "2026-07-15"
+            "percentile": 0.3752,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -4021,8 +4212,8 @@
             {
               "cve": "CVE-2026-7598",
               "epss": 0.00466,
-              "percentile": 0.37358,
-              "date": "2026-07-15"
+              "percentile": 0.3752,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -4130,8 +4321,8 @@
           {
             "cve": "CVE-2026-3833",
             "epss": 0.00566,
-            "percentile": 0.4312,
-            "date": "2026-07-15"
+            "percentile": 0.43272,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -4182,6 +4373,7 @@
             "https://access.redhat.com/errata/RHSA-2026:30850",
             "https://access.redhat.com/errata/RHSA-2026:32962",
             "https://access.redhat.com/errata/RHSA-2026:33125",
+            "https://access.redhat.com/errata/RHSA-2026:41921",
             "https://access.redhat.com/security/cve/CVE-2026-3833",
             "https://bugzilla.redhat.com/show_bug.cgi?id=2445763",
             "https://gitlab.com/gnutls/gnutls/-/issues/1803"
@@ -4217,8 +4409,8 @@
             {
               "cve": "CVE-2026-3833",
               "epss": 0.00566,
-              "percentile": 0.4312,
-              "date": "2026-07-15"
+              "percentile": 0.43272,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -4309,8 +4501,8 @@
           {
             "cve": "CVE-2026-5773",
             "epss": 0.00549,
-            "percentile": 0.42205,
-            "date": "2026-07-15"
+            "percentile": 0.42361,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -4380,8 +4572,8 @@
             {
               "cve": "CVE-2026-5773",
               "epss": 0.00549,
-              "percentile": 0.42205,
-              "date": "2026-07-15"
+              "percentile": 0.42361,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -4472,8 +4664,8 @@
           {
             "cve": "CVE-2026-8286",
             "epss": 0.0052,
-            "percentile": 0.40649,
-            "date": "2026-07-15"
+            "percentile": 0.40809,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -4521,8 +4713,8 @@
             {
               "cve": "CVE-2026-8286",
               "epss": 0.0052,
-              "percentile": 0.40649,
-              "date": "2026-07-15"
+              "percentile": 0.40809,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -4610,8 +4802,8 @@
           {
             "cve": "CVE-2026-34180",
             "epss": 0.00513,
-            "percentile": 0.40219,
-            "date": "2026-07-15"
+            "percentile": 0.40389,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -4676,8 +4868,8 @@
             {
               "cve": "CVE-2026-34180",
               "epss": 0.00513,
-              "percentile": 0.40219,
-              "date": "2026-07-15"
+              "percentile": 0.40389,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -4789,8 +4981,8 @@
           {
             "cve": "CVE-2026-34183",
             "epss": 0.00511,
-            "percentile": 0.40097,
-            "date": "2026-07-15"
+            "percentile": 0.40268,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -4849,8 +5041,8 @@
             {
               "cve": "CVE-2026-34183",
               "epss": 0.00511,
-              "percentile": 0.40097,
-              "date": "2026-07-15"
+              "percentile": 0.40268,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -4962,8 +5154,8 @@
           {
             "cve": "CVE-2026-40355",
             "epss": 0.00507,
-            "percentile": 0.39837,
-            "date": "2026-07-15"
+            "percentile": 0.40014,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -5039,8 +5231,8 @@
             {
               "cve": "CVE-2026-40355",
               "epss": 0.00507,
-              "percentile": 0.39837,
-              "date": "2026-07-15"
+              "percentile": 0.40014,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -5140,8 +5332,8 @@
           {
             "cve": "CVE-2026-40355",
             "epss": 0.00507,
-            "percentile": 0.39837,
-            "date": "2026-07-15"
+            "percentile": 0.40014,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -5217,8 +5409,8 @@
             {
               "cve": "CVE-2026-40355",
               "epss": 0.00507,
-              "percentile": 0.39837,
-              "date": "2026-07-15"
+              "percentile": 0.40014,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -5309,8 +5501,8 @@
           {
             "cve": "CVE-2026-40355",
             "epss": 0.00507,
-            "percentile": 0.39837,
-            "date": "2026-07-15"
+            "percentile": 0.40014,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -5386,8 +5578,8 @@
             {
               "cve": "CVE-2026-40355",
               "epss": 0.00507,
-              "percentile": 0.39837,
-              "date": "2026-07-15"
+              "percentile": 0.40014,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -5483,8 +5675,8 @@
           {
             "cve": "CVE-2026-40355",
             "epss": 0.00507,
-            "percentile": 0.39837,
-            "date": "2026-07-15"
+            "percentile": 0.40014,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -5560,8 +5752,8 @@
             {
               "cve": "CVE-2026-40355",
               "epss": 0.00507,
-              "percentile": 0.39837,
-              "date": "2026-07-15"
+              "percentile": 0.40014,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -5652,8 +5844,8 @@
           {
             "cve": "CVE-2026-40356",
             "epss": 0.00501,
-            "percentile": 0.39457,
-            "date": "2026-07-15"
+            "percentile": 0.39627,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -5727,8 +5919,8 @@
             {
               "cve": "CVE-2026-40356",
               "epss": 0.00501,
-              "percentile": 0.39457,
-              "date": "2026-07-15"
+              "percentile": 0.39627,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -5828,8 +6020,8 @@
           {
             "cve": "CVE-2026-40356",
             "epss": 0.00501,
-            "percentile": 0.39457,
-            "date": "2026-07-15"
+            "percentile": 0.39627,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -5903,8 +6095,8 @@
             {
               "cve": "CVE-2026-40356",
               "epss": 0.00501,
-              "percentile": 0.39457,
-              "date": "2026-07-15"
+              "percentile": 0.39627,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -5995,8 +6187,8 @@
           {
             "cve": "CVE-2026-40356",
             "epss": 0.00501,
-            "percentile": 0.39457,
-            "date": "2026-07-15"
+            "percentile": 0.39627,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -6070,8 +6262,8 @@
             {
               "cve": "CVE-2026-40356",
               "epss": 0.00501,
-              "percentile": 0.39457,
-              "date": "2026-07-15"
+              "percentile": 0.39627,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -6167,8 +6359,8 @@
           {
             "cve": "CVE-2026-40356",
             "epss": 0.00501,
-            "percentile": 0.39457,
-            "date": "2026-07-15"
+            "percentile": 0.39627,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -6242,8 +6434,8 @@
             {
               "cve": "CVE-2026-40356",
               "epss": 0.00501,
-              "percentile": 0.39457,
-              "date": "2026-07-15"
+              "percentile": 0.39627,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -6334,8 +6526,8 @@
           {
             "cve": "CVE-2026-42015",
             "epss": 0.00727,
-            "percentile": 0.49975,
-            "date": "2026-07-15"
+            "percentile": 0.50129,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -6386,6 +6578,7 @@
             "https://access.redhat.com/errata/RHSA-2026:30850",
             "https://access.redhat.com/errata/RHSA-2026:32962",
             "https://access.redhat.com/errata/RHSA-2026:33125",
+            "https://access.redhat.com/errata/RHSA-2026:41921",
             "https://access.redhat.com/security/cve/CVE-2026-42015",
             "https://bugzilla.redhat.com/show_bug.cgi?id=2467678",
             "https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-11"
@@ -6409,8 +6602,8 @@
             {
               "cve": "CVE-2026-42015",
               "epss": 0.00727,
-              "percentile": 0.49975,
-              "date": "2026-07-15"
+              "percentile": 0.50129,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -6501,8 +6694,8 @@
           {
             "cve": "CVE-2026-6477",
             "epss": 0.00464,
-            "percentile": 0.37233,
-            "date": "2026-07-15"
+            "percentile": 0.37399,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -6562,6 +6755,9 @@
             "https://access.redhat.com/errata/RHSA-2026:27742",
             "https://access.redhat.com/errata/RHSA-2026:27743",
             "https://access.redhat.com/errata/RHSA-2026:28037",
+            "https://access.redhat.com/errata/RHSA-2026:28143",
+            "https://access.redhat.com/errata/RHSA-2026:28208",
+            "https://access.redhat.com/errata/RHSA-2026:28999",
             "https://access.redhat.com/errata/RHSA-2026:29212",
             "https://access.redhat.com/errata/RHSA-2026:29815",
             "https://access.redhat.com/errata/RHSA-2026:29904",
@@ -6574,6 +6770,7 @@
             "https://access.redhat.com/errata/RHSA-2026:34362",
             "https://access.redhat.com/errata/RHSA-2026:34363",
             "https://access.redhat.com/errata/RHSA-2026:35880",
+            "https://access.redhat.com/errata/RHSA-2026:42555",
             "https://access.redhat.com/security/cve/CVE-2026-6477",
             "https://bugzilla.redhat.com/show_bug.cgi?id=2477442",
             "https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-6477.json"
@@ -6609,8 +6806,8 @@
             {
               "cve": "CVE-2026-6477",
               "epss": 0.00464,
-              "percentile": 0.37233,
-              "date": "2026-07-15"
+              "percentile": 0.37399,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -6707,8 +6904,8 @@
           {
             "cve": "CVE-2026-9080",
             "epss": 0.00494,
-            "percentile": 0.39083,
-            "date": "2026-07-15"
+            "percentile": 0.39234,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -6756,8 +6953,8 @@
             {
               "cve": "CVE-2026-9080",
               "epss": 0.00494,
-              "percentile": 0.39083,
-              "date": "2026-07-15"
+              "percentile": 0.39234,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -6845,8 +7042,8 @@
           {
             "cve": "CVE-2026-42011",
             "epss": 0.00475,
-            "percentile": 0.37938,
-            "date": "2026-07-15"
+            "percentile": 0.38099,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -6897,6 +7094,7 @@
             "https://access.redhat.com/errata/RHSA-2026:30850",
             "https://access.redhat.com/errata/RHSA-2026:32962",
             "https://access.redhat.com/errata/RHSA-2026:33125",
+            "https://access.redhat.com/errata/RHSA-2026:41921",
             "https://access.redhat.com/security/cve/CVE-2026-42011",
             "https://bugzilla.redhat.com/show_bug.cgi?id=2467437",
             "https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-6"
@@ -6920,8 +7118,8 @@
             {
               "cve": "CVE-2026-42011",
               "epss": 0.00475,
-              "percentile": 0.37938,
-              "date": "2026-07-15"
+              "percentile": 0.38099,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -7012,8 +7210,8 @@
           {
             "cve": "CVE-2026-6479",
             "epss": 0.00471,
-            "percentile": 0.37632,
-            "date": "2026-07-15"
+            "percentile": 0.37787,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -7073,8 +7271,8 @@
             {
               "cve": "CVE-2026-6479",
               "epss": 0.00471,
-              "percentile": 0.37632,
-              "date": "2026-07-15"
+              "percentile": 0.37787,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -7152,8 +7350,8 @@
           {
             "cve": "CVE-2017-17740",
             "epss": 0.07022,
-            "percentile": 0.93443,
-            "date": "2026-07-15"
+            "percentile": 0.93471,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -7215,8 +7413,8 @@
             {
               "cve": "CVE-2017-17740",
               "epss": 0.07022,
-              "percentile": 0.93443,
-              "date": "2026-07-15"
+              "percentile": 0.93471,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -7304,8 +7502,8 @@
           {
             "cve": "CVE-2025-14819",
             "epss": 0.00679,
-            "percentile": 0.48193,
-            "date": "2026-07-15"
+            "percentile": 0.48344,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -7362,8 +7560,8 @@
             {
               "cve": "CVE-2025-14819",
               "epss": 0.00679,
-              "percentile": 0.48193,
-              "date": "2026-07-15"
+              "percentile": 0.48344,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -7454,8 +7652,8 @@
           {
             "cve": "CVE-2026-6253",
             "epss": 0.00639,
-            "percentile": 0.46478,
-            "date": "2026-07-15"
+            "percentile": 0.46632,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -7513,8 +7711,8 @@
             {
               "cve": "CVE-2026-6253",
               "epss": 0.00639,
-              "percentile": 0.46478,
-              "date": "2026-07-15"
+              "percentile": 0.46632,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -7605,8 +7803,8 @@
           {
             "cve": "CVE-2026-42013",
             "epss": 0.00423,
-            "percentile": 0.34271,
-            "date": "2026-07-15"
+            "percentile": 0.34403,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -7657,6 +7855,7 @@
             "https://access.redhat.com/errata/RHSA-2026:30850",
             "https://access.redhat.com/errata/RHSA-2026:32962",
             "https://access.redhat.com/errata/RHSA-2026:33125",
+            "https://access.redhat.com/errata/RHSA-2026:41921",
             "https://access.redhat.com/security/cve/CVE-2026-42013",
             "https://bugzilla.redhat.com/show_bug.cgi?id=2467448",
             "https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-8"
@@ -7680,8 +7879,8 @@
             {
               "cve": "CVE-2026-42013",
               "epss": 0.00423,
-              "percentile": 0.34271,
-              "date": "2026-07-15"
+              "percentile": 0.34403,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -7772,8 +7971,8 @@
           {
             "cve": "CVE-2026-42766",
             "epss": 0.00595,
-            "percentile": 0.44432,
-            "date": "2026-07-15"
+            "percentile": 0.44588,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -7838,8 +8037,8 @@
             {
               "cve": "CVE-2026-42766",
               "epss": 0.00595,
-              "percentile": 0.44432,
-              "date": "2026-07-15"
+              "percentile": 0.44588,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -7951,8 +8150,8 @@
           {
             "cve": "CVE-2025-14524",
             "epss": 0.00611,
-            "percentile": 0.45222,
-            "date": "2026-07-15"
+            "percentile": 0.45375,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -8010,8 +8209,8 @@
             {
               "cve": "CVE-2025-14524",
               "epss": 0.00611,
-              "percentile": 0.45222,
-              "date": "2026-07-15"
+              "percentile": 0.45375,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -8102,8 +8301,8 @@
           {
             "cve": "CVE-2026-8458",
             "epss": 0.00543,
-            "percentile": 0.41908,
-            "date": "2026-07-15"
+            "percentile": 0.42058,
+            "date": "2026-07-21"
           }
         ],
         "fix": {
@@ -8143,8 +8342,8 @@
             {
               "cve": "CVE-2026-8458",
               "epss": 0.00543,
-              "percentile": 0.41908,
-              "date": "2026-07-15"
+              "percentile": 0.42058,
+              "date": "2026-07-21"
             }
           ]
         }
@@ -8224,8 +8423,8 @@
           {
             "cve": "CVE-2026-6637",
             "epss": 0.00378,
-            "percentile": 0.29948,
-            "date": "2026-07-15"
+            "percentile": 0.30114,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -8291,8 +8490,8 @@
             {
               "cve": "CVE-2026-6637",
               "epss": 0.00378,
-              "percentile": 0.29948,
-              "date": "2026-07-15"
+              "percentile": 0.30114,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -8389,8 +8588,8 @@
           {
             "cve": "CVE-2026-9545",
             "epss": 0.00408,
-            "percentile": 0.32981,
-            "date": "2026-07-15"
+            "percentile": 0.3314,
+            "date": "2026-07-21"
           }
         ],
         "fix": {
@@ -8430,8 +8629,8 @@
             {
               "cve": "CVE-2026-9545",
               "epss": 0.00408,
-              "percentile": 0.32981,
-              "date": "2026-07-15"
+              "percentile": 0.3314,
+              "date": "2026-07-21"
             }
           ]
         }
@@ -8511,8 +8710,8 @@
           {
             "cve": "CVE-2026-55199",
             "epss": 0.00408,
-            "percentile": 0.32942,
-            "date": "2026-07-15"
+            "percentile": 0.33101,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -8596,8 +8795,8 @@
             {
               "cve": "CVE-2026-55199",
               "epss": 0.00408,
-              "percentile": 0.32942,
-              "date": "2026-07-15"
+              "percentile": 0.33101,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -8680,8 +8879,8 @@
           {
             "cve": "CVE-2018-20796",
             "epss": 0.05804,
-            "percentile": 0.92281,
-            "date": "2026-07-15"
+            "percentile": 0.92315,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -8743,8 +8942,8 @@
             {
               "cve": "CVE-2018-20796",
               "epss": 0.05804,
-              "percentile": 0.92281,
-              "date": "2026-07-15"
+              "percentile": 0.92315,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -8881,8 +9080,8 @@
           {
             "cve": "CVE-2026-4046",
             "epss": 0.0038,
-            "percentile": 0.3019,
-            "date": "2026-07-15"
+            "percentile": 0.30359,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -8940,8 +9139,8 @@
             {
               "cve": "CVE-2026-4046",
               "epss": 0.0038,
-              "percentile": 0.3019,
-              "date": "2026-07-15"
+              "percentile": 0.30359,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -9081,8 +9280,8 @@
           {
             "cve": "CVE-2026-7383",
             "epss": 0.00358,
-            "percentile": 0.27968,
-            "date": "2026-07-15"
+            "percentile": 0.28116,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -9147,8 +9346,8 @@
             {
               "cve": "CVE-2026-7383",
               "epss": 0.00358,
-              "percentile": 0.27968,
-              "date": "2026-07-15"
+              "percentile": 0.28116,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -9260,8 +9459,8 @@
           {
             "cve": "CVE-2026-5928",
             "epss": 0.00369,
-            "percentile": 0.29084,
-            "date": "2026-07-15"
+            "percentile": 0.2925,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -9308,8 +9507,8 @@
             {
               "cve": "CVE-2026-5928",
               "epss": 0.00369,
-              "percentile": 0.29084,
-              "date": "2026-07-15"
+              "percentile": 0.2925,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -9446,8 +9645,8 @@
           {
             "cve": "CVE-2026-8932",
             "epss": 0.00368,
-            "percentile": 0.28954,
-            "date": "2026-07-15"
+            "percentile": 0.2912,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -9495,8 +9694,8 @@
             {
               "cve": "CVE-2026-8932",
               "epss": 0.00368,
-              "percentile": 0.28954,
-              "date": "2026-07-15"
+              "percentile": 0.2912,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -9584,8 +9783,8 @@
           {
             "cve": "CVE-2026-6429",
             "epss": 0.00519,
-            "percentile": 0.40594,
-            "date": "2026-07-15"
+            "percentile": 0.4076,
+            "date": "2026-07-21"
           }
         ],
         "fix": {
@@ -9634,8 +9833,8 @@
             {
               "cve": "CVE-2026-6429",
               "epss": 0.00519,
-              "percentile": 0.40594,
-              "date": "2026-07-15"
+              "percentile": 0.4076,
+              "date": "2026-07-21"
             }
           ]
         }
@@ -9705,8 +9904,8 @@
           {
             "cve": "CVE-2015-3276",
             "epss": 0.05333,
-            "percentile": 0.91694,
-            "date": "2026-07-15"
+            "percentile": 0.91732,
+            "date": "2026-07-21"
           }
         ],
         "fix": {
@@ -9759,8 +9958,8 @@
             {
               "cve": "CVE-2015-3276",
               "epss": 0.05333,
-              "percentile": 0.91694,
-              "date": "2026-07-15"
+              "percentile": 0.91732,
+              "date": "2026-07-21"
             }
           ]
         }
@@ -9840,8 +10039,8 @@
           {
             "cve": "CVE-2026-6475",
             "epss": 0.00324,
-            "percentile": 0.24437,
-            "date": "2026-07-15"
+            "percentile": 0.24586,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -9901,8 +10100,8 @@
             {
               "cve": "CVE-2026-6475",
               "epss": 0.00324,
-              "percentile": 0.24437,
-              "date": "2026-07-15"
+              "percentile": 0.24586,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -9993,8 +10192,8 @@
           {
             "cve": "CVE-2026-42012",
             "epss": 0.00354,
-            "percentile": 0.27587,
-            "date": "2026-07-15"
+            "percentile": 0.27737,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -10045,6 +10244,7 @@
             "https://access.redhat.com/errata/RHSA-2026:30850",
             "https://access.redhat.com/errata/RHSA-2026:32962",
             "https://access.redhat.com/errata/RHSA-2026:33125",
+            "https://access.redhat.com/errata/RHSA-2026:41921",
             "https://access.redhat.com/security/cve/CVE-2026-42012",
             "https://bugzilla.redhat.com/show_bug.cgi?id=2467441",
             "https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-7"
@@ -10068,8 +10268,8 @@
             {
               "cve": "CVE-2026-42012",
               "epss": 0.00354,
-              "percentile": 0.27587,
-              "date": "2026-07-15"
+              "percentile": 0.27737,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -10160,8 +10360,8 @@
           {
             "cve": "CVE-2026-4437",
             "epss": 0.00325,
-            "percentile": 0.24554,
-            "date": "2026-07-15"
+            "percentile": 0.24699,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -10217,8 +10417,8 @@
             {
               "cve": "CVE-2026-4437",
               "epss": 0.00325,
-              "percentile": 0.24554,
-              "date": "2026-07-15"
+              "percentile": 0.24699,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -10358,8 +10558,8 @@
           {
             "cve": "CVE-2026-7168",
             "epss": 0.00471,
-            "percentile": 0.3767,
-            "date": "2026-07-15"
+            "percentile": 0.37825,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -10429,8 +10629,8 @@
             {
               "cve": "CVE-2026-7168",
               "epss": 0.00471,
-              "percentile": 0.3767,
-              "date": "2026-07-15"
+              "percentile": 0.37825,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -10521,8 +10721,8 @@
           {
             "cve": "CVE-2026-3832",
             "epss": 0.0072,
-            "percentile": 0.4971,
-            "date": "2026-07-15"
+            "percentile": 0.49861,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -10585,8 +10785,8 @@
             {
               "cve": "CVE-2026-3832",
               "epss": 0.0072,
-              "percentile": 0.4971,
-              "date": "2026-07-15"
+              "percentile": 0.49861,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -10677,8 +10877,8 @@
           {
             "cve": "CVE-2026-45445",
             "epss": 0.0032,
-            "percentile": 0.23991,
-            "date": "2026-07-15"
+            "percentile": 0.24144,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -10743,8 +10943,8 @@
             {
               "cve": "CVE-2026-45445",
               "epss": 0.0032,
-              "percentile": 0.23991,
-              "date": "2026-07-15"
+              "percentile": 0.24144,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -10856,8 +11056,8 @@
           {
             "cve": "CVE-2026-5545",
             "epss": 0.00414,
-            "percentile": 0.33472,
-            "date": "2026-07-15"
+            "percentile": 0.33631,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -10926,8 +11126,8 @@
             {
               "cve": "CVE-2026-5545",
               "epss": 0.00414,
-              "percentile": 0.33472,
-              "date": "2026-07-15"
+              "percentile": 0.33631,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -11018,8 +11218,8 @@
           {
             "cve": "CVE-2026-9076",
             "epss": 0.00297,
-            "percentile": 0.21562,
-            "date": "2026-07-15"
+            "percentile": 0.21731,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -11084,8 +11284,8 @@
             {
               "cve": "CVE-2026-9076",
               "epss": 0.00297,
-              "percentile": 0.21562,
-              "date": "2026-07-15"
+              "percentile": 0.21731,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -11197,8 +11397,8 @@
           {
             "cve": "CVE-2026-6276",
             "epss": 0.00291,
-            "percentile": 0.20959,
-            "date": "2026-07-15"
+            "percentile": 0.21105,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -11268,8 +11468,8 @@
             {
               "cve": "CVE-2026-6276",
               "epss": 0.00291,
-              "percentile": 0.20959,
-              "date": "2026-07-15"
+              "percentile": 0.21105,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -11360,8 +11560,8 @@
           {
             "cve": "CVE-2026-34182",
             "epss": 0.00237,
-            "percentile": 0.14615,
-            "date": "2026-07-15"
+            "percentile": 0.14722,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -11426,8 +11626,8 @@
             {
               "cve": "CVE-2026-34182",
               "epss": 0.00237,
-              "percentile": 0.14615,
-              "date": "2026-07-15"
+              "percentile": 0.14722,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -11539,8 +11739,8 @@
           {
             "cve": "CVE-2026-6476",
             "epss": 0.00287,
-            "percentile": 0.20632,
-            "date": "2026-07-15"
+            "percentile": 0.20764,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -11600,8 +11800,8 @@
             {
               "cve": "CVE-2026-6476",
               "epss": 0.00287,
-              "percentile": 0.20632,
-              "date": "2026-07-15"
+              "percentile": 0.20764,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -11692,8 +11892,8 @@
           {
             "cve": "CVE-2026-6238",
             "epss": 0.00358,
-            "percentile": 0.28021,
-            "date": "2026-07-15"
+            "percentile": 0.28171,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -11741,8 +11941,8 @@
             {
               "cve": "CVE-2026-6238",
               "epss": 0.00358,
-              "percentile": 0.28021,
-              "date": "2026-07-15"
+              "percentile": 0.28171,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -11879,8 +12079,8 @@
           {
             "cve": "CVE-2026-42767",
             "epss": 0.00349,
-            "percentile": 0.27047,
-            "date": "2026-07-15"
+            "percentile": 0.2719,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -11940,8 +12140,8 @@
             {
               "cve": "CVE-2026-42767",
               "epss": 0.00349,
-              "percentile": 0.27047,
-              "date": "2026-07-15"
+              "percentile": 0.2719,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -12053,8 +12253,8 @@
           {
             "cve": "CVE-2026-34743",
             "epss": 0.00351,
-            "percentile": 0.27355,
-            "date": "2026-07-15"
+            "percentile": 0.275,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -12091,7 +12291,8 @@
             "https://github.com/tukaani-project/xz/commit/c8c22869e780ff57c96b46939c3d79ff99395f87",
             "https://github.com/tukaani-project/xz/releases/tag/v5.8.3",
             "https://github.com/tukaani-project/xz/security/advisories/GHSA-x872-m794-cxhv",
-            "http://www.openwall.com/lists/oss-security/2026/03/31/13"
+            "http://www.openwall.com/lists/oss-security/2026/03/31/13",
+            "https://lists.debian.org/debian-lts-announce/2026/07/msg00034.html"
           ],
           "description": "XZ Utils provide a general-purpose data-compression library plus command-line tools. Prior to version 5.8.3, if lzma_index_decoder() was used to decode an Index that contained no Records, the resulting lzma_index was left in a state where where a subsequent lzma_index_append() would allocate too little memory, and a buffer overflow would occur. This issue has been patched in version 5.8.3.",
           "cvss": [
@@ -12122,8 +12323,8 @@
             {
               "cve": "CVE-2026-34743",
               "epss": 0.00351,
-              "percentile": 0.27355,
-              "date": "2026-07-15"
+              "percentile": 0.275,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -12214,8 +12415,8 @@
           {
             "cve": "CVE-2026-4873",
             "epss": 0.00329,
-            "percentile": 0.24955,
-            "date": "2026-07-15"
+            "percentile": 0.25102,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -12279,8 +12480,8 @@
             {
               "cve": "CVE-2026-4873",
               "epss": 0.00329,
-              "percentile": 0.24955,
-              "date": "2026-07-15"
+              "percentile": 0.25102,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -12377,8 +12578,8 @@
           {
             "cve": "CVE-2026-5435",
             "epss": 0.00237,
-            "percentile": 0.14649,
-            "date": "2026-07-15"
+            "percentile": 0.14755,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -12426,8 +12627,8 @@
             {
               "cve": "CVE-2026-5435",
               "epss": 0.00237,
-              "percentile": 0.14649,
-              "date": "2026-07-15"
+              "percentile": 0.14755,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -12564,8 +12765,8 @@
           {
             "cve": "CVE-2026-3784",
             "epss": 0.00302,
-            "percentile": 0.22059,
-            "date": "2026-07-15"
+            "percentile": 0.22231,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -12624,8 +12825,8 @@
             {
               "cve": "CVE-2026-3784",
               "epss": 0.00302,
-              "percentile": 0.22059,
-              "date": "2026-07-15"
+              "percentile": 0.22231,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -12716,8 +12917,8 @@
           {
             "cve": "CVE-2026-3783",
             "epss": 0.00333,
-            "percentile": 0.25411,
-            "date": "2026-07-15"
+            "percentile": 0.25554,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -12775,8 +12976,8 @@
             {
               "cve": "CVE-2026-3783",
               "epss": 0.00333,
-              "percentile": 0.25411,
-              "date": "2026-07-15"
+              "percentile": 0.25554,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -12854,8 +13055,8 @@
           {
             "cve": "CVE-2019-1010022",
             "epss": 0.03249,
-            "percentile": 0.8691,
-            "date": "2026-07-15"
+            "percentile": 0.86967,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -12916,8 +13117,8 @@
             {
               "cve": "CVE-2019-1010022",
               "epss": 0.03249,
-              "percentile": 0.8691,
-              "date": "2026-07-15"
+              "percentile": 0.86967,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -13041,8 +13242,8 @@
           {
             "cve": "CVE-2019-1010024",
             "epss": 0.0322,
-            "percentile": 0.86782,
-            "date": "2026-07-15"
+            "percentile": 0.86839,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -13105,8 +13306,8 @@
             {
               "cve": "CVE-2019-1010024",
               "epss": 0.0322,
-              "percentile": 0.86782,
-              "date": "2026-07-15"
+              "percentile": 0.86839,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -13219,189 +13420,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-15661",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-15661",
-        "namespace": "debian:distro:debian:13",
-        "severity": "Medium",
-        "urls": [],
-        "description": "libssh2 through 1.11.1, fixed in commit 2dae302, contains an out-of-bounds heap read vulnerability in the sftp_symlink() function in src/sftp.c that allows a malicious SSH server or man-in-the-middle attacker to disclose heap memory contents or cause a crash by sending a crafted SSH_FXP_NAME response. Attackers can supply a link_len value larger than the actual packet data in SSH_FXP_NAME responses for SFTP READLINK and REALPATH operations, triggering a heap buffer over-read of up to target_len minus one bytes due to the missing validation of available packet buffer size before the memcpy operation.",
-        "cvss": [
-          {
-            "source": "nvd@nist.gov",
-            "type": "Primary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
-            "metrics": {
-              "baseScore": 6.5,
-              "exploitabilityScore": 2.3,
-              "impactScore": 4.3
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-15661",
-            "epss": 0.00267,
-            "percentile": 0.18441,
-            "date": "2026-07-15"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-15661",
-            "cwe": "CWE-125",
-            "source": "disclosure@vulncheck.com",
-            "type": "Secondary"
-          }
-        ],
-        "fix": {
-          "versions": [
-            "1.11.1-1+deb13u1"
-          ],
-          "state": "fixed",
-          "available": [
-            {
-              "version": "1.11.1-1+deb13u1",
-              "date": "2026-06-25",
-              "kind": "advisory"
-            }
-          ]
-        },
-        "advisories": [
-          {
-            "id": "DSA-6365-1",
-            "link": "https://security-tracker.debian.org/tracker/DSA-6365-1"
-          }
-        ],
-        "risk": 0.153525
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-15661",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-15661",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://github.com/libssh2/libssh2/commit/2dae3024897e1898d389835151f4e9606227721d",
-            "https://github.com/libssh2/libssh2/pull/1705",
-            "https://github.com/libssh2/libssh2/pull/1717",
-            "https://www.vulncheck.com/advisories/libssh2-heap-buffer-over-read-via-sftp-symlink-in-sftp-c"
-          ],
-          "description": "libssh2 through 1.11.1, fixed in commit 2dae302, contains an out-of-bounds heap read vulnerability in the sftp_symlink() function in src/sftp.c that allows a malicious SSH server or man-in-the-middle attacker to disclose heap memory contents or cause a crash by sending a crafted SSH_FXP_NAME response. Attackers can supply a link_len value larger than the actual packet data in SSH_FXP_NAME responses for SFTP READLINK and REALPATH operations, triggering a heap buffer over-read of up to target_len minus one bytes due to the missing validation of available packet buffer size before the memcpy operation.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
-              "metrics": {
-                "baseScore": 6.5,
-                "exploitabilityScore": 2.3,
-                "impactScore": 4.3
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "disclosure@vulncheck.com",
-              "type": "Secondary",
-              "version": "4.0",
-              "vector": "CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:L/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
-              "metrics": {
-                "baseScore": 8.3
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "disclosure@vulncheck.com",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
-              "metrics": {
-                "baseScore": 6.5,
-                "exploitabilityScore": 2.3,
-                "impactScore": 4.3
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-15661",
-              "epss": 0.00267,
-              "percentile": 0.18441,
-              "date": "2026-07-15"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-15661",
-              "cwe": "CWE-125",
-              "source": "disclosure@vulncheck.com",
-              "type": "Secondary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "13"
-            },
-            "package": {
-              "name": "libssh2",
-              "version": "1.11.1-1"
-            },
-            "namespace": "debian:distro:debian:13"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-15661",
-            "versionConstraint": "< 1.11.1-1+deb13u1 (deb)"
-          },
-          "fix": {
-            "suggestedVersion": "1.11.1-1+deb13u1"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "db086fa0f05191a1",
-        "name": "libssh2-1t64",
-        "version": "1.11.1-1",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libssh2-1t64",
-            "layerID": "sha256:73c462bbf110b45d1a57a4d592f0cec743bc1bf41281b698149f276b7abaa3b3",
-            "accessPath": "/var/lib/dpkg/status.d/libssh2-1t64",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libssh2-1t64:libssh2-1t64:1.11.1-1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libssh2-1t64:libssh2_1t64:1.11.1-1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libssh2_1t64:libssh2-1t64:1.11.1-1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libssh2_1t64:libssh2_1t64:1.11.1-1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libssh2:libssh2-1t64:1.11.1-1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libssh2:libssh2_1t64:1.11.1-1:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libssh2-1t64@1.11.1-1?arch=amd64&distro=debian-13&upstream=libssh2",
-        "upstreams": [
-          {
-            "name": "libssh2"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2019-1010023",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2019-1010023",
         "namespace": "debian:distro:debian:13",
@@ -13413,8 +13431,8 @@
           {
             "cve": "CVE-2019-1010023",
             "epss": 0.03069,
-            "percentile": 0.86142,
-            "date": "2026-07-15"
+            "percentile": 0.86196,
+            "date": "2026-07-21"
           }
         ],
         "fix": {
@@ -13480,8 +13498,8 @@
             {
               "cve": "CVE-2019-1010023",
               "epss": 0.03069,
-              "percentile": 0.86142,
-              "date": "2026-07-15"
+              "percentile": 0.86196,
+              "date": "2026-07-21"
             }
           ]
         }
@@ -13610,8 +13628,8 @@
           {
             "cve": "CVE-2026-1965",
             "epss": 0.00259,
-            "percentile": 0.17366,
-            "date": "2026-07-15"
+            "percentile": 0.17475,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -13667,8 +13685,8 @@
             {
               "cve": "CVE-2026-1965",
               "epss": 0.00259,
-              "percentile": 0.17366,
-              "date": "2026-07-15"
+              "percentile": 0.17475,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -13759,8 +13777,8 @@
           {
             "cve": "CVE-2026-6638",
             "epss": 0.0018,
-            "percentile": 0.07768,
-            "date": "2026-07-15"
+            "percentile": 0.07825,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -13832,8 +13850,8 @@
             {
               "cve": "CVE-2026-6638",
               "epss": 0.0018,
-              "percentile": 0.07768,
-              "date": "2026-07-15"
+              "percentile": 0.07825,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -13924,8 +13942,8 @@
           {
             "cve": "CVE-2026-34181",
             "epss": 0.00196,
-            "percentile": 0.09465,
-            "date": "2026-07-15"
+            "percentile": 0.09528,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -13984,8 +14002,8 @@
             {
               "cve": "CVE-2026-34181",
               "epss": 0.00196,
-              "percentile": 0.09465,
-              "date": "2026-07-15"
+              "percentile": 0.09528,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -14097,8 +14115,8 @@
           {
             "cve": "CVE-2026-4878",
             "epss": 0.00188,
-            "percentile": 0.08566,
-            "date": "2026-07-15"
+            "percentile": 0.08632,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -14222,8 +14240,8 @@
             {
               "cve": "CVE-2026-4878",
               "epss": 0.00188,
-              "percentile": 0.08566,
-              "date": "2026-07-15"
+              "percentile": 0.08632,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -14343,8 +14361,8 @@
           {
             "cve": "CVE-2026-42769",
             "epss": 0.00262,
-            "percentile": 0.1767,
-            "date": "2026-07-15"
+            "percentile": 0.17778,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -14403,8 +14421,8 @@
             {
               "cve": "CVE-2026-42769",
               "epss": 0.00262,
-              "percentile": 0.1767,
-              "date": "2026-07-15"
+              "percentile": 0.17778,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -14503,8 +14521,8 @@
           {
             "cve": "CVE-2010-4756",
             "epss": 0.02633,
-            "percentile": 0.83816,
-            "date": "2026-07-15"
+            "percentile": 0.83875,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -14555,8 +14573,8 @@
             {
               "cve": "CVE-2010-4756",
               "epss": 0.02633,
-              "percentile": 0.83816,
-              "date": "2026-07-15"
+              "percentile": 0.83875,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -14693,8 +14711,8 @@
           {
             "cve": "CVE-2026-5419",
             "epss": 0.00379,
-            "percentile": 0.30145,
-            "date": "2026-07-15"
+            "percentile": 0.30313,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -14764,8 +14782,8 @@
             {
               "cve": "CVE-2026-5419",
               "epss": 0.00379,
-              "percentile": 0.30145,
-              "date": "2026-07-15"
+              "percentile": 0.30313,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -14856,8 +14874,8 @@
           {
             "cve": "CVE-2025-13034",
             "epss": 0.00227,
-            "percentile": 0.1336,
-            "date": "2026-07-15"
+            "percentile": 0.13462,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -14913,8 +14931,8 @@
             {
               "cve": "CVE-2025-13034",
               "epss": 0.00227,
-              "percentile": 0.1336,
-              "date": "2026-07-15"
+              "percentile": 0.13462,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -14992,8 +15010,8 @@
           {
             "cve": "CVE-2019-9192",
             "epss": 0.02447,
-            "percentile": 0.82512,
-            "date": "2026-07-15"
+            "percentile": 0.82578,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -15052,8 +15070,8 @@
             {
               "cve": "CVE-2019-9192",
               "epss": 0.02447,
-              "percentile": 0.82512,
-              "date": "2026-07-15"
+              "percentile": 0.82578,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -15177,8 +15195,8 @@
           {
             "cve": "CVE-2020-15719",
             "epss": 0.02417,
-            "percentile": 0.82277,
-            "date": "2026-07-15"
+            "percentile": 0.82346,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -15242,8 +15260,8 @@
             {
               "cve": "CVE-2020-15719",
               "epss": 0.02417,
-              "percentile": 0.82277,
-              "date": "2026-07-15"
+              "percentile": 0.82346,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -15331,8 +15349,8 @@
           {
             "cve": "CVE-2026-42768",
             "epss": 0.0035,
-            "percentile": 0.27227,
-            "date": "2026-07-15"
+            "percentile": 0.27371,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -15391,8 +15409,8 @@
             {
               "cve": "CVE-2026-42768",
               "epss": 0.0035,
-              "percentile": 0.27227,
-              "date": "2026-07-15"
+              "percentile": 0.27371,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -15491,8 +15509,8 @@
           {
             "cve": "CVE-2019-1010025",
             "epss": 0.02286,
-            "percentile": 0.81217,
-            "date": "2026-07-15"
+            "percentile": 0.81287,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -15554,8 +15572,8 @@
             {
               "cve": "CVE-2019-1010025",
               "epss": 0.02286,
-              "percentile": 0.81217,
-              "date": "2026-07-15"
+              "percentile": 0.81287,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -15690,8 +15708,8 @@
           {
             "cve": "CVE-2026-58055",
             "epss": 0.00202,
-            "percentile": 0.1024,
-            "date": "2026-07-15"
+            "percentile": 0.10329,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -15749,8 +15767,8 @@
             {
               "cve": "CVE-2026-58055",
               "epss": 0.00202,
-              "percentile": 0.1024,
-              "date": "2026-07-15"
+              "percentile": 0.10329,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -15843,8 +15861,8 @@
           {
             "cve": "CVE-2026-27171",
             "epss": 0.00204,
-            "percentile": 0.10413,
-            "date": "2026-07-15"
+            "percentile": 0.10502,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -15906,8 +15924,8 @@
             {
               "cve": "CVE-2026-27171",
               "epss": 0.00204,
-              "percentile": 0.10413,
-              "date": "2026-07-15"
+              "percentile": 0.10502,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -16014,8 +16032,8 @@
           {
             "cve": "CVE-2026-4438",
             "epss": 0.00205,
-            "percentile": 0.10582,
-            "date": "2026-07-15"
+            "percentile": 0.10673,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -16077,8 +16095,8 @@
             {
               "cve": "CVE-2026-4438",
               "epss": 0.00205,
-              "percentile": 0.10582,
-              "date": "2026-07-15"
+              "percentile": 0.10673,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -16224,8 +16242,8 @@
           {
             "cve": "CVE-2026-41989",
             "epss": 0.00182,
-            "percentile": 0.07992,
-            "date": "2026-07-15"
+            "percentile": 0.08056,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -16289,8 +16307,8 @@
             {
               "cve": "CVE-2026-41989",
               "epss": 0.00182,
-              "percentile": 0.07992,
-              "date": "2026-07-15"
+              "percentile": 0.08056,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -16364,8 +16382,8 @@
           {
             "cve": "CVE-2018-5709",
             "epss": 0.02067,
-            "percentile": 0.79231,
-            "date": "2026-07-15"
+            "percentile": 0.79312,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -16424,8 +16442,8 @@
             {
               "cve": "CVE-2018-5709",
               "epss": 0.02067,
-              "percentile": 0.79231,
-              "date": "2026-07-15"
+              "percentile": 0.79312,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -16509,8 +16527,8 @@
           {
             "cve": "CVE-2018-5709",
             "epss": 0.02067,
-            "percentile": 0.79231,
-            "date": "2026-07-15"
+            "percentile": 0.79312,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -16569,8 +16587,8 @@
             {
               "cve": "CVE-2018-5709",
               "epss": 0.02067,
-              "percentile": 0.79231,
-              "date": "2026-07-15"
+              "percentile": 0.79312,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -16645,8 +16663,8 @@
           {
             "cve": "CVE-2018-5709",
             "epss": 0.02067,
-            "percentile": 0.79231,
-            "date": "2026-07-15"
+            "percentile": 0.79312,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -16705,8 +16723,8 @@
             {
               "cve": "CVE-2018-5709",
               "epss": 0.02067,
-              "percentile": 0.79231,
-              "date": "2026-07-15"
+              "percentile": 0.79312,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -16786,8 +16804,8 @@
           {
             "cve": "CVE-2018-5709",
             "epss": 0.02067,
-            "percentile": 0.79231,
-            "date": "2026-07-15"
+            "percentile": 0.79312,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -16846,8 +16864,8 @@
             {
               "cve": "CVE-2018-5709",
               "epss": 0.02067,
-              "percentile": 0.79231,
-              "date": "2026-07-15"
+              "percentile": 0.79312,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -16935,8 +16953,8 @@
           {
             "cve": "CVE-2026-45446",
             "epss": 0.0021,
-            "percentile": 0.11186,
-            "date": "2026-07-15"
+            "percentile": 0.11279,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -17001,8 +17019,8 @@
             {
               "cve": "CVE-2026-45446",
               "epss": 0.0021,
-              "percentile": 0.11186,
-              "date": "2026-07-15"
+              "percentile": 0.11279,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -17116,8 +17134,8 @@
           {
             "cve": "CVE-2025-29478",
             "epss": 0.0019,
-            "percentile": 0.08782,
-            "date": "2026-07-15"
+            "percentile": 0.08855,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -17209,8 +17227,8 @@
           {
             "cve": "CVE-2026-6474",
             "epss": 0.00208,
-            "percentile": 0.10901,
-            "date": "2026-07-15"
+            "percentile": 0.10991,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -17270,8 +17288,8 @@
             {
               "cve": "CVE-2026-6474",
               "epss": 0.00208,
-              "percentile": 0.10901,
-              "date": "2026-07-15"
+              "percentile": 0.10991,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -17338,140 +17356,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2018-6829",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-6829",
-        "namespace": "debian:distro:debian:13",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "cipher/elgamal.c in Libgcrypt through 1.8.2, when used to encrypt messages directly, improperly encodes plaintexts, which allows attackers to obtain sensitive information by reading ciphertext data (i.e., it does not have semantic security in face of a ciphertext-only attack). The Decisional Diffie-Hellman (DDH) assumption does not hold for Libgcrypt's ElGamal implementation.",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2018-6829",
-            "epss": 0.01811,
-            "percentile": 0.7616,
-            "date": "2026-07-15"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2018-6829",
-            "cwe": "CWE-327",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.09055
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2018-6829",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-6829",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "https://github.com/weikengchen/attack-on-libgcrypt-elgamal",
-            "https://github.com/weikengchen/attack-on-libgcrypt-elgamal/wiki",
-            "https://lists.gnupg.org/pipermail/gcrypt-devel/2018-February/004394.html",
-            "https://www.oracle.com/security-alerts/cpujan2020.html"
-          ],
-          "description": "cipher/elgamal.c in Libgcrypt through 1.8.2, when used to encrypt messages directly, improperly encodes plaintexts, which allows attackers to obtain sensitive information by reading ciphertext data (i.e., it does not have semantic security in face of a ciphertext-only attack). The Decisional Diffie-Hellman (DDH) assumption does not hold for Libgcrypt's ElGamal implementation.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.0",
-              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
-              "metrics": {
-                "baseScore": 7.5,
-                "exploitabilityScore": 3.9,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "2.0",
-              "vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
-              "metrics": {
-                "baseScore": 5,
-                "exploitabilityScore": 10,
-                "impactScore": 2.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2018-6829",
-              "epss": 0.01811,
-              "percentile": 0.7616,
-              "date": "2026-07-15"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2018-6829",
-              "cwe": "CWE-327",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-direct-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "13"
-            },
-            "package": {
-              "name": "libgcrypt20",
-              "version": "1.11.0-7"
-            },
-            "namespace": "debian:distro:debian:13"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2018-6829",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "5826072934743d2f",
-        "name": "libgcrypt20",
-        "version": "1.11.0-7",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libgcrypt20",
-            "layerID": "sha256:73c462bbf110b45d1a57a4d592f0cec743bc1bf41281b698149f276b7abaa3b3",
-            "accessPath": "/var/lib/dpkg/status.d/libgcrypt20",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libgcrypt20:libgcrypt20:1.11.0-7:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libgcrypt20@1.11.0-7?arch=amd64&distro=debian-13",
-        "upstreams": []
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2025-29477",
         "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-29477",
         "namespace": "nvd:cpe",
@@ -17498,8 +17382,8 @@
           {
             "cve": "CVE-2025-29477",
             "epss": 0.0017,
-            "percentile": 0.06575,
-            "date": "2026-07-15"
+            "percentile": 0.06629,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -17567,6 +17451,140 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2018-6829",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-6829",
+        "namespace": "debian:distro:debian:13",
+        "severity": "Negligible",
+        "urls": [],
+        "description": "cipher/elgamal.c in Libgcrypt through 1.8.2, when used to encrypt messages directly, improperly encodes plaintexts, which allows attackers to obtain sensitive information by reading ciphertext data (i.e., it does not have semantic security in face of a ciphertext-only attack). The Decisional Diffie-Hellman (DDH) assumption does not hold for Libgcrypt's ElGamal implementation.",
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2018-6829",
+            "epss": 0.01777,
+            "percentile": 0.75799,
+            "date": "2026-07-21"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2018-6829",
+            "cwe": "CWE-327",
+            "source": "nvd@nist.gov",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.08885000000000001
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2018-6829",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-6829",
+          "namespace": "nvd:cpe",
+          "severity": "High",
+          "urls": [
+            "https://github.com/weikengchen/attack-on-libgcrypt-elgamal",
+            "https://github.com/weikengchen/attack-on-libgcrypt-elgamal/wiki",
+            "https://lists.gnupg.org/pipermail/gcrypt-devel/2018-February/004394.html",
+            "https://www.oracle.com/security-alerts/cpujan2020.html"
+          ],
+          "description": "cipher/elgamal.c in Libgcrypt through 1.8.2, when used to encrypt messages directly, improperly encodes plaintexts, which allows attackers to obtain sensitive information by reading ciphertext data (i.e., it does not have semantic security in face of a ciphertext-only attack). The Decisional Diffie-Hellman (DDH) assumption does not hold for Libgcrypt's ElGamal implementation.",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.0",
+              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+              "metrics": {
+                "baseScore": 7.5,
+                "exploitabilityScore": 3.9,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "2.0",
+              "vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+              "metrics": {
+                "baseScore": 5,
+                "exploitabilityScore": 10,
+                "impactScore": 2.9
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2018-6829",
+              "epss": 0.01777,
+              "percentile": 0.75799,
+              "date": "2026-07-21"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2018-6829",
+              "cwe": "CWE-327",
+              "source": "nvd@nist.gov",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "13"
+            },
+            "package": {
+              "name": "libgcrypt20",
+              "version": "1.11.0-7"
+            },
+            "namespace": "debian:distro:debian:13"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2018-6829",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "5826072934743d2f",
+        "name": "libgcrypt20",
+        "version": "1.11.0-7",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libgcrypt20",
+            "layerID": "sha256:73c462bbf110b45d1a57a4d592f0cec743bc1bf41281b698149f276b7abaa3b3",
+            "accessPath": "/var/lib/dpkg/status.d/libgcrypt20",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libgcrypt20:libgcrypt20:1.11.0-7:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libgcrypt20@1.11.0-7?arch=amd64&distro=debian-13",
+        "upstreams": []
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2026-42014",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2026-42014",
         "namespace": "debian:distro:debian:13",
@@ -17591,8 +17609,8 @@
           {
             "cve": "CVE-2026-42014",
             "epss": 0.0015,
-            "percentile": 0.04624,
-            "date": "2026-07-15"
+            "percentile": 0.04643,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -17643,6 +17661,7 @@
             "https://access.redhat.com/errata/RHSA-2026:30850",
             "https://access.redhat.com/errata/RHSA-2026:32962",
             "https://access.redhat.com/errata/RHSA-2026:33125",
+            "https://access.redhat.com/errata/RHSA-2026:41921",
             "https://access.redhat.com/security/cve/CVE-2026-42014",
             "https://bugzilla.redhat.com/show_bug.cgi?id=2467451",
             "https://gitlab.com/gnutls/gnutls/-/issues/1766",
@@ -17667,8 +17686,8 @@
             {
               "cve": "CVE-2026-42014",
               "epss": 0.0015,
-              "percentile": 0.04624,
-              "date": "2026-07-15"
+              "percentile": 0.04643,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -17740,7 +17759,7 @@
         "namespace": "debian:distro:debian:13",
         "severity": "Low",
         "urls": [],
-        "description": "Issue summary: When EVP_PKEY_derive_set_peer() is called with a DHX (X9.42) peer key, the peer key is not properly checked for the subgroup membership.  Impact summary: A malicious peer which presents an X9.42 key carrying the victim's p and g parameters, a forged q = r (a small prime factor of the cofactor (p−1)/q_local), and a public value Y of order r can recover the victim's private key after a small number of key exchange attempts.  When EVP_PKEY_derive_set_peer() is called with a DHX (X9.42) peer key, the subgroup membership check Y^q ≡ 1 (mod p) is performed using the peer's own q parameter, not the local key's q. The peer's domain parameters are then matched against the domain parameters of the private key, but the value of q is not compared.  A malicious peer who presents an X9.42 key carrying the victim's p, g, a forged q = r (a small prime factor of the cofactor), and a public value Y of order r passes all checks. The shared secret then takes only r distinct values, leaking priv mod r. Repeating for each small-prime factor of the cofactor and combining via CRT recovers the full private key (Lim–Lee / small-subgroup-confinement attack).  The realistic attack surface is narrow: principally CMP deployments with long-lived RA/CA DHX keys and bespoke enterprise or government applications using X9.42 DHX static keys with interactive protocols and therefore this issue was assigned Low severity.  The FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are affected by this issue.",
+        "description": "Issue summary: When EVP_PKEY_derive_set_peer() is called with a DHX (X9.42) peer key, the peer key is not properly checked for the subgroup membership.  Impact summary: A malicious peer which presents an X9.42 key carrying the victim's p and g parameters, a forged q = r (a small prime factor of the cofactor (p−1)/q_local), and a public value Y of order r can recover the victim's private key after a small number of key exchange attempts.  When EVP_PKEY_derive_set_peer() is called with a DHX (X9.42) peer key, the subgroup membership check Y^q ≡ 1 (mod p) is performed using the peer's own q parameter, not the local key's q. The peer's domain parameters are then matched against the domain parameters of the private key, but the value of q is not compared.  A malicious peer who presents an X9.42 key carrying the victim's p, g, a forged q = r (a small prime factor of the cofactor), and a public value Y of order r passes all checks. The shared secret then takes only r distinct values, leaking priv mod r. Repeating for each small-prime factor of the cofactor and combining via CRT recovers the full private key (Lim–Lee / small-subgroup-confinement attack).  The realistic attack surface is narrow: principally CMP deployments with long-lived RA/CA DHX keys and bespoke enterprise or government applications using X9.42 DHX static keys with interactive protocols and therefore this issue was assigned Low severity.  The FIPS modules in 4.0, 3.6, 3.5, 3.4, 3.1.2 and 3.0 are affected by this issue.",
         "cvss": [
           {
             "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
@@ -17759,8 +17778,8 @@
           {
             "cve": "CVE-2026-42770",
             "epss": 0.00259,
-            "percentile": 0.17363,
-            "date": "2026-07-15"
+            "percentile": 0.17474,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -17806,7 +17825,7 @@
             "https://github.com/openssl/openssl/commit/ca2237ab5615641b662183b077f62c08d75e8070",
             "https://openssl-library.org/news/secadv/20260609.txt"
           ],
-          "description": "Issue summary: When EVP_PKEY_derive_set_peer() is called with a DHX (X9.42)\npeer key, the peer key is not properly checked for the subgroup membership.\n\nImpact summary: A malicious peer which presents an X9.42 key carrying the\nvictim's p and g parameters, a forged q = r (a small prime factor of the\ncofactor (p−1)/q_local), and a public value Y of order r can recover the\nvictim's private key after a small number of key exchange attempts.\n\nWhen EVP_PKEY_derive_set_peer() is called with a DHX (X9.42) peer key, the\nsubgroup membership check Y^q ≡ 1 (mod p) is performed using the peer's\nown q parameter, not the local key's q. The peer's domain parameters are\nthen matched against the domain parameters of the private key, but the value\nof q is not compared.\n\nA malicious peer who presents an X9.42 key carrying the victim's p, g,\na forged q = r (a small prime factor of the cofactor), and a public\nvalue Y of order r passes all checks. The shared secret then takes only\nr distinct values, leaking priv mod r. Repeating for each small-prime\nfactor of the cofactor and combining via CRT recovers the full private\nkey (Lim–Lee / small-subgroup-confinement attack).\n\nThe realistic attack surface is narrow: principally CMP deployments with\nlong-lived RA/CA DHX keys and bespoke enterprise or government applications\nusing X9.42 DHX static keys with interactive protocols and therefore this\nissue was assigned Low severity.\n\nThe FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are affected by this\nissue.",
+          "description": "Issue summary: When EVP_PKEY_derive_set_peer() is called with a DHX (X9.42)\npeer key, the peer key is not properly checked for the subgroup membership.\n\nImpact summary: A malicious peer which presents an X9.42 key carrying the\nvictim's p and g parameters, a forged q = r (a small prime factor of the\ncofactor (p−1)/q_local), and a public value Y of order r can recover the\nvictim's private key after a small number of key exchange attempts.\n\nWhen EVP_PKEY_derive_set_peer() is called with a DHX (X9.42) peer key, the\nsubgroup membership check Y^q ≡ 1 (mod p) is performed using the peer's\nown q parameter, not the local key's q. The peer's domain parameters are\nthen matched against the domain parameters of the private key, but the value\nof q is not compared.\n\nA malicious peer who presents an X9.42 key carrying the victim's p, g,\na forged q = r (a small prime factor of the cofactor), and a public\nvalue Y of order r passes all checks. The shared secret then takes only\nr distinct values, leaking priv mod r. Repeating for each small-prime\nfactor of the cofactor and combining via CRT recovers the full private\nkey (Lim–Lee / small-subgroup-confinement attack).\n\nThe realistic attack surface is narrow: principally CMP deployments with\nlong-lived RA/CA DHX keys and bespoke enterprise or government applications\nusing X9.42 DHX static keys with interactive protocols and therefore this\nissue was assigned Low severity.\n\nThe FIPS modules in 4.0, 3.6, 3.5, 3.4, 3.1.2 and 3.0 are affected by this\nissue.",
           "cvss": [
             {
               "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
@@ -17825,8 +17844,8 @@
             {
               "cve": "CVE-2026-42770",
               "epss": 0.00259,
-              "percentile": 0.17363,
-              "date": "2026-07-15"
+              "percentile": 0.17474,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -17938,8 +17957,8 @@
           {
             "cve": "CVE-2026-4105",
             "epss": 0.00142,
-            "percentile": 0.03891,
-            "date": "2026-07-15"
+            "percentile": 0.03914,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -17997,8 +18016,8 @@
             {
               "cve": "CVE-2026-4105",
               "epss": 0.00142,
-              "percentile": 0.03891,
-              "date": "2026-07-15"
+              "percentile": 0.03914,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -18089,8 +18108,8 @@
           {
             "cve": "CVE-2026-4105",
             "epss": 0.00142,
-            "percentile": 0.03891,
-            "date": "2026-07-15"
+            "percentile": 0.03914,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -18148,8 +18167,8 @@
             {
               "cve": "CVE-2026-4105",
               "epss": 0.00142,
-              "percentile": 0.03891,
-              "date": "2026-07-15"
+              "percentile": 0.03914,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -18236,8 +18255,8 @@
           {
             "cve": "CVE-2026-6472",
             "epss": 0.00159,
-            "percentile": 0.05429,
-            "date": "2026-07-15"
+            "percentile": 0.05463,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -18297,8 +18316,8 @@
             {
               "cve": "CVE-2026-6472",
               "epss": 0.00159,
-              "percentile": 0.05429,
-              "date": "2026-07-15"
+              "percentile": 0.05463,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -18389,8 +18408,8 @@
           {
             "cve": "CVE-2026-40225",
             "epss": 0.00144,
-            "percentile": 0.04091,
-            "date": "2026-07-15"
+            "percentile": 0.0412,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -18445,8 +18464,8 @@
             {
               "cve": "CVE-2026-40225",
               "epss": 0.00144,
-              "percentile": 0.04091,
-              "date": "2026-07-15"
+              "percentile": 0.0412,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -18537,8 +18556,8 @@
           {
             "cve": "CVE-2026-40225",
             "epss": 0.00144,
-            "percentile": 0.04091,
-            "date": "2026-07-15"
+            "percentile": 0.0412,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -18593,8 +18612,8 @@
             {
               "cve": "CVE-2026-40225",
               "epss": 0.00144,
-              "percentile": 0.04091,
-              "date": "2026-07-15"
+              "percentile": 0.0412,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -18681,8 +18700,8 @@
           {
             "cve": "CVE-2026-13757",
             "epss": 0.00137,
-            "percentile": 0.03516,
-            "date": "2026-07-15"
+            "percentile": 0.03545,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -18732,8 +18751,8 @@
             {
               "cve": "CVE-2026-13757",
               "epss": 0.00137,
-              "percentile": 0.03516,
-              "date": "2026-07-15"
+              "percentile": 0.03545,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -18826,8 +18845,8 @@
           {
             "cve": "CVE-2026-29111",
             "epss": 0.00121,
-            "percentile": 0.02268,
-            "date": "2026-07-15"
+            "percentile": 0.02284,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -18892,8 +18911,8 @@
             {
               "cve": "CVE-2026-29111",
               "epss": 0.00121,
-              "percentile": 0.02268,
-              "date": "2026-07-15"
+              "percentile": 0.02284,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -18984,8 +19003,8 @@
           {
             "cve": "CVE-2026-29111",
             "epss": 0.00121,
-            "percentile": 0.02268,
-            "date": "2026-07-15"
+            "percentile": 0.02284,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -19050,8 +19069,8 @@
             {
               "cve": "CVE-2026-29111",
               "epss": 0.00121,
-              "percentile": 0.02268,
-              "date": "2026-07-15"
+              "percentile": 0.02284,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -19125,8 +19144,8 @@
           {
             "cve": "CVE-2024-26461",
             "epss": 0.01128,
-            "percentile": 0.62669,
-            "date": "2026-07-15"
+            "percentile": 0.62804,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -19173,8 +19192,8 @@
             {
               "cve": "CVE-2024-26461",
               "epss": 0.01128,
-              "percentile": 0.62669,
-              "date": "2026-07-15"
+              "percentile": 0.62804,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -19258,8 +19277,8 @@
           {
             "cve": "CVE-2024-26461",
             "epss": 0.01128,
-            "percentile": 0.62669,
-            "date": "2026-07-15"
+            "percentile": 0.62804,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -19306,8 +19325,8 @@
             {
               "cve": "CVE-2024-26461",
               "epss": 0.01128,
-              "percentile": 0.62669,
-              "date": "2026-07-15"
+              "percentile": 0.62804,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -19382,8 +19401,8 @@
           {
             "cve": "CVE-2024-26461",
             "epss": 0.01128,
-            "percentile": 0.62669,
-            "date": "2026-07-15"
+            "percentile": 0.62804,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -19430,8 +19449,8 @@
             {
               "cve": "CVE-2024-26461",
               "epss": 0.01128,
-              "percentile": 0.62669,
-              "date": "2026-07-15"
+              "percentile": 0.62804,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -19511,8 +19530,8 @@
           {
             "cve": "CVE-2024-26461",
             "epss": 0.01128,
-            "percentile": 0.62669,
-            "date": "2026-07-15"
+            "percentile": 0.62804,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -19559,8 +19578,8 @@
             {
               "cve": "CVE-2024-26461",
               "epss": 0.01128,
-              "percentile": 0.62669,
-              "date": "2026-07-15"
+              "percentile": 0.62804,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -19635,8 +19654,8 @@
           {
             "cve": "CVE-2024-2236",
             "epss": 0.01114,
-            "percentile": 0.62302,
-            "date": "2026-07-15"
+            "percentile": 0.62441,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -19687,8 +19706,8 @@
             {
               "cve": "CVE-2024-2236",
               "epss": 0.01114,
-              "percentile": 0.62302,
-              "date": "2026-07-15"
+              "percentile": 0.62441,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -19772,8 +19791,8 @@
           {
             "cve": "CVE-2026-40228",
             "epss": 0.00173,
-            "percentile": 0.06934,
-            "date": "2026-07-15"
+            "percentile": 0.07001,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -19832,8 +19851,8 @@
             {
               "cve": "CVE-2026-40228",
               "epss": 0.00173,
-              "percentile": 0.06934,
-              "date": "2026-07-15"
+              "percentile": 0.07001,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -19921,8 +19940,8 @@
           {
             "cve": "CVE-2026-40228",
             "epss": 0.00173,
-            "percentile": 0.06934,
-            "date": "2026-07-15"
+            "percentile": 0.07001,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -19981,8 +20000,8 @@
             {
               "cve": "CVE-2026-40228",
               "epss": 0.00173,
-              "percentile": 0.06934,
-              "date": "2026-07-15"
+              "percentile": 0.07001,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -20066,8 +20085,8 @@
           {
             "cve": "CVE-2026-40226",
             "epss": 0.00072,
-            "percentile": 0.0008,
-            "date": "2026-07-15"
+            "percentile": 0.00079,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -20122,8 +20141,8 @@
             {
               "cve": "CVE-2026-40226",
               "epss": 0.00072,
-              "percentile": 0.0008,
-              "date": "2026-07-15"
+              "percentile": 0.00079,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -20214,8 +20233,8 @@
           {
             "cve": "CVE-2026-40226",
             "epss": 0.00072,
-            "percentile": 0.0008,
-            "date": "2026-07-15"
+            "percentile": 0.00079,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -20270,8 +20289,8 @@
             {
               "cve": "CVE-2026-40226",
               "epss": 0.00072,
-              "percentile": 0.0008,
-              "date": "2026-07-15"
+              "percentile": 0.00079,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -20345,8 +20364,8 @@
           {
             "cve": "CVE-2024-26458",
             "epss": 0.00815,
-            "percentile": 0.5292,
-            "date": "2026-07-15"
+            "percentile": 0.53078,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -20393,8 +20412,8 @@
             {
               "cve": "CVE-2024-26458",
               "epss": 0.00815,
-              "percentile": 0.5292,
-              "date": "2026-07-15"
+              "percentile": 0.53078,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -20478,8 +20497,8 @@
           {
             "cve": "CVE-2024-26458",
             "epss": 0.00815,
-            "percentile": 0.5292,
-            "date": "2026-07-15"
+            "percentile": 0.53078,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -20526,8 +20545,8 @@
             {
               "cve": "CVE-2024-26458",
               "epss": 0.00815,
-              "percentile": 0.5292,
-              "date": "2026-07-15"
+              "percentile": 0.53078,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -20602,8 +20621,8 @@
           {
             "cve": "CVE-2024-26458",
             "epss": 0.00815,
-            "percentile": 0.5292,
-            "date": "2026-07-15"
+            "percentile": 0.53078,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -20650,8 +20669,8 @@
             {
               "cve": "CVE-2024-26458",
               "epss": 0.00815,
-              "percentile": 0.5292,
-              "date": "2026-07-15"
+              "percentile": 0.53078,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -20731,8 +20750,8 @@
           {
             "cve": "CVE-2024-26458",
             "epss": 0.00815,
-            "percentile": 0.5292,
-            "date": "2026-07-15"
+            "percentile": 0.53078,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -20779,8 +20798,8 @@
             {
               "cve": "CVE-2024-26458",
               "epss": 0.00815,
-              "percentile": 0.5292,
-              "date": "2026-07-15"
+              "percentile": 0.53078,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -20855,8 +20874,8 @@
           {
             "cve": "CVE-2026-9547",
             "epss": 0.00508,
-            "percentile": 0.39885,
-            "date": "2026-07-15"
+            "percentile": 0.40057,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -20904,8 +20923,8 @@
             {
               "cve": "CVE-2026-9547",
               "epss": 0.00508,
-              "percentile": 0.39885,
-              "date": "2026-07-15"
+              "percentile": 0.40057,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -20980,8 +20999,8 @@
           {
             "cve": "CVE-2013-4392",
             "epss": 0.00472,
-            "percentile": 0.37723,
-            "date": "2026-07-15"
+            "percentile": 0.37877,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -21047,8 +21066,8 @@
             {
               "cve": "CVE-2013-4392",
               "epss": 0.00472,
-              "percentile": 0.37723,
-              "date": "2026-07-15"
+              "percentile": 0.37877,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -21129,8 +21148,8 @@
           {
             "cve": "CVE-2013-4392",
             "epss": 0.00472,
-            "percentile": 0.37723,
-            "date": "2026-07-15"
+            "percentile": 0.37877,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -21196,8 +21215,8 @@
             {
               "cve": "CVE-2013-4392",
               "epss": 0.00472,
-              "percentile": 0.37723,
-              "date": "2026-07-15"
+              "percentile": 0.37877,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -21274,8 +21293,8 @@
           {
             "cve": "CVE-2025-15079",
             "epss": 0.00457,
-            "percentile": 0.36763,
-            "date": "2026-07-15"
+            "percentile": 0.36916,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -21324,8 +21343,8 @@
             {
               "cve": "CVE-2025-15079",
               "epss": 0.00457,
-              "percentile": 0.36763,
-              "date": "2026-07-15"
+              "percentile": 0.36916,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -21400,8 +21419,8 @@
           {
             "cve": "CVE-2025-15224",
             "epss": 0.00413,
-            "percentile": 0.33412,
-            "date": "2026-07-15"
+            "percentile": 0.33571,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -21450,8 +21469,8 @@
             {
               "cve": "CVE-2025-15224",
               "epss": 0.00413,
-              "percentile": 0.33412,
-              "date": "2026-07-15"
+              "percentile": 0.33571,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -21526,8 +21545,8 @@
           {
             "cve": "CVE-2025-10966",
             "epss": 0.0039,
-            "percentile": 0.31203,
-            "date": "2026-07-15"
+            "percentile": 0.31359,
+            "date": "2026-07-21"
           }
         ],
         "fix": {
@@ -21570,8 +21589,8 @@
             {
               "cve": "CVE-2025-10966",
               "epss": 0.0039,
-              "percentile": 0.31203,
-              "date": "2026-07-15"
+              "percentile": 0.31359,
+              "date": "2026-07-21"
             }
           ]
         }
@@ -21638,8 +21657,8 @@
           {
             "cve": "CVE-2023-31439",
             "epss": 0.00352,
-            "percentile": 0.27406,
-            "date": "2026-07-15"
+            "percentile": 0.27556,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -21688,8 +21707,8 @@
             {
               "cve": "CVE-2023-31439",
               "epss": 0.00352,
-              "percentile": 0.27406,
-              "date": "2026-07-15"
+              "percentile": 0.27556,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -21764,8 +21783,8 @@
           {
             "cve": "CVE-2023-31439",
             "epss": 0.00352,
-            "percentile": 0.27406,
-            "date": "2026-07-15"
+            "percentile": 0.27556,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -21814,8 +21833,8 @@
             {
               "cve": "CVE-2023-31439",
               "epss": 0.00352,
-              "percentile": 0.27406,
-              "date": "2026-07-15"
+              "percentile": 0.27556,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -21886,8 +21905,8 @@
           {
             "cve": "CVE-2017-14159",
             "epss": 0.00349,
-            "percentile": 0.27098,
-            "date": "2026-07-15"
+            "percentile": 0.2724,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -21946,8 +21965,8 @@
             {
               "cve": "CVE-2017-14159",
               "epss": 0.00349,
-              "percentile": 0.27098,
-              "date": "2026-07-15"
+              "percentile": 0.2724,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -22022,8 +22041,8 @@
           {
             "cve": "CVE-2023-31437",
             "epss": 0.00344,
-            "percentile": 0.26587,
-            "date": "2026-07-15"
+            "percentile": 0.26733,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -22089,8 +22108,8 @@
             {
               "cve": "CVE-2023-31437",
               "epss": 0.00344,
-              "percentile": 0.26587,
-              "date": "2026-07-15"
+              "percentile": 0.26733,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -22171,8 +22190,8 @@
           {
             "cve": "CVE-2023-31437",
             "epss": 0.00344,
-            "percentile": 0.26587,
-            "date": "2026-07-15"
+            "percentile": 0.26733,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -22238,8 +22257,8 @@
             {
               "cve": "CVE-2023-31437",
               "epss": 0.00344,
-              "percentile": 0.26587,
-              "date": "2026-07-15"
+              "percentile": 0.26733,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -22316,8 +22335,8 @@
           {
             "cve": "CVE-2023-31438",
             "epss": 0.00328,
-            "percentile": 0.24882,
-            "date": "2026-07-15"
+            "percentile": 0.2503,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -22366,8 +22385,8 @@
             {
               "cve": "CVE-2023-31438",
               "epss": 0.00328,
-              "percentile": 0.24882,
-              "date": "2026-07-15"
+              "percentile": 0.2503,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -22442,8 +22461,8 @@
           {
             "cve": "CVE-2023-31438",
             "epss": 0.00328,
-            "percentile": 0.24882,
-            "date": "2026-07-15"
+            "percentile": 0.2503,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -22492,8 +22511,8 @@
             {
               "cve": "CVE-2023-31438",
               "epss": 0.00328,
-              "percentile": 0.24882,
-              "date": "2026-07-15"
+              "percentile": 0.2503,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -22564,8 +22583,8 @@
           {
             "cve": "CVE-2026-11850",
             "epss": 0.00261,
-            "percentile": 0.17583,
-            "date": "2026-07-15"
+            "percentile": 0.17693,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -22613,8 +22632,8 @@
             {
               "cve": "CVE-2026-11850",
               "epss": 0.00261,
-              "percentile": 0.17583,
-              "date": "2026-07-15"
+              "percentile": 0.17693,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -22698,8 +22717,8 @@
           {
             "cve": "CVE-2026-11850",
             "epss": 0.00261,
-            "percentile": 0.17583,
-            "date": "2026-07-15"
+            "percentile": 0.17693,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -22747,8 +22766,8 @@
             {
               "cve": "CVE-2026-11850",
               "epss": 0.00261,
-              "percentile": 0.17583,
-              "date": "2026-07-15"
+              "percentile": 0.17693,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -22823,8 +22842,8 @@
           {
             "cve": "CVE-2026-11850",
             "epss": 0.00261,
-            "percentile": 0.17583,
-            "date": "2026-07-15"
+            "percentile": 0.17693,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -22872,8 +22891,8 @@
             {
               "cve": "CVE-2026-11850",
               "epss": 0.00261,
-              "percentile": 0.17583,
-              "date": "2026-07-15"
+              "percentile": 0.17693,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -22953,8 +22972,8 @@
           {
             "cve": "CVE-2026-11850",
             "epss": 0.00261,
-            "percentile": 0.17583,
-            "date": "2026-07-15"
+            "percentile": 0.17693,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -23002,8 +23021,8 @@
             {
               "cve": "CVE-2026-11850",
               "epss": 0.00261,
-              "percentile": 0.17583,
-              "date": "2026-07-15"
+              "percentile": 0.17693,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -23078,8 +23097,8 @@
           {
             "cve": "CVE-2026-22185",
             "epss": 0.00127,
-            "percentile": 0.0271,
-            "date": "2026-07-15"
+            "percentile": 0.02726,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -23133,8 +23152,8 @@
             {
               "cve": "CVE-2026-22185",
               "epss": 0.00127,
-              "percentile": 0.0271,
-              "date": "2026-07-15"
+              "percentile": 0.02726,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -23215,8 +23234,8 @@
           {
             "cve": "CVE-2025-14017",
             "epss": 0.00106,
-            "percentile": 0.01305,
-            "date": "2026-07-15"
+            "percentile": 0.01304,
+            "date": "2026-07-21"
           }
         ],
         "cwes": [
@@ -23264,8 +23283,8 @@
             {
               "cve": "CVE-2025-14017",
               "epss": 0.00106,
-              "percentile": 0.01305,
-              "date": "2026-07-15"
+              "percentile": 0.01304,
+              "date": "2026-07-21"
             }
           ],
           "cwes": [
@@ -23493,7 +23512,7 @@
   },
   "descriptor": {
     "name": "grype",
-    "version": "0.115.0",
+    "version": "0.116.0",
     "configuration": {
       "output": [
         "json"
@@ -23661,6 +23680,10 @@
         "redhat-eus": {
           "apply": "auto",
           "versions": ">= 8.0"
+        },
+        "ubuntu-esm": {
+          "apply": "auto",
+          "versions": ""
         }
       },
       "timestamp": false,
@@ -23689,116 +23712,116 @@
     },
     "db": {
       "status": {
-        "schemaVersion": "v6.1.8",
-        "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.8_2026-07-15T00:34:13Z_1784185147.tar.zst?checksum=sha256%3A7c732b44c2b6ebdba03640355d182d5984bafa51978729d9241fbb5e45102940",
-        "built": "2026-07-16T06:59:07Z",
+        "schemaVersion": "v6.1.9",
+        "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.9_2026-07-22T00:36:31Z_1784703984.tar.zst?checksum=sha256%3A8496f58655ba6b5d1ed133e8591629d729a53021e7f1b20063b0577ca7c0f02f",
+        "built": "2026-07-22T07:06:24Z",
         "path": ".cache/grype/db/6/vulnerability.db",
         "valid": true
       },
       "providers": {
         "alma": {
-          "captured": "2026-07-16T00:38:10Z",
-          "input": "xxh64:99f10cb11e26f9e1"
+          "captured": "2026-07-22T00:38:15Z",
+          "input": "xxh64:0210b7dcd7152a54"
         },
         "alpine": {
-          "captured": "2026-07-16T00:42:18Z",
-          "input": "xxh64:d71220db9c5907f6"
+          "captured": "2026-07-22T00:36:59Z",
+          "input": "xxh64:da6f9a6730c9fda9"
         },
         "amazon": {
-          "captured": "2026-07-16T00:38:28Z",
-          "input": "xxh64:cd3b0196019dd349"
+          "captured": "2026-07-22T00:38:21Z",
+          "input": "xxh64:9cef0c4a518c03bc"
         },
         "arch": {
-          "captured": "2026-07-16T00:38:49Z",
-          "input": "xxh64:a69d5037aaa48950"
+          "captured": "2026-07-22T00:37:16Z",
+          "input": "xxh64:cc0632aa3e342243"
         },
         "bitnami": {
-          "captured": "2026-07-16T00:40:08Z",
-          "input": "xxh64:29fc2fa8afaeb4be"
+          "captured": "2026-07-22T00:37:18Z",
+          "input": "xxh64:892ed8f60a9a637c"
         },
         "chainguard": {
-          "captured": "2026-07-16T00:40:00Z",
-          "input": "xxh64:58979b194be9b103"
+          "captured": "2026-07-22T00:36:46Z",
+          "input": "xxh64:4f57a959fffe45c5"
         },
         "chainguard-libraries": {
-          "captured": "2026-07-16T00:38:53Z",
-          "input": "xxh64:207474a31d5b390a"
+          "captured": "2026-07-22T00:36:35Z",
+          "input": "xxh64:6bdb3f265fc64c12"
         },
         "debian": {
-          "captured": "2026-07-16T00:39:19Z",
-          "input": "xxh64:28a3e75fbd01f72e"
+          "captured": "2026-07-22T00:37:08Z",
+          "input": "xxh64:1c5a13f5fdcd6019"
         },
         "echo": {
-          "captured": "2026-07-16T00:38:59Z",
-          "input": "xxh64:0e8546d93d92fbbb"
+          "captured": "2026-07-22T00:37:13Z",
+          "input": "xxh64:9e5bee61ce201937"
         },
         "eol": {
-          "captured": "2026-07-16T00:38:44Z",
-          "input": "xxh64:f5707e8a75bc6de1"
+          "captured": "2026-07-22T00:37:04Z",
+          "input": "xxh64:16a3c5d6043d21a1"
         },
         "epss": {
-          "captured": "2026-07-16T00:38:45Z",
-          "input": "xxh64:f3108f3aedfbcd39"
+          "captured": "2026-07-22T00:36:53Z",
+          "input": "xxh64:f693f1e83980381a"
         },
         "fedora": {
-          "captured": "2026-07-16T00:38:21Z",
-          "input": "xxh64:d412d7df5bbc5175"
+          "captured": "2026-07-22T00:38:23Z",
+          "input": "xxh64:1638b6503b4d16aa"
         },
         "github": {
-          "captured": "2026-07-16T00:39:40Z",
-          "input": "xxh64:095f7fee8595f107"
+          "captured": "2026-07-22T00:36:38Z",
+          "input": "xxh64:77cf85d9b9842d81"
         },
         "govulndb": {
-          "captured": "2026-07-16T00:39:54Z",
-          "input": "xxh64:c2052991276c1785"
+          "captured": "2026-07-22T00:36:31Z",
+          "input": "xxh64:e76ba0a2555896e0"
         },
         "hummingbird": {
-          "captured": "2026-07-16T00:39:53Z",
-          "input": "xxh64:c0dcc35fc2073b46"
+          "captured": "2026-07-22T00:38:17Z",
+          "input": "xxh64:baea13b1da1efd47"
         },
         "kev": {
-          "captured": "2026-07-16T00:38:51Z",
-          "input": "xxh64:421d755d936b5ea9"
+          "captured": "2026-07-22T00:38:12Z",
+          "input": "xxh64:583dd02518b6512a"
         },
         "mariner": {
-          "captured": "2026-07-16T00:39:55Z",
-          "input": "xxh64:4c80e7b3e58f3a19"
+          "captured": "2026-07-22T00:38:13Z",
+          "input": "xxh64:4b55bba4eb75f85f"
         },
         "minimos": {
-          "captured": "2026-07-16T00:38:25Z",
-          "input": "xxh64:6f5827b5d26f1111"
+          "captured": "2026-07-22T00:36:43Z",
+          "input": "xxh64:fd0385348f6ec25b"
         },
         "nvd": {
-          "captured": "2026-07-16T00:38:53Z",
-          "input": "xxh64:f4796c0aff22c67d"
+          "captured": "2026-07-22T00:37:37Z",
+          "input": "xxh64:978b7a9a0165e37a"
         },
         "oracle": {
-          "captured": "2026-07-16T00:40:01Z",
-          "input": "xxh64:8f487cedb66cbae7"
+          "captured": "2026-07-22T00:36:48Z",
+          "input": "xxh64:543d58086b580c40"
         },
         "photon": {
-          "captured": "2026-07-16T00:39:41Z",
-          "input": "xxh64:bcad590537d80345"
+          "captured": "2026-07-22T00:36:58Z",
+          "input": "xxh64:6f87445ff645d46a"
         },
         "rhel": {
-          "captured": "2026-07-16T00:39:07Z",
-          "input": "xxh64:9508426b1b17584e"
+          "captured": "2026-07-22T00:37:48Z",
+          "input": "xxh64:864dad32444034c6"
         },
         "secureos": {
-          "captured": "2026-07-15T00:34:13Z",
-          "input": "xxh64:499054156dffb886"
+          "captured": "2026-07-22T00:37:06Z",
+          "input": "xxh64:e4ef8b97add5d1d1"
         },
         "sles": {
-          "captured": "2026-07-16T00:38:31Z",
-          "input": "xxh64:feb8b95cc8ecddb6"
+          "captured": "2026-07-22T00:37:13Z",
+          "input": "xxh64:4df3fa3daa35a75f"
         },
         "ubuntu": {
-          "captured": "2026-07-16T00:38:33Z",
-          "input": "xxh64:c25eb310c48faad1"
+          "captured": "2026-07-22T00:42:16Z",
+          "input": "xxh64:3a106ed2cc57f129"
         },
         "wolfi": {
-          "captured": "2026-07-16T00:38:54Z",
-          "input": "xxh64:ec60ab9f7da6af1c"
+          "captured": "2026-07-22T00:38:09Z",
+          "input": "xxh64:992fbb489c30d1a8"
         }
       }
     }
